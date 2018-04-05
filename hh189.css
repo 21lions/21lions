@@ -1075,7 +1075,7 @@ li.list-group-item.scheduleweek {
     display: -webkit-inline-box;
 }
 .list-group {   padding-left: 8px;}
-ul.list-group .list-group-item {    display:block;}
+ul.list-group .list-group-item {    display:-webkit-inline-box;}
 #scores .list-group-item{background:rgba(128, 128, 128, 0.28);background-size:100%;} 
 .scheduleweek{color:#223355;margin-bottom:5px;border:none} 
 .scheduleweek .week{float:none;font-weight:normal;margin-top:1px; transform-origin: 25% 269%;} 
