@@ -86,7 +86,7 @@ $('a:contains("Tampa Bay Buccaneers")').replaceWith('<a href="http://daddyleague
 $('a:contains("Philadelphia Eagles")').replaceWith('<a href="http://daddyleagues.com/hh18/team/phi"> <img src="/img/nfl/teams/left/12.png"  class="teamlogo">Philadelphia Eagles</a>');
 $('a:contains("Salt Lake City Flyers")').replaceWith('<a href="http://daddyleagues.com/hh18/team/slc"> <img src="/img/nfl/teams/left/158.png"  class="teamlogo">Salt Lake City Flyers</a>');
 $('a:contains("Mexico City Diablos")').replaceWith('<a href="http://daddyleagues.com/hh18/team/mex"> <img src="/img/nfl/teams/left/152.png"  class="teamlogo">Mexico City Diablos</a>');
-$('a:contains("San Antonio Express")').replaceWith('<a href="http://daddyleagues.com/hh18/team/sat"> <img src="/img/nfl/teams/left/176.png"  class="teamlogo">San Antonio Express</a>');
+$('a:contains("San Antonio Marshalls")').replaceWith('<a href="http://daddyleagues.com/hh18/team/sat"> <img src="/img/nfl/teams/left/165.png"  class="teamlogo">San Antonio Express</a>');
 $('a:contains("San Diego Aftershocks")').replaceWith('<a href="http://daddyleagues.com/hh18/team/sdg"> <img src="/img/nfl/teams/left/136.png"  class="teamlogo">San Diego Aftershocks</a>');
 $('a:contains("Memphis Steamers")').replaceWith('<a href="http://daddyleagues.com/hh18/team/mem"> <img src="/img/nfl/teams/left/181.png"  class="teamlogo">Memphis Steamers</a>');
 $('a:contains("Toronto Thunderbirds")').replaceWith('<a href="http://daddyleagues.com/hh18/team/tor"> <img src="/img/nfl/teams/left/182.png"  class="teamlogo">Toronto Thunderbirds</a>');
@@ -96,7 +96,7 @@ $('a:contains("Chicago Tigers")').replaceWith('<a href="http://daddyleagues.com/
 /***scorelist***/
 $('a>span:contains("SLC")').replaceWith('<img src="/img/nfl/teams/left/158.png" width="35" height="25"" class="scoreboard"> Salt Lake City </span>');
 $('a>span:contains("MEX")').replaceWith('<img src="/img/nfl/teams/left/152.png" width="35" height="25"" class="scoreboard"> Mexico City </span>');
-$('a>span:contains("SAT")').replaceWith('<img src="/img/nfl/teams/left/176.png" width="35" height="25"" class="scoreboard"> San Antonio </span>');
+$('a>span:contains("SAT")').replaceWith('<img src="/img/nfl/teams/left/165.png" width="35" height="25"" class="scoreboard"> San Antonio </span>');
 $('a>span:contains("SDG")').replaceWith('<img src="/img/nfl/teams/left/136.png" width="35" height="25"" class="scoreboard"> San Diego </span>');
 $('a>span:contains("MEM")').replaceWith('<img src="/img/nfl/teams/left/181.png" width="35" height="25"" class="scoreboard"> Memphis </span>');
 $('a>span:contains("TOR")').replaceWith('<img src="/img/nfl/teams/left/182.png" width="35" height="25"" class="scoreboard"> Toronto </span>');
