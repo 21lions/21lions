@@ -91,6 +91,8 @@ $('a:contains("San Diego Aftershocks")').replaceWith('<a href="http://daddyleagu
 $('a:contains("Memphis Steamers")').replaceWith('<a href="http://daddyleagues.com/hh18/team/mem"> <img src="/img/nfl/teams/left/181.png"  class="teamlogo">Memphis Steamers</a>');
 $('a:contains("Toronto Thunderbirds")').replaceWith('<a href="http://daddyleagues.com/hh18/team/tor"> <img src="/img/nfl/teams/left/182.png"  class="teamlogo">Toronto Thunderbirds</a>');
 $('a:contains("Chicago Tigers")').replaceWith('<a href="http://daddyleagues.com/hh18/team/cho"> <img src="/img/nfl/teams/left/183.png"  class="teamlogo">Chicago Tigers</a>');
+$('a:contains("Brooklyn Beats")').replaceWith('<a href="http://daddyleagues.com/hh18/team/bkn"> <img src="/img/nfl/teams/left/141.png"  class="teamlogo">Brooklyn Beats</a>');
+$('a:contains("London Black Knights")').replaceWith('<a href="http://daddyleagues.com/hh18/team/ldn"> <img src="/img/nfl/teams/left/163.png"  class="teamlogo">London Black Knights</a>');
 
 
 /***scorelist***/
@@ -123,7 +125,7 @@ $('a>span:contains("NO")').replaceWith('<img src="/img/nfl/teams/left/26.png" wi
 $('a>span:contains("NYG")').replaceWith('<img src="/img/nfl/teams/left/15.png" width="35" height="25"" class="scoreboard"> New York </span>');
 $('a>span:contains("NYJ")').replaceWith('<img src="/img/nfl/teams/left/17.png" width="35" height="25"" class="scoreboard"> New York </span>');
 $('a>span:contains("OAK")').replaceWith('<img src="/img/nfl/teams/left/22.png" width="35" height="25"" class="scoreboard"> Oakland </span>');
-$('a>span:contains("PHI")').replaceWith('<img src="/img/nfl/teams/left/158.png" width="35" height="25"" class="scoreboard"> Philadelphia </span>');
+$('a>span:contains("PHI")').replaceWith('<img src="/img/nfl/teams/left/12.png" width="35" height="25"" class="scoreboard"> Philadelphia </span>');
 $('a>span:contains("PIT")').replaceWith('<img src="/img/nfl/teams/left/28.png" width="35" height="25"" class="scoreboard"> Pittsburgh </span>');
 $('a>span:contains("SD")').replaceWith('<img src="/img/nfl/teams/left/181.png" width="35" height="25"" class="scoreboard"> San Diego </span>');
 $('a>span:contains("SF")').replaceWith('<img src="/img/nfl/teams/left/14.png" width="35" height="25"" class="scoreboard"> San Francisco </span>');
@@ -134,3 +136,5 @@ $('a>span:contains("TB")').replaceWith('<img src="/img/nfl/teams/left/5.png" wid
 $('a>span:contains("TEN")').replaceWith('<img src="/img/nfl/teams/left/29.png" width="35" height="25"" class="scoreboard"> Tennessee </span>');
 $('a>span:contains("WAS")').replaceWith('<img src="/img/nfl/teams/left/25.png" width="35" height="25"" class="scoreboard"> Washington </span>');
 $('a>span:contains("CHO")').replaceWith('<img src="http://www.daddyleagues.com/img/nfl/teams/left/183.png" width="35" height="25"" class="scoreboard">Chicago</span>');
+$('a>span:contains("LDN")').replaceWith('<img src="http://www.daddyleagues.com/img/nfl/teams/left/163.png" width="35" height="25"" class="scoreboard">London</span>');
+$('a>span:contains("BKN")').replaceWith('<img src="http://www.daddyleagues.com/img/nfl/teams/left/141.png" width="35" height="25"" class="scoreboard">Brooklyn</span>');
