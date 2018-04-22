@@ -461,7 +461,7 @@ img.menu {    width: 40px;}
 h1, h2, h3, h5, h6 {    font-size: 5vw;}
 .star {    display: none;}
 span.superbowls1 {
-    background-image: url(https://s1.postimg.org/2sjs7brwrj/Superbowl-_Trophy-psd91863.png);
+    background-image: url(https://officialpsds.com/imageview/7k/lk/7klknp_large.png?1521316551);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 4vw;
@@ -471,6 +471,8 @@ span.superbowls1 {
     top: 15vw;
     left: 33vw;
 }
+span.blackknightscover, span.beatscover, span.tigerscover, span.marshallscover {
+    background-size: 5px,auto, 250%;}
      a.btn.btn-mini {    position: relative;    top: -44px;}
 #teamspage-wrapper {    width: 93%;}
 
