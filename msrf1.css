@@ -404,7 +404,7 @@ div#afc-playoff-container, div#nfc-playoff-container {   position: relative;    
 	span.bal {  background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/BAL.svg);    background-position: 91px -25px;
 	}
 	span.bal.gowh
-	{       background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(https://s1.postimg.org/9zty8cyqn/baltimore_zpsgwuicflu.png) ;}
+	{       background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/BAL.svg) ;}
 	
 	/*buffalo*/
 	span.buf{  background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/BUF.svg);
@@ -478,7 +478,7 @@ div#afc-playoff-container, div#nfc-playoff-container {   position: relative;    
 	span.kc {  background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/KC.svg);}
 	
 	span.kc.gowh {
-	 background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(https://s2.postimg.org/6rfuqat61/kcright_zpsbcbuntkb.png);
+	 background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/KC.svg);
 	    BACKGROUND-SIZE: 0px ,85%;
 	    background-position: 0 , 24px -90px;
 	    background-repeat: repeat, no-repeat;
@@ -1428,7 +1428,7 @@ ul#players li a:hover span strong {	display: block;	margin-bottom: 2px;	font-siz
 	    MARGIN-LEFT: 60PX;
 	}
 	p.afc.kc{
-	    background: url(https://s2.postimg.org/6rfuqat61/kcright_zpsbcbuntkb.png) no-repeat,-webkit-linear-gradient(right, #e31837, rgba(0, 0, 0, 0)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/KC.svg) no-repeat;
+	    background: url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/KC.svg) no-repeat,-webkit-linear-gradient(right, #e31837, rgba(0, 0, 0, 0)),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/KC.svg) no-repeat;
 	    background-size: 80%, 100%, 200%;
 	     background-position: 14px 84px, 0, -12px -314px;   transform: scaleX(1);
 	}
@@ -1529,7 +1529,7 @@ ul#players li a:hover span strong {	display: block;	margin-bottom: 2px;	font-siz
 	   margin-left: 61px;
 	}
 	p.afc.bal{
-	    background: url(https://s1.postimg.org/9zty8cyqn/baltimore_zpsgwuicflu.png) no-repeat,-webkit-linear-gradient(right, rgb(36, 23, 115), rgba(0, 0, 0, 0)),url(https://s1.postimg.org/9zty8cyqn/baltimore_zpsgwuicflu.png) no-repeat;
+	    background: url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/BAL.svg) no-repeat,-webkit-linear-gradient(right, rgb(36, 23, 115), rgba(0, 0, 0, 0)),url(https://s1.postimg.org/9zty8cyqn/baltimore_zpsgwuicflu.png) no-repeat;
 	    background-size: 80%, 100%, 200%;
 	   background-position: 81px 166px, 0, 11px -17px;
 	}
@@ -1549,7 +1549,7 @@ ul#players li a:hover span strong {	display: block;	margin-bottom: 2px;	font-siz
 	    transform: scaleX(-1);
 	}
 	p.afc.american{
-	    background: url(https://s18.postimg.org/9ckp8urxl/afclogohh_zpsccslf2fu.png) no-repeat,-webkit-linear-gradient(left, rgb(207, 32, 44), rgba(0, 0, 0, 0)),url(https://s18.postimg.org/9ckp8urxl/afclogohh_zpsccslf2fu.png) no-repeat;
+	    background: url(https://i.imgur.com/1MGWUn0.png) no-repeat,-webkit-linear-gradient(left, rgb(207, 32, 44), rgba(0, 0, 0, 0)),url(https://s18.postimg.org/9ckp8urxl/afclogohh_zpsccslf2fu.png) no-repeat;
 	    background-size: 65%, 100%, 150%;
 	    background-position: 88px 149px, 0, -331px -44px;
 	    transform: scaleX(-1);
@@ -1579,7 +1579,7 @@ ul#players li a:hover span strong {	display: block;	margin-bottom: 2px;	font-siz
 	    content: "NFC TEAM";
 	}
 	p.nfc.national{
-	    background: url(https://s18.postimg.org/bjp0vrqc9/nfc-logohh_zps3vajdcsb.png) no-repeat,-webkit-linear-gradient(left, rgb(1, 58, 101), rgba(0, 0, 0, 0)),url(https://s18.postimg.org/bjp0vrqc9/nfc-logohh_zps4vajdcsb.png) no-repeat;
+	    background: url(https://i.imgur.com/VJPd63x.png) no-repeat,-webkit-linear-gradient(left, rgb(1, 58, 101), rgba(0, 0, 0, 0)),url(https://s18.postimg.org/bjp0vrqc9/nfc-logohh_zps4vajdcsb.png) no-repeat;
 	    background-size: 65%, 100%, 150%;
 	    background-position: 77px 153px, 0, -295px -101px;
 	}
