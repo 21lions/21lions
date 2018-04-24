@@ -478,10 +478,10 @@ div#afc-playoff-container, div#nfc-playoff-container {   position: relative;    
 	span.kc {  background-image:url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/KC.svg);}
 	
 	span.kc.gowh {
-	 background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/KC.svg);
-	    BACKGROUND-SIZE: 0px ,85%;
-	    background-position: 0 , 24px -90px;
-	    background-repeat: repeat, no-repeat;
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/KC.svg);
+    BACKGROUND-SIZE: 0px ,100%;
+    background-position: 0 , 24px -210px;
+    background-repeat: repeat, no-repeat;
 	}
 	
 	/*dolplins*/
