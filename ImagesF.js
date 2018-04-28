@@ -64,7 +64,7 @@ $('h1.cfm-player-name:contains("Ray Bergstrom")').append
 $('h1.cfm-player-name:contains("Colby Schultz")').append
  ('<span class="playerbox"><img src="http://www.daddyleagues.com/img/nfl/players/large/4185.png" class="playerimage"></span>');
 $('h1.cfm-player-name:contains("Malcolm Houston")').append
- ('<span class="playerbox"><img src="http://www.daddyleagues.com/img/nfl/players/large/3536.png" class="playerimage"></span>');
+ ('<span class="playerbox"><img src="http://www.daddyleagues.com/img/nfl/players/large/3696.png" class="playerimage"></span>');
 $('h1.cfm-player-name:contains("Todd Buck")').append
  ('<span class="playerbox"><img src="http://www.daddyleagues.com/img/nfl/players/large/4301.png" class="playerimage"></span>');
 $('h1.cfm-player-name:contains("Warren Barton")').append
