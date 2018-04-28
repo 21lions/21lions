@@ -119,7 +119,7 @@ $('h1.cfm-player-name:contains("Francis Rice")').append
  ('<span class="playerbox"><img src="http://www.daddyleagues.com/img/nfl/players/large/3862.png" class="playerimage"></span>');
 $('h1.cfm-player-name:contains("Craig Boling")').append
  ('<span class="playerbox"><img src="http://www.daddyleagues.com/img/nfl/players/large/4072.png" class="playerimage"></span>');
-$('h1.cfm-player-name:contains("Seth Taggart")').append
+$('h1.cfm-player-name:contains("Seth Teggart")').append
  ('<span class="playerbox"><img src="http://www.daddyleagues.com/img/nfl/players/large/4081.png" class="playerimage"></span>');
 $('h1.cfm-player-name:contains("Melvin Blevins")').append
  ('<span class="playerbox"><img src="http://www.daddyleagues.com/img/nfl/players/large/4095.png" class="playerimage"></span>');
