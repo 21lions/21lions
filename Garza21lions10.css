@@ -488,6 +488,10 @@ html, body {
   line-height: 1.6;
   margin: 2em 0;
 }
+@media (min-width: 1200px)
+.container {
+    width: 100%;
+}
 @media only screen and (min-width: 1170px) {
   .cd-main-content p {
     font-size: 20px;
