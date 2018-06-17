@@ -55,7 +55,7 @@ a#yui_259:before {    background: url(https://i.imgur.com/Itn7FyT.png) no-repeat
 /*scorelist animation*/
 .scorelist{   animation: fontbulger 2s ease-in;}
 @keyframes fontbulger { 0% { top: -100px; opacity: 0; }  15% { top: -85px;   } 25% { top: -75px;   } 40% { top: -60px;   } 50% { top: -50px;   } 65% { top: -25px;   } 75% { top: 0px; opacity:0.1;  }  85% { top: 15px;   } 100% {  top: 30px; opacity:1;  }}
-
+.scorelist {   top: 40px;  position: relative;}
 
 .yui3-scorestrip-tile{border:0; height:50px;} 
 a.yui3-scorestrip-tile-content{    color: WHITE;    height: 105%;    left: 0px;    line-height: 0px;    padding-top: 2px;    position: absolute;    text-decoration: none;    top: -2px;    width: 100%;    BORDER-RIGHT: 5PX SOLID #ffffff;    font-size: 13px;} 
