@@ -55,7 +55,7 @@ a#yui_259:before {    background: url(https://i.imgur.com/Itn7FyT.png) no-repeat
 /*scorelist animation*/
 .scorelist{   animation: fontbulger 2s ease-in;}
 @keyframes fontbulger { 0% { top: -100px; opacity: 0; }  15% { top: -85px;   } 25% { top: -75px;   } 40% { top: -60px;   } 50% { top: -50px;   } 65% { top: -25px;   } 75% { top: 0px; opacity:0.1;  }  85% { top: 15px;   } 100% {  top: 30px; opacity:1;  }}
-.scorelist {     position: relative;    top: 40px;    width: 100%;   margin: auto;   overflow: hidden;}
+.scorelist {   position: relative;    top: 21px;    width: 100%;    margin: auto;    overflow: hidden;}
 
 .yui3-scorestrip-tile{border:0; height:50px;} 
 a.yui3-scorestrip-tile-content{    color: WHITE;    height: 105%;    left: 0px;    line-height: 0px;    padding-top: 2px;    position: absolute;    text-decoration: none;    top: -2px;    width: 100%;    BORDER-RIGHT: 5PX SOLID #ffffff;    font-size: 13px;} 
@@ -102,7 +102,37 @@ span.yui3-scorestrip-tile-hts.yui3-scorestrip-tile-home.yui3-scorestrip-tile-sco
 
 .scorelist ol li { position: relative;display: block;float: left;margin: 0;padding: 0px; } 
 
+/*Twitch*********************************************************/
+.twitch {    position: relative;    top: 15px;}
+.twitch {   animation: twitchbulger 2s ease-in;}
+@keyframes twitchbulger { 0% { top: 100px; opacity: 0; }  15% { top: 85px;   } 25% { top: 75px;   } 40% { top: 60px;   } 50% { top: 50px;   } 65% { top: 25px;   } 75% { top: 20px;  }  95% { top: 18px;  opacity:0.1;  } 100% {  top: 15px; opacity:1;  }}
 
+[src*="/ogamingsc2"] {  content: url(https://static.nfl.com/static/site/img/logos/svg/teams/SF.svg);}
+li#users {    display: flex;    width: 100%;    background: linear-gradient(#eeeeee, white, #c7c7c7);}
+.main-menu {  background-color: #fff;  padding: 2% 0 0;}
+.title {  display: block;  margin: 0 auto;  width: 100%;}
+.twitch-logo {  display: block;  height: 100px;  margin: 0 auto;  text-align: center;  width: auto;  padding: 17px;}
+.selector {  display: inline-flex;  height: 30px;  overflow: hidden;  list-style: none;  margin: 0;  padding: 0;  width: 100%;}
+.square {  background-image: url(https://thatsgamebro.com/wp-content/uploads/2018/02/Twitch-Logo.png);
+  background-color: #6441a4;  border: 1px solid #fff;  border-bottom: 0;  border-radius: 2px;  width: 136px;  color: #f2f2f2;  display: inline-block;  margin: 0;  padding: 5px;  text-align: center;  background-position: 6px;  background-size: 15%;  background-repeat: no-repeat;}
+.square:first-child {  border-left: 0;}
+.square:last-child {  border-right: 0;}
+.square a {  text-decoration: none;  color: #f2f2f2;}
+.active {  background-color: #433f4a;}
+.channel {  padding: 2% 0;  margin: 0;  border-bottom: 1px solid #f2f2f2;}
+.channel:last-child {  border-bottom: 0;}
+.online {    background-color: #b8cca600;    width: 11%;}
+.offline {  background-color: #f4abab;  display: none;}
+.logo {    width: 22px;    height: 22px;    top: -19px;    left: 5px;    border-radius: 50%;    position: absolute;}
+span.hidden-xs {  display: none;}
+.name {    top: -23px;    text-align: left;   font-size: 12px;    left: -16px;}
+.game {    font-size: 9px;    position: relative;    top: -25px;    left: 16px;}
+
+@media (max-width: 768px) {
+  #name, #streaming {   text-align: center;  }
+
+  #name {    padding-top: 10px;  }
+}
 /*Menu***********************************************************/
 /* Primary style-------------------------------- */
 *, *:after, *:before {
