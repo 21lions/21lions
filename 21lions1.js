@@ -45,7 +45,61 @@ $('a>span:contains("TB")').replaceWith('<img src="https://static.nfl.com/static/
 $('a>span:contains("NO")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/NO.svg" width="35" height="25"" class="scoreboard-NO">');
 
 
+<!----twitch----!>
+// Loop for each username
+  usernames.forEach(function(channel) {
+    function makeURL(type, name) {
+      return url + type + "/" + name + cb;
+    };
+    $.getJSON(makeURL("streams", channel), function(data) {
+      let game,
+      status;
+      if(data.stream === null) {
+        game = "Offline";
+        status = "offline";
+      } else {
+        game = data.stream.game;
+        status = "online";
+      };
+      $.getJSON(makeURL("channels", channel), function(data) {
+          var logo = data.logo != null ? data.logo : "images/twitch-favicon.png",
+            name = data.display_name != null ? data.display_name : channel,
+            description = status === "online" ? ": " + data.status : "";
+            var html = '<div class="row channel ' + status + '"><div class="col-xs-2 col-sm-3" id="icon"><img src="' + logo + '" class="logo"></div><div class="col-xs-10 col-sm-8 name" id="name"><a href="' + data.url + '" target="_blank">' + name + '</a></div><div class="col-xs-10 col-sm-8 game" id="streaming">' + game + '<span class="hidden-xs">' + description + '</span></div></div>';
+          status === "online" ? $("#users").prepend(html) : $("#users").append(html);
+      });
+    });
+  });
 
+// On Load
+$(document).ready(function() {
+
+  // Active Status Box
+  $(" .square").click(function() {
+    var category = $(this).attr("id");
+    var button = $(".square");
+
+    // & Hide Streams (Status)
+    if(category === "all") {
+      button.removeClass("active");
+      $("#all").addClass("active");
+      $(".online, .offline").removeClass("hidden");
+    } else if(category === "online") {
+      button.removeClass("active");
+      $("#online").addClass("active");
+      $(".offline").removeClass("hidden");
+      $(".offline").addClass("hidden");
+    } else if (category === "offline") {
+      button.removeClass("active");
+      $("#offline").addClass("hidden");
+      $(".offline").removeClass("active");
+      $(".online").addClass("hidden");
+    }
+  });
+});
+
+
+<!----Menu----!>
  jQuery(document).ready(function($){
 	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
 	var MQL = 1170;
