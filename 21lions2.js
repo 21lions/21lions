@@ -46,6 +46,11 @@ $('a>span:contains("NO")').replaceWith('<img src="https://static.nfl.com/static/
 
 
 <!----twitch----!>
+// Global variables
+let usernames = ["albozz_tv", "ESL_SC2", "OgamingSC2", "disguisedtoasths", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb"];
+let cb = '?client_id=5j0r5b7qb7kro03fvka3o8kbq262wwm&callback=?';
+let url = "https://api.twitch.tv/kraken/";
+
 // Loop for each username
   usernames.forEach(function(channel) {
     function makeURL(type, name) {
