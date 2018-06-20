@@ -533,6 +533,44 @@ html, body {
   }
 }
 
+
+
+
+
+@media screen and (max-width: 767px) {
+/***************************** start of phone styles ******************************/
+    
+/***setup***/
+div#app {    overflow: hidden;}
  
+/***Twitch****/
+.square {    padding: 3px;}
+.twitch {   top: -11px;}@keyframes twitchbulger { 0% { top: 100px; opacity: 0; }  15% { top: 85px;   } 25% { top: 75px;   } 40% { top: 60px;   } 50% { top: 50px;   } 65% { top: 25px;   } 75% { top: 20px;  }  95% { top: 18px;  opacity:0.1;  } 100% {  top: -11px; opacity:1;  }}
+.square {   background-image: none;}
+li#users {    overflow-x: scroll;}
+.online {    width: 50%;}
+#name, #streaming {    text-align: left;}
+.channel {    padding: 5% 33px;    margin: 0;    border-bottom: 1px solid #f2f2f2;}
+.logo {    width: 22px;    height: 22px;    top: -11px;    left: -28px;    border-radius: 50%;    position: absolute;}
+.game {    left: -16px;}
+
+/***Menu****/
+.cd-header {    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    * box-shadow: none; 
+    background-image: url(https://i.imgur.com/EHYdPSj.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 0px -8px;
+}
+.cd-primary-nav-trigger {    background-color: #03263d00;}
+
+/***Scoreboard***/
+.yui3-scorestrip-tile-index-0 {    min-width: 25%;}
+.scorelist {   top:-7px;  margin-left: 2%;}
+@keyframes fontbulger { 0% { top: -100px; opacity: 0; }  15% { top: -85px;   } 25% { top: -75px;   } 40% { top: -60px;   } 50% { top: -50px;   } 65% { top: -25px;   } 75% { top: -20px; opacity:0.1;  }  85% { top: -12px;   } 100% {  top: -7px; opacity:1;  }}
+span.yui3-scorestrip-tile-hts.yui3-scorestrip-tile-home.yui3-scorestrip-tile-score {    RIGHT: 25PX;}
+
 
 
