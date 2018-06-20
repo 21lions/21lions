@@ -190,7 +190,8 @@ html, body {
   }
 }
 @media only screen and (min-width: 1170px) {
-  .cd-header {    -webkit-transition: background-color 0.3s;
+  .cd-header { 
+    -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
     -webkit-transform: translate3d(0, 0, 0);
@@ -200,10 +201,10 @@ html, body {
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background-image: url(https://i.imgur.com/EHYdPSj.png);
-    background-size: 30%;
+    background-image: url(https://i.imgur.com/EHYdPSj.png), linear-gradient(#eeeeee, white, #ffffff7a);
+    background-size: 30%, 100%;
     background-repeat: no-repeat;
-    background-position: 0px -11px;
+    background-position: 0px -11px, 0 0;
   }
   .cd-header.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
@@ -248,10 +249,13 @@ html, body {
   margin-left: 2.2em;
 }
 .cd-secondary-nav a {
-  display: inline-block;
-  color: #283d67;
-  text-transform: uppercase;
-  font-weight: 700;
+    display: inline-block;
+    color: #ffffff;
+    background: #e01313;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 3px;
+    border-radius: 4px;
 }
 @media only screen and (min-width: 768px) {
   .cd-secondary-nav {
