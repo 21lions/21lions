@@ -171,7 +171,7 @@ html, body {
 }
 
 .cd-header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: rgba(2, 23, 37, 0.95);
