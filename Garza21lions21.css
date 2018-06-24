@@ -152,6 +152,268 @@ a {
 }
 a:focus, a:hover {    text-decoration: none;
 }
+
+/*Team Page -------------------------------------------------------------*/
+.teamprofiles:after {
+white-space: pre;
+    position: relative;
+    top: -157px;
+    color: white;
+    width: 137px;
+    font-style: normal;
+    font-size: 20px;
+    left: -27px;
+    background: rgba(202, 215, 225, 0);
+    FLOAT: left;
+    text-align: left;
+    text-shadow: 0 1px 4px black;
+    padding-left: 5px;
+}
+.teamprofiles:before{       content: "Career Record \A Super Bowl Record \A Playoff Record \A Division Titles";
+    white-space: pre;
+    position: relative;
+    padding: 4px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+    float: left;
+    text-align: left;
+    left: 20px;
+    line-height: 22px;
+    top: -100px;
+    border: 0px solid;
+    font-size: 20px;
+    padding-left: 6px;
+    padding-right: 59px;
+    font-style: normal;
+    font-family: DLSansCondMedium;
+    }
+.cfm-player-profile{height: 138px; margin-top:-20px} 
+.cfm-player-wrapper{width:100%} 
+.teamprofileleft{display:none} 
+.teamprofileright{width:100%;padding:0 15px 0 15px} 
+.cfm-player-attributes-item{color: rgba(39, 39, 39, 0.08);height:auto} 
+.panel-default>.panel-heading{background:transparent;border:0;color:#555;font-family:anton;font-size:28px;text-transform:uppercase;text-align:center!important} 
+.cfm-player-attributes-item{background:rgba(39, 39, 39, 0.05);color:#223355;margin:0;width:23%;border:0;margin:2px 0 0 2px} 
+.cfm-player-attributes-item:hover{background:rgb(244, 244, 244);cursor:pointer} 
+.cfm-player-attributes-item-header{color: #233355;   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0);} 
+.cfm-player-wrapper .panel{position:relative;top:-10px} 
+.cfm-player-attributes-item-rank{color:#c64947;    font-size: 15px; margin-top:-10px;} 
+h1.cfm-player-name{font-size: 51px; margin-left:300px;text-transform:uppercase} 
+.cfm-player-info{position:absolute;font-family:'Open Sans',Arial,sans-serif;left:349px;margin-top:-7px} 
+#team-main-nav{background:#e8ecf1;border-top:0;height:32px} 
+#team-main-nav ul{margin:7px 0 0 -40px;padding-top:6px} 
+#team-main-nav li a{color:#223355;font-weight:normal} 
+#team-main-nav li.selected{border-bottom:none} 
+
+.teamprofileright img{margin:0 5px 0 0} 
+
+
+.Teamcolors td{overflow:hidden; background:none!important} 
+.Teamcolors{     overflow:hidden; background: -webkit-linear-gradient(rgba(0, 0, 0, 0), transparent);
+    background: -o-linear-gradient(#000, transparent);
+    background: -moz-linear-gradient(#000, transparent);
+    background: linear-gradient(rgba(0, 0, 0, 0), transparent);
+} 
+.cfm-team-logo{display:inline} 
+.teamPageLogo{height:100px;margin-right:15px} 
+.teamPatriots{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/patriots.png) no-repeat} 
+.teamDolphins{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/dolphins.png) no-repeat} 
+.teamJets{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/jets.png) no-repeat} 
+.teamBills{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/bills.png) no-repeat} 
+.teamRavens{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/ravens.png) no-repeat} 
+.teamBengals{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/bengals.png) no-repeat} 
+.teamSteelers{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/steelers.png) no-repeat} 
+.teamBrowns{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/browns.png) no-repeat} 
+.teamTexans{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/texans.png) no-repeat} 
+.teamJaguars{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/jaguars.png) no-repeat} 
+.teamColts{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/colts.png) no-repeat} 
+.teamTitans{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/titans.png) no-repeat} 
+.teamChiefs{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/chiefs.png) no-repeat} 
+.teamBroncos{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/broncos.png) no-repeat} 
+.teamRaiders{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/raiders.png) no-repeat} 
+.teamChargers{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/chargers.png) no-repeat} 
+.teamGiants{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/giants.png) no-repeat} 
+.teamEagles{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/eagles.png) no-repeat} 
+.teamRedskins{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/redskins.png) no-repeat} 
+.teamCowboys{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/cowboys.png) no-repeat} 
+.teamVikings{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/vikings.png) no-repeat} 
+.teamPackers{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/packers.png) no-repeat} 
+.teamLions{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/lions.png) no-repeat} 
+.teamBears{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/bears.png) no-repeat} 
+.teamBuccaneers{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/buccaneers.png) no-repeat} 
+.teamSaints{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/saints.png) no-repeat} 
+.teamPanthers{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/panthers.png) no-repeat} 
+.teamFalcons{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/falcons.png) no-repeat} 
+.team49ers{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/49ers.png) no-repeat} 
+.teamSeahawks{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/seahawks.png) no-repeat} 
+.teamCardinals{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/cardinals.png) no-repeat} 
+.teamRams{background:url(http://i.nflcdn.com/static/site/7.4/img/logos/helmet-left-weather-mascot-311x292/day/sunny/rams.png) no-repeat} 
+
+/* PLAYER PAGE */ 
+#player-profile-tabs{background:#e8ecf1;border-top:0;height:34px} 
+#player-profile-tabs ul{margin:7px 0 0 -40px;padding-top:8px} 
+#player-profile-tabs li a,#player-profile-tabs li a:hover{color:#223355;font-weight:normal} 
+#player-profile-tabs li a{    font-family: DLSansCondMedium;
+    text-shadow: none;
+    font-size: 19px;} 
+#player-profile-tabs li.selected{border-bottom:none} 
+.cfm-player-wrapper .panel-heading .salary-info,.cfm-player-wrapper .panel-heading .pull-right{ font-size:16px} 
+.cfm-player-wrapper .panel-heading .salary-info{position:relative;margin-left:0;top:-14px;left:-214px} 
+.cfm-player-img img {
+    width: 452px;
+    height: 422px;
+    position: relative;
+    top: -141px;
+}
+.cfm-player-img{float: left;
+    margin-left: -179px;
+    margin-top: -2px;
+    height: 152px; width:30%} 
+body > div.container > div > div.content > div.maincontent > div.col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper > div.panel.panel-default > div.panel-body > div > div.cfm-player-attributes-item{width:10%} 
+.playerskills,.playerskills table.pinto{width:100%} 
+.playerskills{margin-left:0} 
+.playerskills table.pinto{font-size:16} 
+.playerskills table.pinto th{background:#272727} 
+.playerskills table.pinto tr:nth-child(2n+1),.pinto tr:nth-child(2n){background:none!important} 
+.playerskills table.pinto{border:0} 
+.cfm-player-team img{    height: 215px;    margin: auto; z-index: 100;opacity:unset} 
+h1.cfm-player-name span { font-size: 28px;  padding-right: 15px;   font-family: anton;}
+
+/* SCHEDULE */ 
+div#scores>ul.list-group {column-count:2; height:73rem; width:122rem; overflow: hidden; }
+.col-md-5 {width: 34/6%;} 
+.schedule .sub-menu .item.last{display:none} 
+.schedule .sub-menu {float:left;clear:both} 
+.header.schedule h1{font-style:none;margin:10px} 
+.weekSelector{padding:0 0 0 10px} 
+#schedule-weeks .post{margin:0 auto!important} 
+li.list-group-item.scheduleweek {
+    display: -webkit-inline-box;
+}
+ul.list-group .list-group-item {    display:contents;}
+#scores .list-group-item{background:rgba(128, 128, 128, 0.28);background-size:100%;} 
+.scheduleweek{color:#223355;margin-bottom:5px;border:none} 
+.scheduleweek .week{float:none;font-weight:normal;margin-top:1px} 
+.scheduleweek a strong{color:#e3504d;font-weight:normal} 
+.scheduleweek .hometeam .name{      font-weight: unset;  margin: -68px 110px 0 -70px;
+    font-size: 23px;
+    font-family: anton;} 
+.record {    color: #428bca!important}
+.scheduleweek .awayteam .name,.scheduleweek .awayteam .record{margin-left:110px;font-weight:normal} 
+.scheduleweek .awayteam .record {
+    font-size: 20px;
+    position: absolute;
+    font-family: DLSansCondMedium;
+}
+.scheduleweek .hometeam .record {
+    margin-left: -70px;
+    font-size: 20px;
+    font-family: DLSansCondMedium;
+}
+.scheduleweek .hometeam .name,.scheduleweek .hometeam .record{margin-right:110px} 
+.scheduleweek .at{text-align:center;padding:15px 0 0;} 
+.scheduleweek .teamlogo img{width:80px} 
+.scheduleweek .score{font-size: 25px; } 
+.scheduleweek .name{text-transform:uppercase} 
+.col-md-10{width:100%} 
+.scheduleweek .hometeam{text-align:right} 
+.sub-menu ul li.selected,.header .weekSelector ul>li a.selected{color:#e94946} 
+.scheduleweek .awayteam .name {   font-size: 23px;   font-family: anton;}
+
+/* BOX SCORE */ 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.first,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.table-container-recap,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title1.gradient,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title2{background:none} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.table-container-recap,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap #scrollbar .viewport{border:none} 
+.recap-container .scrollbar,.recap-container .clearfix{display:none} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title1,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title2,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .listStatsContainer{width:50%} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .big{width:100%} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title1,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title1.gradient{    background: #e8ecf1;
+    color: #233355;} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .recaplabel{color:#223355} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row .subItem,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row div.separator{border-color:#7f7f7f!important} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right{width:37%} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .statictisc-title{width:41%;margin-right:5px} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .button span{color:#223355;font-family:'Roboto Condensed',Arial,sans-serif} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .button.selected{background:#272727} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .button.selected span{color:#fff} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row .subItem{width:16%;border:none} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-left,div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-right{color:#223355!important} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row.title2 span{color:#555} 
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap {    height: 144px;}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left {    height: 100%;}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left .teamimage-left, div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right .teamimage-right {   height: 147px; margin-top: -10px;}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-right {
+    float: right;
+    font-size: 54px;
+    font-weight: bold;
+    margin-top: 43px;
+    font-family: anton;
+    padding-right: 62px;
+}
+.teamimage-left, .teamimage-right {    width: 150px;}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right {    height: 147px;}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left div.name {     float: left;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    overflow: hidden;
+    width: 400px;
+    text-align: left;
+    position: relative;
+    font-family: anton;
+    left: 187px;
+    top: -115px;
+    display: -webkit-inline-box;}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-left {
+     float: left;
+    font-size: 54px;
+    font-weight: bold;
+    margin-top: 43px;
+    padding-left: 80px;
+    font-family: anton;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right div.name {    float: right;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    overflow: hidden;
+    width: 387px;
+    position: relative;
+    text-align: right;
+    top: -117px;
+    right: 138px;
+    font-family: anton;
+    z-index: 1;
+}
+
+.nfcpow.pow-player-logo, .afcpow.pow-player-logo {    overflow: hidden;}
+.afcpow.pow-player-logo {  width: 100%!important;    height: auto!important;    margin-top: 0%;    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(https://s18.postimg.org/9ckp8urxl/afclogohh_zpsccslf2fu.png);
+   background-size: 7px, 34%;    background-position: 0 0px, 3px 4%;    background-repeat: repeat,no-repeat;    z-index: 1;    position: relative;    top: -1px;}
+.nfcpow.pow-player-logo {  width: 100%!important;    height: auto!important;    margin-top: 0%;    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), url(https://s18.postimg.org/bjp0vrqc9/nfc-logohh_zps3vajdcsb.png);
+   background-size: 7px, 34%;    background-position: 0 0px, 3px 4%;    background-repeat: repeat,no-repeat;    z-index: 1;    position: relative;    top: -1px;}
+
+.span3 {
+  width:269px;
+}
+.thumbnail>img, .thumbnail a>img {    display: block;    max-width: 100%;    height: 200px;   margin-left: auto;    margin-right: auto;}
+
+.thumbnail img {
+    object-fit: cover;
+    height: 127px;
+}
+.caption {
+  text-align: center;
+}
+
+.caption p {    font-size: 3rem;
+    color: #233355;
+    font-family: DLSansCondMedium;
+}
+        .btn.btn-mini {
+            font-size: 0.63rem;
+            }
+
 /* Modules - reusable parts of our design-------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
