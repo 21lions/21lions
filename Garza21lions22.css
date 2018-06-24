@@ -836,3 +836,142 @@ span.yui3-scorestrip-tile-hts.yui3-scorestrip-tile-home.yui3-scorestrip-tile-sco
 
 
 
+/*RESPONSIVE LAYOUT---------------------------------------------------------------------------------------*/ 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 420px) 
+/* start of desktop styles */.section
+@media screen and (max-width: 991px) {
+     /* start of large tablet styles */
+}
+@media screen and (max-width: 767px) {
+     /* start of medium tablet styles */
+}
+@media screen and (max-width: 767px) {
+     /* start of phone styles */
+
+/*power rankings*****************/
+#powerrankings > table > tbody > tr:nth-child(2):before,#powerrankings > table > tbody > tr:nth-child(4):before,#powerrankings > table > tbody > tr:nth-child(6):before,#powerrankings > table > tbody > tr:nth-child(8):before,#powerrankings > table > tbody > tr:nth-child(10):before {display:none; }
+
+#powerrankings >table > tbody >tr:nth-child(2):after, #powerrankings >table > tbody >tr:nth-child(3):after, #powerrankings >table > tbody >tr:nth-child(4):after, #powerrankings >table > tbody >tr:nth-child(5):after, #powerrankings >table > tbody >tr:nth-child(6):after, #powerrankings >table > tbody >tr:nth-child(7):after, #powerrankings >table > tbody >tr:nth-child(8):after, #powerrankings >table > tbody >tr:nth-child(9):after, #powerrankings >table > tbody >tr:nth-child(10):after, #powerrankings >table > tbody >tr:nth-child(11):after {
+display:none;
+}
+#powerrankings table.data-table1 .tbdy1 td:nth-child(3) {
+    float: left;
+    font-size: 31px !important;
+    font-family: DLSansCondMedium;
+    margin-left: -23px;
+    font-style: normal;
+    position: relative;
+   top: 6px;    left: 5vw;
+}
+#powerrankings table.data-table1 .tbdy1 td {    padding: 0px 3px;}
+#powerrankings .playoff-img { width: 59vw;   height: 36PX;    overflow: hidden; }
+
+#powerrankings > table > tbody > tr img { width: 100%;    OBJECT-FIT: COVER;    HEIGHT: 51PX;}
+#powerrankings > table > tbody > tr { background: transparent !important;    width: 100%;    HEIGHT: 45PX; }
+
+/*game recaps**************************/
+    div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left .teamimage-left, div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-right .teamimage-right {    height: 125px;}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left div.name {   display: NONE;}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-right {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 95px;
+    font-family: anton;
+    RIGHT: 76PX;
+    POSITION: ABSOLUTE;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .statictisc-title {
+    width: 18%;
+    margin-right: 5px;    float: left;
+    font-size: 11px;
+}
+div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-left {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 95px;
+    padding-left: 0px;
+    LEFT: -7PX;
+    font-family: anton;
+    POSITION: RELATIVE;
+}
+.gamerecap li img.gamerecap-logo {   height: 60px;    position: relative;   top: 12px;    left: 0px;    width: 75px;
+}
+.gamerecapscore .teaminfo h1 span {    font-family: anton;    font-size: 18px;    position: relative;    top: 33px;    left: 40px;    float: left;}
+     .gamerecapscore .teaminfo h1 {  color: #fff;    font-family: anton;    font-size: 20px;    text-transform: uppercase;    position: relative;    left: -214px;   top: 12px;}
+     
+     .gamerecap h2 {      font-size: 19px;    top: 85px;    left: -74px;}
+.gamerecap h2 span {    font-size: 18px;    left: 11px;}
+.gamerecapscore .teamscore h1 {    font-size: 35px;    position: absolute;    left: -31px;    top: 130px;    background: #00000073;    padding: 6px;}
+
+ul.gamerecap {    width: 100%;}
+
+ /*player profile page****************/
+   
+h1.cfm-player-name span.pull-right {    position: absolute;    width: 100%;    left: 0px;    top: 28px;    float: left;}
+h1.cfm-player-name span {    font-size: 20px;    padding-right: 0px;}    
+     .row .col-lg-4.col-sm-4.col-md-4.col-xs-4 {    width: 33%;}
+     .cfm-player-profile.Teamcolors .cfm-player-team, .cfm-team-logo {      width: 94vw;    float: left;    overflow: hidden;    margin-top: -1px;    height: 154px; }
+.cfm-player-profile {    height: 269px;    margin-top: 0px;}
+.cfm-player-info {width:89%;   margin-top: 206px;  text-align:center;  font-size: 12px;    height: 54px;
+    overflow: hidden;}
+h1.cfm-player-name {   padding-left:5px;  font-size: 7vw;    margin-left: 0px;    text-transform: uppercase;    width: 92%;    position: absolute;    text-align: left;    top: 92px;}
+.cfm-team-logo img {    top: 0px; width: 94vw;    object-fit: contain;    margin: auto;    position: relative;}
+.cfm-team-logo img {    height: 140px;    margin: auto;    object-position: -2px 30px -97px;}
+#team-main-nav li {    float: left;    margin: -4px 0 0 5px;    padding: 5px 8px;    width: 48%;}
+#team-main-nav {    background: #e8ecf1;    border-top: 0;    height: 88px;}
+.teamprofileright {    width: 107%;    padding: 0 7px 0 21px;    margin-left: 3px;    position: relative;    left: -22px;}
+td.tbdy-sorted.team-logo-container,.cfm-team-medium img {    display: none;}
+
+/*schedule*************/
+    .scheduleweek .week {     left: 100px;   top: -5px; transform: rotate(0deg);
+    transform-origin: 23% 201%;
+    width: 81px;
+    background: rgba(246, 246, 246, 0) none repeat scroll 0 0;
+    color: #428bca;
+    font-size: 12px;
+   left: 89px;
+    top: -10px;
+    font-weight: 700;
+    text-align: center;
+    border: 0px solid #ccc;
+    position: relative;
+}
+
+div#schedules table.data-table1 {display: block;}
+.scheduleweek .teamlogo img {   height: 61px;    object-position: 0px 4px;  width: 74px; }
+
+#scores .list-group-item {   width: 347px;
+    background: rgba(128, 128, 128, 0.28);
+    background-size: 100%;
+    top: 0px;  height: 50px; left: -2%;
+    overflow: hidden;
+}
+     .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {   margin-left: 0px;}
+.scheduleweek .hometeam {margin-top:-10px;  margin-right: -26px;}
+img.created {    width: 261px;   object-position: 36px -56px;}
+     .scheduleweek .score {    font-size: 4vw;}
+.scheduleweek .at {  left: 0px;  max-width: 55px; position: relative; top: 16px;  width: 15vw; padding: 0px 0 0;}
+.scheduleweek .hometeam .name, .scheduleweek .hometeam .record {    margin-right: 82px;  font-size: 4vw;}
+.scheduleweek .awayteam .record {    font-size: 4vw;}
+.scheduleweek .awayteam .name, .scheduleweek .awayteam .record {    margin-left: 84px;}
+.scheduleweek .hometeam .name {   margin: -45px 85px 0 -70px;  font-size: 3vw;}
+.scheduleweek .awayteam .name {  margin-top: -46px;  font-size: 3vw;}
+.scheduleweek .awayteam {
+    float: left;
+    width: 300px;
+    margin: -30px 0 0 -25px;
+}
+.scheduleweek .teamsos .label {    margin-left: 151px;    position: relative;    top: -30px;    font-size: 25px;}     
+.scheduleweek .sosteams {    height: 88px;  background-size: 73%;   background-position: -71px -66px;    position: relative;   top: 29px;    width: 296px;    background-color: #233355;}
+     .scheduleweek .games {  left: 3px; background: #80808038;  height: 217px;    border-bottom: 1px solid black;   width: 100%;}
+div#scores>ul.list-group {   
+    column-count: unset;
+    height: auto;
+    width: 34rem;
+    overflow: hidden;}
+     .cfm-player-profile.Awayteam .cfm-player-bio h1.cfm-player-name {   font-size: 5vw;  top: 92px;    margin-left: 0px;    text-align: left;    padding-left: 10px;   left: 11px;}
+ 
