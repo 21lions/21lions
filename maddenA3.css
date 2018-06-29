@@ -72,7 +72,7 @@ div#flip {position: relative;
     color: #79a5ff;
 }
 .yui3-scorestrip-tile-index-0 {
-    width: 165px;
+    width: 147px;
 }
 .yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {
     top: 24px;
@@ -105,7 +105,7 @@ img.scoreboard {
     height: 12px;
 }
 a.yui3-scorestrip-tile-content {    background: none repeat scroll 0 0 #f0f0f000;
-    color: #a8a7a7;
+    color: #555;
     height: 100%;
     left: 0;
     position: absolute;
