@@ -1,3 +1,18 @@
+$('div.scorelist').attr('id', 'scorelist');
+$( "div" ).removeClass( "scorelist" );
+
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("div#scorelist").slideDown("slow");
+    });
+});
+$(document).ready(function(){
+    $("div#scorelist").click(function(){
+        $("div#scorelist").slideUp("slow");
+    });
+});
+
+
 /***StarFlash***/
 $(function () {
 	    setInterval(function () {
