@@ -164,6 +164,9 @@ ul.list-group .list-group-item {    display:-webkit-inline-box;}
 iframe#twitter-widget-0 {
     display: none;
 }
+h3, h4 {
+    margin: 10px 0 15px 0;
+}
 h1, h2, h3, h4, h5, h6 {    font-family: inherit;}
 .carousel-control.left {
     background-image:none;}
