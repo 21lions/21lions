@@ -56,18 +56,16 @@ div#scorelist:after {    content: "X";
     text-align: center;
 }
 div#flip {position: relative;
-    border-top: 15px solid #3e5fa2;
-    top: 14px;
-    -webkit-mask-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), -webkit-gradient(linear, 100% 175%, 100% 0%, from(rgba(0, 0, 0, 0)), to(rgb(255, 255, 255)));
+    top: 22px;
     width: 100%;
     height: 4%;
-    font-size: x-small;
-    padding: 3px;
+    font-size: xx-small;
+    padding: 8px;
     font-family: DLTechBold;
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #79a5ff;
+    color: #5582dd;
 }
 .yui3-scorestrip-tile-index-0 {
     width: 147px;
@@ -284,7 +282,7 @@ ins,#daddyleagues-menu,#daddyleagues-navbar{display:none!important;}
       padding: 40px 50px;
   }
   .nav-tabs li a {
-      color: #bdbdbd;
+      color: #3e5fa2;
   }
 
   .navbar {
