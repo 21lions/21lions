@@ -1,6 +1,7 @@
-$('div.scorelist').attr('id', 'scorelist');
+$(document).ready(function(){
+	$('div.scorelist').attr('id', 'scorelist');
 $( "div" ).removeClass( "scorelist" );
-
+});
 $(document).ready(function(){
     $("#flip").click(function(){
         $("div#scorelist").slideDown("slow");
