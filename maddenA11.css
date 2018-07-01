@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {    font-family: inherit;}
     max-width: 100%;
     height: 573px;
     object-position: 0px 50%;
-    line-height: 1;     -webkit-mask-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), -webkit-gradient(linear, 100% 81%, 100% 21%, from(rgba(0, 0, 0, 0)), to(rgb(255, 255, 255))) ;
+    line-height: 1;    
     object-fit: cover;
 }
 p {
