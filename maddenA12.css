@@ -222,17 +222,18 @@ ins,#daddyleagues-menu,#daddyleagues-navbar{display:none!important;}
       width: 100%; /* Set width to 100% */
       margin: auto;
   }
-.carousel-caption p {
+.carousel-caption p {color:white; text-shadow:0 1px 1px black;
     font-size: large;
 }
 .carousel-indicators .active {    background-color: #3e5fa2;
 }
 .carousel-indicators li {    border: 1px solid #3e5fa2;}
 
-  .carousel-caption h3 {      color: #2d2d30 !important;
-    font-size: -webkit-xxx-large;
+  .carousel-caption h3 {      color: #ffffff !important;
+    font-size: 75PX;
     text-transform: uppercase;
     font-familY: anton;
+    text-shadow: 0 1px 2px black;
   }
   @media (max-width: 600px) {
     .carousel-caption {
