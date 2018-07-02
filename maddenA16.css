@@ -1,5 +1,9 @@
 /*page setup**************************************************************************************/
-
+div#app, .content, body, .container {
+    background: #fff;
+    width: 100%;
+    padding: 1%;
+}
 .maincontent {
     margin-top: 0px;
 }
@@ -8,10 +12,40 @@ height: 100%; overflow: auto; margin: 0;
 } 
 * {font-family: Oswald; text-transform: normal;}
 ins,#daddyleagues-menu,#daddyleagues-navbar{display:none!important;}
+.content {    padding-top: 5%;}
 .content, body,.container{    background: #fff; width:100%; padding:1%;   }
 @-webkit-keyframes fadein { from {opacity:0} to {opacity:1} }@keyframes fadein { from {opacity:0} to {opacity:1} } 
 .row.text-center {   padding: 0%;}
 .col-sm-4 {    text-align: center;}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {    float: left;    margin-bottom: 4%;}
+.col-sm-3 a {
+    color: #d71515;
+}
+a, a:active, a:focus, a:hover {
+    text-decoration: none;
+    vertical-align: top;
+}
+.col-sm-3 {
+    text-align: center;
+}
+
+.person {
+    border: 0px solid transparent;
+    margin-bottom: 7px;
+    width: 25%;
+    height: 80%;
+    opacity: 0.7;
+}
+.img-circle {
+    border-radius: 0%;
+}
+h5.text-center {
+    Text-transform: uppercase;
+    color: #ffffff;
+}
+.modal-header, h4, .close {
+    color: #2d2d30 !important;
+}
 body {font-size: initial;
 }
 .panel-default>.panel-heading+.panel-collapse>.panel-body,  .panel-default>.panel-heading {
@@ -58,7 +92,35 @@ h1, h2, h3, h4, h5, h6 {    font-family: inherit;}
 .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {    margin-left: 25px;}
 .form-horizontal .form-group {    margin-left: 0px;}
 
+p.text-center {
+    color: white;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body, .panel-default>.panel-heading {
+    background-color: #f5f5f500;
+}
+
+.btn:hover, .btn:focus {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    color: #000;
+}
+h3.text-center {    margin: 1%;
+    font-size: medium;
+    letter-spacing: 5px;
+    color: #2d2d30;
+    text-transform: uppercase;
+    text-decoration: overline;
+    font-family: DLSansCondMedium;
+}
+
 /*homepage sections**************************************************************************************/
+
+.intro {
+    background: url(https://www.fifauteam.com/wp-content/uploads/2017/06/Background.jpg);
+    padding: 2%; text-align:center; color:white;
+    background-size: 100%;
+    background-position: 0px -118px;
+}
 .highlight-clean {  color:#313437;  background-color:#fff;  padding:50px 0;}
 .highlight-clean p {  color:#7d8285;}
 .headerbutton {  text-align: center;    padding: 4%;    text-transform: uppercase;}
@@ -91,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {    font-family: inherit;}
 .carousel-control.right{
     background-image: none;}
 
-.glyphicon {float: right;}
+.glyphicon {    color: #2f4470; float: right;}
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
     display: block;
     max-width: 100%;
@@ -128,6 +190,9 @@ h1, h2, h3, h4, h5, h6 {    font-family: inherit;}
       margin-top: 15px;
       color: #555;
   }
+.thumbnail {background-color: #fff0;
+    margin-top: 20px;}
+
   .btn {
        padding: 10px 20px;
     color: #f1f1f1;
@@ -158,8 +223,41 @@ h1, h2, h3, h4, h5, h6 {    font-family: inherit;}
   .person:hover {
       border-color: #f1f1f1;
   }
+
+div#demo tr.thd1.hm-table-caption , div#demo2 tr.thd1.hm-table-caption , div#demo3 tr.thd1.hm-table-caption , div#demo4 tr.thd1.hm-table-caption {
+    display: none;
+}
+
+.carousel-indicators li {
+    border: 1px solid #ffffff;
+}
+.carousel-caption h3 {    font-style: italic;
+    letter-spacing: -1px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {   height: 475px;}
+.carousel-caption {    top: 242px;}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {    object-position: 0px 5%;}
+
+/*Standings*******************************************************************************************/
+div#afc-west-container table.data-table1 .thd2 td, div#afc-north-container table.data-table1 .thd2 td, div#afc-south-container table.data-table1 .thd2 td, div#afc-east-container table.data-table1 .thd2 td {
+    background-color: transparent;
+    color: #e31111;
+    border-bottom: 1px solid #e31111;
+}
+
 /*tables**************************************************************************************/
 
+.data-table1 th, table.data-table1 td {
+    font-size: smaller;
+    font-family: inherit;
+}
+table.data-table1 .tbdy1 td {
+    border-bottom: 0px solid #ddd;
+    text-align: left;
+    padding: 3px 3px;
+}
+.data-table1 td.tbdy1, table.data-table1 .tbdy1 td {    color: #444;
+}
 table.data-table1 .thd1 td, table.data-table1 .thd1 th {    font-family: inherit;
   font-size: large;
     text-transform: uppercase;
@@ -179,7 +277,12 @@ table.data-table1 {    border: 0px solid #ccc;
 }
 
 /* scorelist**************************************************************************************/
-
+div#flip {  top: 13px;}
+img.teamlogo {
+    width: 23px;
+    padding: 1px;
+    position: relative;
+}
 div#flip {position: relative;
     top: 22px;
     width: 100%;
@@ -193,7 +296,7 @@ div#flip {position: relative;
     color: #5582dd;
 }
 .yui3-scorestrip-tile-index-0 {
-    width: 147px;
+    width: 12%;
 }
 .yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {
     top: 24px;
@@ -286,9 +389,72 @@ ul.list-group .list-group-item {    display:-webkit-inline-box;}
 iframe#twitter-widget-0 {
     display: none;
 }
+/***TEAM IMAGES*****************************************************************************************************/
+[src*="left/0.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/CHI.svg);}
+[src*="/1.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/CIN.svg);}
+[src*="/2.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/BUF.svg);}
+[src*="/3.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/DEN.svg);}
+[src*="/4.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/CLE.svg);}
+[src*="/5.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/TB.svg);}
+[src*="/6.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/ARI.svg);}
+[src*="/7.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/LAC.svg);}
+[src*="/8.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/KC.svg);}
+[src*="/9.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/IND.svg);}
+[src*="/10.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/DAL.svg);}
+[src*="/11.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/MIA.svg);}
+[src*="/12.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/PHI.svg);}
+[src*="/13.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/ATL.svg);}
+[src*="/14.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/SF.svg);}
+[src*="/15.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/NYG.svg);}
+[src*="/16.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/JAX.svg);}
+[src*="/17.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/NYJ.svg);}
+[src*="/18.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/DET.svg);}
+[src*="/19.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/GB.svg);}
+[src*="/20.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/CAR.svg);}
+[src*="/21.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/NE.svg);}
+[src*="/22.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/OAK.svg);}
+[src*="/23.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/LA.svg);}
+[src*="/24.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/BAL.svg);}
+[src*="/25.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/WAS.svg);}
+[src*="/26.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/NO.svg);}
+[src*="/27.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/SEA.svg);}
+[src*="/28.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/PIT.svg);}
+[src*="/29.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/TEN.svg);}
+[src*="/30.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/MIN.svg);}
+[src*="/31.png"]{content:url(https://static.nfl.com/static/site/img/logos/svg/teams/HOU.svg);}
+
+
+/*Game of the week**********************************************************************************************/
+.clickable.ng-scope {    BACKGROUND-POSITION: 118px 50%;}
+.align-right.clickable.ng-scope {    BACKGROUND-POSITION: -118px 50%;}
+.gameoftheweek .cfm-table tr td .score {    color: #2d2d30;   font-size: -webkit-xxx-large;    line-height: 100%;    position: relative;    top: 89px;}
+.record {    color: #2d2d30!important;   position: relative;    top: -76px;}
+span.use {    font-family: DLTechBold;    text-transform: uppercase;    font-size: x-small;    color: #2d2d30;    position: relative;    top: -61px;}
+.home.team, .away.team {    font-family: DLSansCondMedium;    font-size: larger;    letter-spacing: 10px;    color: #999;    position: relative;    top: 35px;}
+.home, .away{    position: relative;    font-family: anton;    text-transform: uppercase;    font-size: -webkit-xxx-large;    color: #999;    top: 40px;}
+.gameoftheweek {   width: 100%;    line-height: 30px;    border-bottom: 2px solid #2d2d30;    background: #0000 url(app.css);    border-TOP: 2px solid #2d2d30;}
+.clickable.ng-scope,  .align-right.clickable.ng-scope {   BACKGROUND-REPEAT: NO-REPEAT;    BACKGROUND-SIZE: 100%;}
+.gameoftheweek .cfm-table tr td.cfm-at {    width: 5%;
+    height: 99%;
+    background-image: url(https://i.imgur.com/jqqwGGl.png);
+    background-repeat: no-repeat;
+    background-position: 51%;
+    position: relative;
+    background-size: 50%;
+    left: 0rem;
+    z-index: 2;
+}
+
 
 /*nav bar*******************************************************************************************************************/
-    BACKGROUND: #3e5fa2;
+
+.navbar>.container-fluid .navbar-brand, .navbar>.container .navbar-brand {
+    margin-left: -15px;
+    background-image: url(https://i.imgur.com/AyxtpNU.png);
+    background-size: 6rem;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding-left: 61px;
 }
 .nav>li>a:focus, .nav>li>a:hover {    background-color: #eee0;
 }
