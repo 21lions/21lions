@@ -44,17 +44,7 @@ li.join {
 }
 
 /* scorelist */ 
-div#scorelist:after {    content: "X";
-    position: absolute;
-    top: 38px;
-    left: 2%;
-    font-size: inherit;
-    height: 18px;
-    color: #3e5fa2;
-    border-radius: 50%;
-    width: 17px;
-    text-align: center;
-}
+
 div#flip {position: relative;
     top: 22px;
     width: 100%;
