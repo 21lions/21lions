@@ -683,7 +683,7 @@ img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;  
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {    color: #ddd;    background-color: transparent;}
 .navbar-default {    background-color: #223355;    border-color: #e7e7e7;}
 .navbar-default .navbar-brand {   color: #fff;}
-.navbar-brand {font-size: 37px; height:50px;    background-image: url(https://i.imgur.com/EjjgTbR.png); background-size: 6rem; background-position: 1px -5px; background-repeat: no-repeat;padding-left: 6rem;font-style:normal;}
+.navbar-brand {font-size: 37px; height:50px;    background-image: url(https://s1.postimg.org/8vxv7crz7j/hh1.png); background-size: 6rem; background-position: 1px -5px; background-repeat: no-repeat;padding-left: 6rem;font-style:italic;}
 .dropdown-menu {   position: relative;  background-color: #e7e7e7;}
 .navbar { max-height: 50px;}
 
@@ -2722,8 +2722,6 @@ a.phone {    display: none;}
 span.open {    color: red;    font-familY: EASports;    font-style: italic;    font-size: 17px;    text-shadow: 0 2px 25px #ffa7a7;}
 
 span.bkn{ background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(https://image.ibb.co/kdw8Ob/bkn6.png); background-position: 0 0, -76px -170px;}
-
-
 
 
 
