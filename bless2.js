@@ -130,3 +130,23 @@ $('a>span:contains("TB")').replaceWith('<img src="https://static.nfl.com/static/
 $('a>span:contains("TEN")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/TEN.svg" width="35" height="25"" class="scoreboard"> Tennessee </span>');
 $('a>span:contains("WAS")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/WAS.svg" width="35" height="25"" class="scoreboard"> Washington </span>');
 
+$.fn.center = function () {
+  this.css("position","absolute");
+  this.css("top", Math.max(0, (
+    ($(window).height() - $(this).outerHeight()) / 2) + 
+     $(window).scrollTop()) + "px"
+  );
+  this.css("left", Math.max(0, (
+    ($(window).width() - $(this).outerWidth()) / 2) + 
+     $(window).scrollLeft()) + "px"
+  );
+  return this;
+}
+
+
+$("#overlay").show();
+$("#overlay-content").show().center();
+
+setTimeout(function(){    
+  $("#overlay").fadeOut();
+}, 5000);
