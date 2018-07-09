@@ -2563,7 +2563,7 @@ div#schedules table.data-table1 {display: block;}
 .scheduleweek .hometeam {margin-top:-10px;  margin-right: -26px;}
 img.created {    width: 261px;   object-position: 36px -56px;}
      .scheduleweek .score {    font-size: 4vw;}
-.scheduleweek .at {  left: 0px;  max-width: 55px; position: relative; top: 16px;  width: 15vw; padding: 0px 0 0;}
+.scheduleweek .at {  left: 0px;  max-width: 55px; position: relative; top: -11px;  width: 15vw; padding: 0px 0 0;}
 .scheduleweek .hometeam .name, .scheduleweek .hometeam .record {    margin-right: 82px;  font-size: 4vw;}
 .scheduleweek .awayteam .record {    font-size: 4vw;}
 .scheduleweek .awayteam .name, .scheduleweek .awayteam .record {    margin-left: 84px;}
