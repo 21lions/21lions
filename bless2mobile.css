@@ -55,7 +55,7 @@ display:none;
    top: 6px;    left: 5vw;
 }
 #powerrankings table.data-table1 .tbdy1 td {    padding: 0px 3px;}
-#powerrankings .playoff-img { width: 59vw;   height: 107PX;    overflow: hidden; }
+#powerrankings .playoff-img { width: 59vw;   height: 38PX;    overflow: hidden; }
 
 #powerrankings > table > tbody > tr img { width: 100%;    OBJECT-FIT: COVER;    HEIGHT: 51PX;}
 #powerrankings > table > tbody > tr { background: transparent !important;    width: 100%;    HEIGHT: 45PX; }
@@ -185,7 +185,7 @@ a.phone { display: -webkit-inline-box;  position: relative;    margin-top: -28px
     padding-left: 6rem;
     font-style: italic;}
 .Teamcolors, .cfm-team-logo {    margin-top: -21px;}
-     .cfm-player-profile.Awayteam .cfm-team-logo img {    object-position: -27px -30px;}
+     .cfm-player-profile.Awayteam .cfm-team-logo img {   object-position: 0px -30px;    object-fit: cover;   height:109px;  width: 165px;}
 #player-profile-tabs {   background: #e8ecf1;   border-top: 0;    height: 89px;}
 #player-profile-tabs li {    float: left;    margin: -5px 0 0 5px;    padding: 7px 8px;   width: 31%;}
 body > div.container > div > div.content > div.maincontent > div.col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper > div.panel.panel-default > div.panel-body > div > div.cfm-player-attributes-item {width: 62px;}
@@ -197,16 +197,15 @@ body > div.container > div > div.content > div.maincontent > div.col-md-10.col-x
      .panel.panel-default .collapse.in {    margin-left: 20px;}
      .cfm-player-team, .cfm-team-logo {    width: 94vw;    float: left;overflow: hidden;    margin-top: 0px;  height: 103px}
 ul.gamerecap {    width: 100%;}
-     .cfm-player-team img {       height: 154px;    width: 94vw;    margin: auto;    z-index: 100;  
-    OBJECT-POSITION: -0PX -28PX;
-  object-fit: cover;  opacity: unset;}
+     .cfm-player-team img {    height: 154px;    width: 330px;    margin: auto;    z-index: 100;    OBJECT-POSITION: -0PX -76PX;    object-fit: cover;    opacity: unset;}
+	.recap-container .cfm-team-logo img {    height: 109px;    margin: auto;}
      
 #searchOverlay {    background-color: rgba(255, 255, 255, 0.88);}
 
 .cfm-player-profile {    height: 269px;    margin-top: 0px;}
 .cfm-player-info {width:89%;   margin-top: 206px;  text-align:center;  font-size: 12px;    height: 54px;
     overflow: hidden;}
-h1.cfm-player-name {   padding-left:5px;  font-size: 7vw;    margin-left: 0px;    text-transform: uppercase;    width: 92%;    position: absolute;    text-align: left;    top: 92px;}
+h1.cfm-player-name {   padding-left:5px;  font-size: 7vw;    margin-left: 0px;    text-transform: uppercase;    width: 92%;    position: absolute;     margin-top: 19px; text-align: left;    top: 92px;}
 .cfm-team-logo img {    top: 0px; width: 94vw;    object-fit: contain;    margin: auto;    position: relative;}
 .cfm-team-logo img {    height: 140px;    margin: auto;    object-position: -2px 30px -97px;}
 #team-main-nav li {    float: left;    margin: -4px 0 0 5px;    padding: 5px 8px;    width: 48%;}
@@ -214,14 +213,17 @@ h1.cfm-player-name {   padding-left:5px;  font-size: 7vw;    margin-left: 0px;  
 .teamprofileright {    width: 107%;    padding: 0 7px 0 21px;    margin-left: 3px;    position: relative;    left: -22px;}
 td.tbdy-sorted.team-logo-container,.cfm-team-medium img {    display: none;}
 
-.scheduleweek .week {     left: 100px;   top: -5px; transform: rotate(0deg);
+.scheduleweek .week { 
+    left: 100px;
+    top: -5px;
+    transform: rotate(0deg);
     transform-origin: 23% 201%;
     width: 81px;
     background: rgba(246, 246, 246, 0) none repeat scroll 0 0;
     color: #428bca;
     font-size: 12px;
-   left: 89px;
-    top: -10px;
+    left: 98px;
+    top: -5px;
     font-weight: 700;
     text-align: center;
     border: 0px solid #ccc;
@@ -249,7 +251,7 @@ div#frontoffice_wrapper {    position: relative;    left: 31px;}
     overflow-x: auto;
 }
 div#schedules table.data-table1 {display: block;}
-.scheduleweek .teamlogo img {   height: 61px;    object-position: 0px 4px;  width: 74px; }
+.scheduleweek .teamlogo img {    object-fit:cover; height: 61px;    object-position: 0px -8px;  width: 74px; }
 
 #scores .list-group-item {   width: 347px;
     background: rgba(128, 128, 128, 0.28);
@@ -267,10 +269,7 @@ img.created {    width: 261px;   object-position: 36px -56px;}
 .scheduleweek .awayteam .name, .scheduleweek .awayteam .record {    margin-left: 84px;}
 .scheduleweek .hometeam .name {   margin: -45px 85px 0 -70px;  font-size: 3vw;}
 .scheduleweek .awayteam .name {  margin-top: -46px;  font-size: 3vw;}
-.scheduleweek .awayteam {
-    float: left;
-    width: 300px;
-    margin: -30px 0 0 0px;
+.scheduleweek .awayteam {   float: left;    left: -2px;    width: 300px;    margin: -30px 0 0 -25px;    position: relative;
 }
 	.col-xs-6.col-sm-6.col-md-6 ul.list-group .list-group-item { display: block;}
 a.btn.btn-primary.downloadrecap {    position: relative;    top: -41rem;    left: 3rem;}
@@ -318,7 +317,7 @@ ul.tabs {    width: 94%;}
 div#tab1 { background-image: none; }
 h3.tab_drawer_heading { background: rgba(128, 128, 128, 0);   color: #428bca;    font-family: DLSansCondMedium;    letter-spacing: 3px;    font-size: 5vw;    text-align: center;}
 .tab_drawer_heading {     border-bottom: 1px solid #c2c2c2; border-top: 0px;    background-color: rgba(204, 204, 204, 0);}
-.section {   margin-bottom: 20px; position: unset;}
+.section {  background: #ffffff00;  margin-bottom: 20px; position: unset;}
 .tab_content {   padding: 0px;}
 .pow-team-logo {    width: 100%;    margin-top: -31%;}
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .info-row {    font-size: 10px;    text-transform: uppercase;    white-space: nowrap;}
@@ -406,11 +405,11 @@ div#gameoftheweek-container {  background-position: 0px -388px;
     background-size: 100%;
 }
 .container {  overflow:hidden;  max-width: 100%;margin-right: auto;    margin-left: auto;   padding-left: 0px;    padding-right: 0px;}
-.navbar-toggle {    margin-right: 27px;}
+.navbar-toggle {    margin-right: 10px;}
 span.bal {    background-position: 0;}
 span.lar, span.lac, .spanari, span.atl, span.bal, span.buf, span.car, span.chi, span.cin, span.cle, span.dal, span.den, span.det, span.gb, span.hou, span.ind, span.jac, span.kc, span.mia, span.min, span.ne, span.no, span.nyg, span.nyj, span.oak, span.phi, span.pit, span.sd, span.sf, span.sea, span.la, span.tb, span.ten, span.was { background-position: 0px 0px; }
 .nav>li {    position: relative;    display: block;    width: 93%;}
-	.navbar-right {    float: right!important;    margin-right: 38px;}
+	.navbar-right {    float: right!important;    margin-right: 252px;}
 span.ari {    background-position: 0, 0px -11px;}
 span.atl.gowh {   BACKGROUND-POSITION: 23px 18px;}
 span.kc.gowh {    background-position: 0 , 0px 58px;}
@@ -418,10 +417,20 @@ span.jac.gowa {
     background-position: -14px 6px;
     background-size: 231px;
 }
+	.hometeam.pull-right span.StatusUser {    font-size: 8px;    top: -3px;}
+.hometeam.pull-right span.StatusCpu {    font-size: 8px;    top: -3px;}
+span.StatusCpu {   font-size: 8px;    top: -3px;}
+.scheduleweek .awayteam .record {    top: 33px;}
+.scheduleweek .hometeam .record {    top: -8px;}
 .col-xs-6.col-sm-6.col-md-6 ul.list-group {    width: 91vw;
     position: relative;
     left: -14px;
 }
+	span.StatusUser {   font-size: 8px;    top: -3px;}
+div#admin_wrapper .col-md-12.col-xs-12.col-sm-12 { padding-left: 0px;}
+	div#admin_wrapper { left: 20px;   position: relative;}
+	div#admin_wrapper .col-sm-offset-2.col-sm-10 {  left: 30px;}
+	.gamerecapscore .teamstats {    width: 285PX;}
      .playeroftheweek-name, .playeroftheweek-name a {    font-size: 26px;}
      .row table.data-table2 {  height: 100%;   border-collapse: collapse;    border: 1px solid #ccc;    overflow-x: scroll;    overflow: auto;    margin-left: 5px;    display: block;    white-space: nowrap;    width: 95%;}
      .row {    overflow: visible;  margin-left: 5px;   margin-right: 5px; }
@@ -434,7 +443,7 @@ span.jac.gowh {    background-position: -22px 16px;    background-size: 231px;  
 div#powerrankings tr.tbdy1 {
     HEIGHT: 44px;
 }
-.pow-team-logo img {     width: 70%; MARGIN-TOP: 51PX;  HEIGHT: 76PX;}
+.pow-team-logo img {     width: 25%; MARGIN-TOP: 51PX;  HEIGHT: 76PX;}
 .playeroftheweek-name {      top:-6px;  text-align: center;  width: 100%;    right: 4px;}
 #oplayeroftheweek-container, #dplayeroftheweek-container {    height: 10rem;}
      tr.thd1 {    position: relative;    white-space: nowrap;}
@@ -451,7 +460,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-left {
     POSITION: RELATIVE;
 }.navbar-default .navbar-nav .open .dropdown-menu>li>a {color: #428bca;}
 table.data-table1 .thd1 td {    background: rgba(24, 24, 24, 0);  color: #555;}
-.dropdown-header, table.data-table1 .thd2 td, .data-table1 td.tbdy1, table.data-table1 .tbdy1 td, table.data-table1 tr:nth-child(odd) { color: #999;}
+.dropdown-header, table.data-table1 .thd2 td, .data-table1 td.tbdy1, table.data-table1 .tbdy1 td, table.data-table1 tr:nth-child(odd) { color: #555;}
 table.data-table1 {    border: none;    display: block;    overflow-y: hidden;    overflow-x: auto;}
  table.data-table1 .tbdy1 td {    padding: 3px 3px;    white-space: nowrap;}    
 .scorelist:before {
@@ -464,7 +473,7 @@ table.data-table1 {    border: none;    display: block;    overflow-y: hidden;  
     PADDING-TOP: 6PX;
     color: white;
     letter-spacing: .2em;
-    background: url(),linear-gradient(rgb(255, 52, 52) 21%, rgb(255, 0, 0) ), url(https://s18.postimg.org/9ckp8urxl/afclogohh_zpsccslf2fu.png);
+    background-image: linear-gradient( #ff0000, #920000 );
 }
      .cfm-player-attributes-item-rank {    font-size: 10px;   margin-top: -14px;}
      .panel.panel-dd {    padding-top: 17px;}
@@ -476,7 +485,7 @@ table.data-table1 {    border: none;    display: block;    overflow-y: hidden;  
 
 img.menu {    width: 40px;}
 .yui3-scorestrip-tile-index-0  {   min-width: 50%;   width: 49vw;}
-.section {       width: 1260px;    max-width: 100%;    background: white;    height: 100%;    transition: all .65s;    opacity: 1;    margin-top: 0px;    margin-bottom: 40px;    PADDING-LEFT: 0PX;    position: relative;    left: 2%;}
+.section {       width: 1260px;    max-width: 100%;    height: 100%;    transition: all .65s;    opacity: 1;    margin-top: 0px;    margin-bottom: 40px;    PADDING-LEFT: 0PX;    position: relative;    left: 2%;}
 h1, h2, h3, h5, h6 {    font-size: 5vw;}
 .star {    display: none;}
 span.superbowls1 {
@@ -496,7 +505,7 @@ span.blackknightscover {
     TOP: 0PX;
     color: white;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 27px;
     font-family: anton;
     padding-left: 36px;
     left: 0px;
@@ -515,7 +524,7 @@ span.beatscover {
     TOP: 0PX;
     color: white;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 27px;
     font-family: anton;
     padding-left: 36px;
     left: 0px;
@@ -533,7 +542,7 @@ span.tigerscover {
     TOP: 0PX;
     color: white;
     text-transform: uppercase;
-    font-size: 38px;
+    font-size: 27px;
     font-family: anton;
     padding-left: 36px;
     left: 0px;
@@ -541,7 +550,7 @@ span.tigerscover {
     background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top,rgba(234, 120, 65, 0) -25%, #ff6a00), url(https://t4.ftcdn.net/jpg/01/26/19/89/240_F_126198903_lyGoSDljeZcYyfXZIQp5zqBqAuFxgjgI.jpg);
     background-color: transparent;
     box-shadow: inset 0px 0px 172px rgba(0, 0, 0, 0.55);
-    background-size: 5px,auto, 100%;
+    background-size: 5px,auto, 200%;
     background-position: 0px 0%, 0% 0%, 0px -11px;
     background-repeat: repeat, repeat, no-repeat;
 }
@@ -551,7 +560,7 @@ span.marshallscover {
     TOP: 0PX;
     color: white;
     text-transform: uppercase;
-    font-size: 38px;
+    font-size: 27px;
     font-family: anton;
     padding-left: 36px;
     left: 0px;
@@ -559,7 +568,7 @@ span.marshallscover {
     background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top,rgba(234, 120, 65, 0) -25%, #ffd400), url(https://t4.ftcdn.net/jpg/01/26/19/89/240_F_126198903_lyGoSDljeZcYyfXZIQp5zqBqAuFxgjgI.jpg);
     background-color: transparent;
     box-shadow: inset 0px 0px 172px rgba(0, 0, 0, 0.55);
-    background-size: 5px,auto, 100%;
+    background-size: 5px,auto, 200%;
     background-position: 0px 0%, 0% 0%, 0px -11px;
     background-repeat: repeat, repeat, no-repeat;
 }
@@ -578,9 +587,9 @@ p.nfc.car {    background-position: 0px 60px, 0, -112px 0px;}
      .cfm-player-profile.Awayteam {      height: 148px;  width: 50%;}
    .cfm-player-profile.Awayteam span.pull-right {    font-size: 20px;    left: -180px;    top: -19px;   text-align: right;  position: relative;}
      .cfm-player-profile.Hometeam {    height: 148px;    width: 50%;    margin-left: 165px;   margin-top: -148px;}
-    .cfm-player-profile.Hometeam img {    top: 0px;   height: 140px;    object-position: -27px -30px;    object-fit: contain;    margin: auto;}
+    .cfm-player-profile.Hometeam img {    top: 0px;   width: 165px; height: 109px;    object-position: 0px -30px;    object-fit: cover;    margin: auto;}
      .cfm-player-profile.Hometeam h1.cfm-player-name {       text-align: right;    padding-right: 15px;    top: -54px;  font-size: 5vw;    right: 15px;}
-     .cfm-player-profile.Hometeam span.pull-right {     position: relative;    top: 3px;    left: -142px;   font-size: 20px;}
+     .cfm-player-profile.Hometeam span.pull-right {     position: absolute;    top: -2px;    left: -142px;   font-size: 20px;}
      div#scrollbar {    height: auto;}
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap #scrollbar .viewport {    height: 2110px !important;    overflow: visible;    position: relative;}
     .cfm-player-bio h1.cfm-player-name {  top: 135px;  margin-left: 0px;    text-align: center;    padding-left: 10px;    margin-left: 0px;}
@@ -592,7 +601,7 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap #scrollbar .viewport {    heigh
 	left: 0%;
 	width: 100%;
 	height: 100%;
-	background-color: black;
+	background-color: transparent;
 	opacity: 1;
 	z-index:1001;
 }
@@ -600,14 +609,14 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap #scrollbar .viewport {    heigh
 .gamerecap h2 {    font-size: 15px;    line-height: 19px;    top: 19px;    left: 0px;    text-align: left;    float: left;    width: 259px;}
 
 .col-md-10 .cfm-player-profile.Teamcolors .cfm-team-logo img {    width: 349px;}
-    .col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper .cfm-player-profile.Teamcolors .cfm-team-logo img {   object-position: -4px -68px;}
+    .col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper .cfm-player-profile.Teamcolors .cfm-team-logo img {   object-position: -4px -78px;}
      
 span.superbowls2 {    top: 15vw;   left: 37vw;}
 span.superbowls3 {    top: 15vw;    left: 41vw;}
 span.superbowls4 {    top: 15vw;    left: 45vw;}
 span.superbowls5 {    top: 15vw;    left: 49vw;}
      
-.col-md-10 .cfm-team-logo img {    top: -8px;    height: 242px;    object-fit: contain;    margin: auto;}
+.col-md-10 .cfm-team-logo img {    top: -8px;    height: 242px;    object-fit: cover;    margin: auto;}
 table.table.table-striped.table-bordered.table-condensed {    width: 100%;    max-width: 100%;    margin-bottom: 20px;    white-space: nowrap;    overflow-x: scroll;   display: block;}
  
 p.nfc.atl {    background-position: 0px 60px, 0, -93px 0px;}
@@ -638,12 +647,26 @@ p.afc.cle {    background-position: 14px 84px, 0, -103px -15px;}
 p.afc.pit{    background-position: 14px 84px, 0, -32px 4px;}
 p.afc.bal {    background-position: 11px 97px, 0, 11px 75px;}
 p.afc.cin {    background-position: 14px 69px, 0, -16px 0px;}
-#overlay-content{     position: absolute;    display: -webkit-inline-box;    width: 100%;    height: 100%;    object-fit: contain;    padding: 16px;    border: 16px solid #223355;   background-size: 100%;   background-image: url(https://i.imgur.com/FPpVhO8.jpg);    z-index: 1002;}
+#overlay-content{     position: absolute;
+    display: -webkit-inline-box;
+    width: 100%;
+    height: 100%;
+    margin-top: 47px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://i.imgur.com/iVwJA07.jpg);
+    z-index: 1002;
+    padding: 0px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #ffffff00;
+    border-image: initial;}
 
 
 label.col-sm-2.col-md-2.col-xs-2.control-label {    position: relative;    left: -11px;}
 
-.teamprofileleft .row .col-md-6 {    width: 305px;    left: -29px;    position: relative;    display: block;}
+.teamprofileleft .row .col-md-6 {    width: 354px;    left: -29px;    position: relative;    display: block;}
 
 .SL.section.section-1, .SL.profiles.section.section-3, .SL.profiles.section.section-2 {    LEFT: -12PX;}
 span.bkn {   background-position: 0 0, -41px 18px;}
