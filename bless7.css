@@ -1555,7 +1555,8 @@ ul.gamerecap {    position: relative;    top: -418px;}
     background-position: 0px 0%, 0% 0%, 0px -46px;
     background-repeat: repeat, repeat, no-repeat;
 }
-.falconscover{      POSITION: ABSOLUTE;
+.falconscover{   
+    POSITION: ABSOLUTE;
     width: 100%;
     TOP: 0PX;
     color: white;
@@ -1565,7 +1566,7 @@ ul.gamerecap {    position: relative;    top: -418px;}
     padding-left: 36px;
     left: 0px;
     height: 100%;
-    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top,rgba(234, 120, 65, 0) -25%, rgb(206, 11, 11)), url(http://prod.static.redskins.clubs.nfl.com/assets/images/imported/WAS/center…13-Centerpieces/landing-page-centerpieces/enemy-content/Falcons_tunnel.jpg);
+    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top,rgba(234, 120, 65, 0) -25%, rgb(206, 11, 11)), url(http://prod.static.falcons.clubs.nfl.com/assets/images/imported/ATL/photos/centerpiece-660x500/POSITION_GROUPS/Group_Team/1227_GroupDome_DC.jpg);
     background-color: transparent;
     box-shadow: inset 0px 0px 172px rgba(0, 0, 0, 0.55);
     background-size: 5px, auto, cover;
