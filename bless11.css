@@ -269,7 +269,14 @@ img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;  
 .navbar-default .navbar-brand {   color: #fff;}
 .navbar-default {  background: #24488c;
     border-color: #c71531;}
-.navbar-brand {font-size: 37px; height:50px;    background-image: url(https://s1.postimg.org/8vxv7crz7j/hh1.png); background-size: 6rem; background-position: 1px -5px; background-repeat: no-repeat;padding-left: 6rem;font-style:italic;}
+.navbar-brand {    font-size: 37px;
+    height: 50px;
+    background-image: url(https://i.imgur.com/EjjgTbR.png);
+    background-size: 5rem;
+    background-position: 5px 2px;
+    background-repeat: no-repeat;
+    padding-left: 6rem;
+    font-style: italic;}
 .dropdown-menu {   position: relative;  background-color: #e7e7e7;}
 .navbar { max-height: 50px;}
 
