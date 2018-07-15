@@ -285,6 +285,7 @@ img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;  
 
 
 /*Game of the week**********************************************************************************************/
+div#gameoftheweek-container {    background-image: url(https://i.imgur.com/EjjgTbR.png);    BACKGROUND-SIZE: COVER;    background-position: 0 -81%;}
 .clickable.ng-scope {    BACKGROUND-POSITION: 118px 50%;}
 .align-right.clickable.ng-scope {    BACKGROUND-POSITION: -118px 50%;}
 .gameoftheweek .cfm-table tr td .score {    color: #2d2d30;   font-size: -webkit-xxx-large;    line-height: 100%;    position: relative;    top: 89px;}
