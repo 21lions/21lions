@@ -291,7 +291,7 @@ img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;  
 .record {    color: #2d2d30!important;   position: relative;    top: -76px;}
 span.cpu, span.use {    font-family: DLTechBold;    text-transform: uppercase;    font-size: x-small;    color: #2d2d30;    position: relative;    top: -61px;}
 .home.team, .away.team {    font-family: DLSansCondMedium;    font-size: larger;    letter-spacing: 10px;    color: #999;    position: relative;    top: 35px;}
-.home, .away{    position: relative;    font-family: anton;    text-transform: uppercase;    font-size: -webkit-xxx-large;    color: #999;    top: 40px;}
+.home, .away{    position: relative;    font-family: anton;    text-transform: uppercase;    font-size: -webkit-xxx-large;    color: #2d2d30;    top: 40px;}
 .gameoftheweek {   width: 100%;    line-height: 30px;    border-bottom: 2px solid #2d2d30;    background: #0000 url(app.css);    border-TOP: 2px solid #2d2d30;}
 .clickable.ng-scope,  .align-right.clickable.ng-scope {   BACKGROUND-REPEAT: NO-REPEAT; width: 585px;    BACKGROUND-SIZE: 100%;}
 .gameoftheweek .cfm-table tr td.cfm-at {    width: 5%;
