@@ -31,7 +31,44 @@ ul.medium-logos {    position: relative;   left: -39px;}
      .slideshow.section.section-1 {
     display: inline;
 }
- .section.section-1.titlebox {
+.SL.section.section-1, .SL.profiles.section.section-3, .SL.profiles.section.section-2 {
+    LEFT: 0PX;
+}	
+div#news-stream-container {
+    overflow-y: unset;
+    height: -webkit-fill-available;
+    border-bottom: 0px solid black;
+    padding-right: 42px;
+}
+	.leaders.section.section-1 {    display: none;}
+img.MagCover {
+    position: relative;
+    left: -68px;
+    object-fit: contain;
+    width: 100%;
+    padding: 4%;
+    height: 80%;
+}
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    list-style: none;
+}
+#slider {
+    position: relative;
+    overflow: hidden;
+    left: -22px;
+    height: 100%;
+    width: 399px;
+    margin: 20px auto 0 auto;
+}
+a.control_next {
+    right: 144px;
+    border-radius: 2px 0 0 2px;
+}
+	.section.section-1.titlebox {
     display: none;
 }
      .intro {display:none;}
@@ -424,7 +461,7 @@ span.home.use, span.away.use{      top: -32px;    z-index: 69;    width: 52vw;  
     display: block;
 }
      .caption p {    font-size: 3rem;    color: #233355;    font-family: anton;    position: relative;    top: -33px;}
-     .section.section-2 {    width: 100%;}.section.section-3 {    width: 100%;}
+     .section.section-2 {    width: 100%;}.section.section-3 {    width: 90%;}
 .cfm-player-attributes-item-header {    padding-top: 1px; height: 5px;}
 .teamprofiles:after {    top: -190px;    left: 105px;}
 .clickable.ng-scope {    right: 0px; width: 53vw;    height: 280px;}
@@ -540,82 +577,7 @@ span.superbowls1 {
     top: 15vw;
     left: 33vw;
 }
-span.blackknightscover {
-    POSITION: ABSOLUTE;
-    width: 100%;
-    TOP: 0PX;
-    color: white;
-    text-transform: uppercase;
-    font-size: 27px;
-    font-family: anton;
-    padding-left: 36px;
-    left: 0px;
-    height: 100%;
-    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top,rgba(234, 120, 65, 0) -25%, #000000), url(https://t4.ftcdn.net/jpg/01/26/19/89/240_F_126198903_lyGoSDljeZcYyfXZIQp5zqBqAuFxgjgI.jpg);
-    background-color: transparent;
-    box-shadow: inset 0px 0px 172px rgba(0, 0, 0, 0.55);
-    background-size: 5px,auto, 200%;
-    background-position: 0px 0%, 0% 0%, 0px -11px;
-    background-repeat: repeat, repeat, no-repeat;
-}
-	
-span.beatscover {
-    POSITION: ABSOLUTE;
-    width: 100%;
-    TOP: 0PX;
-    color: white;
-    text-transform: uppercase;
-    font-size: 27px;
-    font-family: anton;
-    padding-left: 36px;
-    left: 0px;
-    height: 100%;
-    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top,rgba(234, 120, 65, 0) -25%, #3602ba), url(https://t4.ftcdn.net/jpg/01/26/19/89/240_F_126198903_lyGoSDljeZcYyfXZIQp5zqBqAuFxgjgI.jpg);
-    background-color: transparent;
-    box-shadow: inset 0px 0px 172px rgba(0, 0, 0, 0.55);
-    background-size: 5px,auto, 200%;
-    background-position: 0px 0%, 0% 0%, 0px -11px;
-    background-repeat: repeat, repeat, no-repeat;
-}
-span.tigerscover {
-    POSITION: ABSOLUTE;
-    width: 100%;
-    TOP: 0PX;
-    color: white;
-    text-transform: uppercase;
-    font-size: 27px;
-    font-family: anton;
-    padding-left: 36px;
-    left: 0px;
-    height: 100%;
-    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top,rgba(234, 120, 65, 0) -25%, #ff6a00), url(https://t4.ftcdn.net/jpg/01/26/19/89/240_F_126198903_lyGoSDljeZcYyfXZIQp5zqBqAuFxgjgI.jpg);
-    background-color: transparent;
-    box-shadow: inset 0px 0px 172px rgba(0, 0, 0, 0.55);
-    background-size: 5px,auto, 200%;
-    background-position: 0px 0%, 0% 0%, 0px -11px;
-    background-repeat: repeat, repeat, no-repeat;
-}
-span.marshallscover {
-    POSITION: ABSOLUTE;
-    width: 100%;
-    TOP: 0PX;
-    color: white;
-    text-transform: uppercase;
-    font-size: 27px;
-    font-family: anton;
-    padding-left: 36px;
-    left: 0px;
-    height: 100%;
-    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),-webkit-linear-gradient(top,rgba(234, 120, 65, 0) -25%, #ffd400), url(https://t4.ftcdn.net/jpg/01/26/19/89/240_F_126198903_lyGoSDljeZcYyfXZIQp5zqBqAuFxgjgI.jpg);
-    background-color: transparent;
-    box-shadow: inset 0px 0px 172px rgba(0, 0, 0, 0.55);
-    background-size: 5px,auto, 200%;
-    background-position: 0px 0%, 0% 0%, 0px -11px;
-    background-repeat: repeat, repeat, no-repeat;
-}
-span.sat.gowa {    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://www.daddyleagues.com/img/nfl/teams/left/165.png);}
-span.sat{    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://www.daddyleagues.com/img/nfl/teams/left/165.png);}
-	
+span.steamerscover, span.aviatorscover, span.tigerscover, span.flyerscover, span.marshallscover, span.blackknightscover, span.riverhogscover, span.bisonscover, span.conquistadorscover, span.beatscover, span.bulldogscover, span.desperadoscover, span.aftershockscover, span.oilerscover, span.condorscover {   background-size: 5px,auto, cover;}	
      a.btn.btn-mini {    position: relative;    top: -44px;}
 #teamspage-wrapper {    width: 93%;}
 
