@@ -84,7 +84,17 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .statictis
     width: 52vw;
     height: 280px;
     top: 0px;
-}	
+    background-position: 50% 97px;
+    background-size: 70%;
+}
+	.align-right.clickable.ng-scope {
+    float: right;
+    text-align: center;    }
+	
+.clickable.ng-scope {
+    float: left;
+    text-align: center; 
+}
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-left {
     float: left;
     font-size: 30px;
@@ -111,9 +121,19 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-left {
     POSITION: RELATIVE;
     DISPLAY: block;
 }
-p.nfc.national {  background-position: 4px 91px, 0, -58px 51px;}
-p.afc.american {    background-position: 4px 93px, 0, -62px 47px;}     
-     
+p.nfc.national {
+    background: url(https://preview.ibb.co/mFQPVw/nfc_logohh_zps4vajdcsb.png) no-repeat,-webkit-linear-gradient(left, rgb(1, 58, 101), rgba(0, 0, 0, 0)),url(https://preview.ibb.co/mFQPVw/nfc_logohh_zps4vajdcsb.png) no-repeat;
+    background-size: 65%, 100%, 150%;
+    background-position: 39px 76px, 0, -87px 42px;
+}
+p.afc.american {
+    background: url(https://i.imgur.com/vTu3xUp.png) no-repeat,-webkit-linear-gradient(left, rgb(207, 32, 44), rgba(0, 0, 0, 0)),url(https://i.imgur.com/vTu3xUp.png) no-repeat;
+    background-size: 65%, 100%, 150%;
+    background-position: 43px 74px, 0, -85px 42px;
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}     
 .col-md-10 {    width: 103%;}
 b3 {
     position: relative;
@@ -272,6 +292,7 @@ img.created {    width: 261px;   object-position: 36px -56px;}
 .scheduleweek .hometeam .name, .scheduleweek .hometeam .record {    margin-right: 82px;  font-size: 4vw;}
 .scheduleweek .awayteam .record {    font-size: 4vw;}
 .scheduleweek .awayteam .name, .scheduleweek .awayteam .record {    margin-left: 84px;}
+.record {    top: -162px;}	
 .scheduleweek .hometeam .name {   margin: -45px 85px 0 -70px;  font-size: 3vw;}
 .scheduleweek .awayteam .name {  margin-top: -46px;  font-size: 3vw;}
 .scheduleweek .awayteam {   float: left;    left: -2px;    width: 300px;    margin: -30px 0 0 -25px;    position: relative;
@@ -379,11 +400,26 @@ article.accordion section:target {    width: 55vw;}
 span.away.use {    left: 39px;}
 span.home.use {    left: -46px;}
 span.home.use, span.away.use{      top: -32px;    z-index: 69;    width: 52vw;  height: 90px;    display: block;    letter-spacing: .09em;    background-repeat: no-repeat, no-repeat;   background-size: 5%;    background-position: 183px 42px;    FONT-SIZE: 4vw;    text-transform: uppercase;    text-align: center;    position: absolute;    padding-top: 33px;   padding-right: 0px;    font-family: DLSansCondMedium;    color: #ebebeb; background-image:none;}
-.gameoftheweek .cfm-table tr td .score, .align-right.clickable.ng-scope span.score.ng-binding {    width: 52vw;    padding-left: 0px;   TOP: 84px;    font-size: 20vw;    padding-top: 63px;    position: absolute;    text-align: center; text-shadow: 0 2px 5px black; }
-.gameoftheweek .cfm-table tr td.cfm-at {  
-    background-size: 47%;
+.gameoftheweek .cfm-table tr td .score, .align-right.clickable.ng-scope span.score.ng-binding {
+    width: 52vw;
+    padding-left: 0px;
+    TOP: 255px;
+    font-size: 14vw;
+    padding-top: 63px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 2px 5px black;
+}
+	.gameoftheweek .cfm-table tr td.cfm-at {
+    background-size: 7%;
     position: absolute;
-    background-position: 7px 26px;}
+    background-position: 174px 106px;
+    width: 100%;
+}
+	
+.home, .away {
+    font-size: 7vw;
+}	
     .gameoftheweek .cfm-table tr td.cfm-at.slideshow.section.section-1 {
     display: block;
 }
@@ -398,15 +434,16 @@ span.home.use, span.away.use{      top: -32px;    z-index: 69;    width: 52vw;  
 .lar, .lac, .ari, .atl, .bal, .buf, .car, .chi, .cin, .cle, .dal, .den, .det, .gb, .hou, .ind, .jac, .kc, .mia, .min, .ne, .no, .nyg, .nyj, .oak, .phi, .pit, .sd, .sf, .sea, .la, .tb, .ten, .was, .mc, .por, .ldn, .sat, .bkn, .los {
        font-size: 10vw;    text-align: center; width: 66vw;}
 .home.lac, .home.lar, .home.ari, .home.atl, .home.bal, .home.buf, .home.car, .home.chi, .home.cin, .home.cle, .home.dal, .home.den, .home.det, .home.gb, .home.hou, .home.ind, .jac, .home.kc, .home.mia, .home.min, .home.ne, .home.no, .home.nyg, .home.nyj, .home.oak, .home.phi, .home.pit, .home.sd, .home.sf, .home.sea, .home.la, .home.tb, .home.ten, .home.was, .home.mc, .home.por, .home.ldn, .home.sat, .home.bkn, .home.los {  width: 52vw;  text-align: center;  font-size: 10vw;    padding-top: 101px;}
-div#gameoftheweek-container {  background-position: 0px -388px; 
+div#gameoftheweek-container {
+    background-position: 0,50% -173px;
     width: 100%;
     margin-bottom: 0%;
     z-index: 0;
     position: relative;
     background-repeat: no-repeat;
     left: 0px;
-    background-image: url(https://i.imgur.com/Dhnhdwf.jpg);
-    background-size: 100%;
+    background-image: linear-gradient(rgba(33, 51, 85, 0) -14%, rgb(255, 255, 255) ), url(https://i.imgur.com/EjjgTbR.png);
+    background-size: auto, 200%;
 }
 .container {  overflow:hidden;  max-width: 100%;margin-right: auto;    margin-left: auto;   padding-left: 0px;    padding-right: 0px;}
 .navbar-toggle {    margin-right: 10px;}
@@ -651,7 +688,13 @@ p.afc.cle {    background-position: 14px 84px, 0, -103px -15px;}
 p.afc.pit{    background-position: 14px 84px, 0, -32px 4px;}
 p.afc.bal {    background-position: 11px 97px, 0, 11px 75px;}
 p.afc.cin {    background-position: 14px 69px, 0, -16px 0px;}
-#overlay-content{     position: absolute;
+p.nfc.hou, p.nfc.mem, p.nfc.pdx, p.nfc.okc, p.nfc.mex, p.nfc.stl, p.nfc.sac{
+    background-position: 0px 60px, 0, -136px -37px;
+}
+p.afc.ld2, p.afc.ldn, p.afc.cls, p.afc.cho, p.afc.slc, p.afc.sat, p.afc.bkn{
+    background-position: 25px 76px, 0, 0px -21px;
+}
+	#overlay-content {    position: absolute;
     display: -webkit-inline-box;
     width: 100%;
     height: 100%;
@@ -659,14 +702,16 @@ p.afc.cin {    background-position: 14px 69px, 0, -16px 0px;}
     object-fit: contain;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(https://i.imgur.com/iVwJA07.jpg);
+    background-image: url(https://i.imgur.com/EjjgTbR.png);
     z-index: 1002;
     padding: 0px;
+    background-position: 0 25%;
+    background-color: white;
     border-width: 0px;
     border-style: solid;
     border-color: #ffffff00;
-    border-image: initial;}
-
+    border-image: initial;
+}
 
 label.col-sm-2.col-md-2.col-xs-2.control-label {    position: relative;    left: -11px;}
 
