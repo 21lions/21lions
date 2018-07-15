@@ -1,5 +1,175 @@
 div#app, body {    background-image:radial-gradient( #fdfbfb, #ffffff, rgb(208, 215, 229), #ffffff );}
 
+ul#players {
+    list-style: none;
+    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png) 0px 0px / 7px, url(https://i.imgur.com/GCvbvPv.png);
+    position: relative;
+    overflow-x: hidden;
+    width: 85%;
+    left: 0px;
+    height: 300px;
+    display: block;
+    margin: 0;
+    background-repeat: no-repeat;
+    padding: 0;
+    background-position: 52px -9px;
+    animation: ease-in 3s;
+}
+ul#players li {
+	position: absolute;
+}
+
+ul#players li a{
+	display: block;
+	height: 100%;
+	text-decoration: none;
+}
+
+#passing {       width: 164px;
+    height: 243px;
+    top: 27px;
+    left: 80px;
+}
+
+#rushing {  width: 142px;
+    height: 243px;
+    top: 26px;
+    left: 240px;
+}
+
+#tackles {
+    width: 152px;
+    height: 261px;
+    top: 32px;
+    left: 879px;
+}
+
+#ints {
+    width: 160px;
+    height: 259px;
+    top: 33px;
+    left: 718px;
+}
+div#s-sacks-leaders-container {
+    margin-left: 29px;
+}
+#catches {
+    width: 142px;
+    height: 262px;
+    top: 35px;
+    left: 385px;
+}
+
+#sacks {
+    width: 160px;
+    height: 250px;
+    top: 34px;
+    left: 556px;
+}
+ul#players li a {
+    display: block;
+    height: 100%;
+    font-familY: inherit;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+ul#players li a:hover {
+    background: url(https://s27.postimg.org/tulg5g6qb/statsbg_zpsczvbuhuh.png) no-repeat 0 0;
+    }
+
+ul#players li#passing a:hover {         background-image: url(https://s3.postimg.org/u5nzubiqr/Matt_Ryan2_zps327bf45a.png);
+    background-position: -4px 0px;
+    animation: fadein-slideup-ease 5s;
+    background-size: 106%;
+}
+
+
+ul#players li#rushing a:hover {         background-image: url(https://s3.postimg.org/nf0o5t603/ezekiel-elliot.png);
+    background-position: -5px -6px;
+    animation: fadein-slideup-ease 5s;
+    background-size: 107%;
+}
+
+ul#players li#tackles a:hover {
+    background-image: url(https://s3.postimg.org/7kx7oqw83/bobby_zpsextjje8l.png);
+    background-repeat: no-repeat;
+    background-size: 97%;
+    animation: fadein-slideup-ease 5s;
+    background-position: -37px -2px;
+}
+
+ul#players li#ints a:hover {
+    background-image: url(https://s3.postimg.org/ss0ycr8v7/pat_p_zpso7hrr5my.png);
+    background-repeat: no-repeat;
+    background-size: 121%;
+    background-position: -53px 16px;
+    animation: fadein-slideup-ease 5s;
+}
+
+ul#players li#catches a:hover {
+    background-image: url(https://s3.postimg.org/64h3sv3xf/odb_zpsj9zap0go.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -5px 1px;
+    animation: fadein-slideup-ease 5s;
+}
+
+ul#players li#sacks a:hover {
+    background-image: url(https://s3.postimg.org/8uqfq20mb/von_zpsjpaofmi5.png);
+    background-repeat: no-repeat;
+    background-position: -88px 8px;
+    background-size: 138%;
+    animation: fadein-slideup-ease 5s;
+}
+
+ul#players li a span {
+	display: none;
+}
+
+ul#players li a:hover span {
+	display: block;
+}
+
+ul#players li a:hover span {
+    display: block;
+    padding: 5px;
+    width: 580px;
+    background:rgba(255, 255, 255, 0.78);
+    position: relative;
+    top: -38PX;
+    height: 300px;
+    font-size: 11px;
+    font-family: DLSansCondMedium,sans-serif;
+    color: #FFF;
+}
+span.passing {
+    left: 163px;
+}
+span.rushing {
+    left: 133px;
+}
+span.catches {
+    left: 140px;
+}
+span.sacks {
+    right: 579px;
+}
+span.ints {
+    right: 576px;
+}
+span.tackles {
+    right: 572px;
+}
+ul#players li a:hover span strong {
+	display: block;
+	margin-bottom: 2px;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+
 ul.medium-logos img.teamlogo {
     position: relative;
     padding: 2px;
