@@ -5,6 +5,79 @@ ul.medium-logos img.teamlogo {
     padding: 2px;
     WIDTH: 100PX; float:right; 
 }
+h4 strong a {
+    font-size: 33px;
+    line-height: 27px;
+}
+.blogpostbody img {
+    display: none;
+}
+.blogpost.clearfix {
+    float: left;
+    text-align: left;
+}
+div#news-stream-container {
+    overflow-y: scroll;
+    height: 615px;
+    border-bottom: 1px solid black;
+}
+
+#slider {
+  position: relative; 
+  overflow: hidden; height: 599px; 
+  margin: 20px auto 0 auto;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 599px;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 2%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
 .cfm-team-medium img {    object-fit: contain;}
 ul.medium-logos h5 {    font-size: 19px;    font-family: DLSansCondMedium;    text-transform: uppercase;}
 .filter-fields button {    margin-bottom: 10px;    width: 21vw;    margin-right: 10px;   text-align: left;}
