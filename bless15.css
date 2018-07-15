@@ -283,10 +283,27 @@ img.menu {      display: -webkit-inline-box;  width: 20px;  object-fit: cover;  
 .dropdown-menu {   position: relative;  background-color: #e7e7e7;}
 .navbar { max-height: 50px;}
 
-/***TEAM IMAGES***/
 
-span.ldn.gowa {    BACKGROUND-SIZE: 8PX,70%,100%;    background-position: 0 0, 48px -84px;    background-image: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(https://i.imgur.com/4aqYXeT.png);}
-
+/*Game of the week**********************************************************************************************/
+.clickable.ng-scope {    BACKGROUND-POSITION: 118px 50%;}
+.align-right.clickable.ng-scope {    BACKGROUND-POSITION: -118px 50%;}
+.gameoftheweek .cfm-table tr td .score {    color: #2d2d30;   font-size: -webkit-xxx-large;    line-height: 100%;    position: relative;    top: 89px;}
+.record {    color: #2d2d30!important;   position: relative;    top: -76px;}
+span.use {    font-family: DLTechBold;    text-transform: uppercase;    font-size: x-small;    color: #2d2d30;    position: relative;    top: -61px;}
+.home.team, .away.team {    font-family: DLSansCondMedium;    font-size: larger;    letter-spacing: 10px;    color: #999;    position: relative;    top: 35px;}
+.home, .away{    position: relative;    font-family: anton;    text-transform: uppercase;    font-size: -webkit-xxx-large;    color: #999;    top: 40px;}
+.gameoftheweek {   width: 100%;    line-height: 30px;    border-bottom: 2px solid #2d2d30;    background: #0000 url(app.css);    border-TOP: 2px solid #2d2d30;}
+.clickable.ng-scope,  .align-right.clickable.ng-scope {   BACKGROUND-REPEAT: NO-REPEAT;    BACKGROUND-SIZE: 100%;}
+.gameoftheweek .cfm-table tr td.cfm-at {    width: 5%;
+    height: 99%;
+    background-image: url(https://i.imgur.com/jqqwGGl.png);
+    background-repeat: no-repeat;
+    background-position: 51%;
+    position: relative;
+    background-size: 50%;
+    left: 0rem;
+    z-index: 2;
+}
 
 html, body { 
 height: 100%; overflow: auto; margin: 0; 
