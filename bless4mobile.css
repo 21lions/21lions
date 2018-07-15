@@ -80,6 +80,11 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.sub-header-recap .statictis
     background-color: #2c4273;
     color: #cad7e1;
 }
+.clickable.ng-scope, .align-right.clickable.ng-scope {
+    width: 52vw;
+    height: 280px;
+    top: 0px;
+}	
 div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap div.header-recap .goals-left {
     float: left;
     font-size: 30px;
