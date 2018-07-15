@@ -41,13 +41,12 @@ div#news-stream-container {
     padding-right: 42px;
 }
 	.leaders.section.section-1 {    display: none;}
-img.MagCover {
-    position: relative;
-    left: -68px;
+img.MagCover {    position: relative;
+    left: -73px;
     object-fit: contain;
-    width: 100%;
+    width: 330px;
     padding: 4%;
-    height: 80%;
+    height: 450px;
 }
 #slider ul {
     position: relative;
