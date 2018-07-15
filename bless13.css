@@ -583,7 +583,7 @@ h1.cfm-player-name{font-size: 51px;   margin-left:330px;  margin-top: 11px;text-
 #team-main-nav li a{color:#223355;font-weight:normal} 
 #team-main-nav li.selected{border-bottom:none} 
 .cfm-player-profile.Awayteam .cfm-team-logo img {  object-position: 0px 0px;}
-.col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper .cfm-player-profile.Teamcolors .cfm-team-logo img {    object-position: -4px 11px;}
+.col-md-10.col-xs-10.col-sm-10.cfm-player-wrapper .cfm-player-profile.Teamcolors .cfm-team-logo img {    object-position: -4px -67px;}
 .teamprofileright img{margin:0 5px 0 0} 
 .recap-container span.pull-right {    font-size: 60px;    top: 55px;    position: relative;}
 .cfm-player-profile.Teamcolors .cfm-player-info {    left: 346px;}
