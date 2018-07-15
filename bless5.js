@@ -68,9 +68,3 @@ $.fn.center = function () {
 }
 
 
-$("#overlay").show();
-$("#overlay-content").show().center();
-
-setTimeout(function(){    
-  $("#overlay").fadeOut();
-}, 5000);
