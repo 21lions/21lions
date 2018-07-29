@@ -14,7 +14,7 @@ $(function () {
     });
 
 /***scorelist***/
-$('a>span:contains("ARI")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/ARI.svg" width="35" height="25"" class="scoreboard"><div class="teamname">Arizona</div>');
+$('a>span:contains("ARI")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/ARI.svg" width="35" height="25"" class="scoreboard"><div class="teamname"><small>Arizona</small><br>Cardinals</div>');
 $('a>span:contains("ATL")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/ATL.svg" width="35" height="25"" class="scoreboard"><div class="teamname">Atlanta</div>');
 $('a>span:contains("BAL")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/BAL.svg" width="35" height="25"" class="scoreboard"><div class="teamname"> Baltimore </div>');
 $('a>span:contains("BUF")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/BUF.svg" width="35" height="25"" class="scoreboard"><div class="teamname"> Buffalo </div>');
@@ -40,7 +40,7 @@ $('a>span:contains("OAK")').replaceWith('<img src="https://static.nfl.com/static
 $('a>span:contains("PHI")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/PHI.svg" width="35" height="25"" class="scoreboard"> <div class="teamname">Philadelphia </div>');
 $('a>span:contains("PIT")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/PIT.svg" width="35" height="25"" class="scoreboard"> <div class="teamname">Pittsburgh </div>');
 $('a>span:contains("SD")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/SD.svg" width="35" height="25"" class="scoreboard"> <div class="teamname">San Diego </div>');
-$('a>span:contains("SF")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/SF.svg" width="35" height="25"" class="scoreboard"><div class="teamname">San Francisco </div>');
+$('a>span:contains("SF")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/SF.svg" width="35" height="25"" class="scoreboard"><div class="teamname"><small>San Francisco</small><br>49ers </div>');
 $('a>span:contains("SEA")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/SEA.svg" width="35" height="25"" class="scoreboard"><div class="teamname"> Seattle </div>');
 $('a>span:contains("LAR")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/LA.svg" width="35" height="25"" class="scoreboard"><div class="teamname">Los Angeles </div>');
 $('a>span:contains("LAC")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/LAC.svg" width="35" height="25"" class="scoreboard"> <div class="teamname">Los Angeles </div>');
