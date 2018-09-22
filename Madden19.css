@@ -1,0 +1,208 @@
+/*Setup****/
+.layout-cfm, div#app, .content, .wrapper .section-container, body, .container {   background: #fff;}
+.layout-cfm .wrapper .section-container {  width:100%;     max-width: 100%; margin-top: 56px;}
+* {font-family: Oswald; }
+ins,#daddyleagues-menu,#daddyleagues-navbar, footer p.text-center {display:none!important;}
+.content-wrapper { margin-top: 27px;     border-top: 0px solid rgba(0,0,0,.15);  padding: 0px;}
+@-webkit-keyframes fadein { from {opacity:0} to {opacity:1} }@keyframes fadein { from {opacity:0} to {opacity:1} } 
+a:hover {    color: #ffffff;    text-decoration: none;}
+div#contact img {    object-fit: contain;    width: 100%;}
+
+@keyframes fadein-slidein-left {
+  from {    opacity: 0;    transform: translateX(-500px); transform: translateY(-100px);  }
+    to {    opacity: 1; transform: translateX(0px);    transform: translateY(0);  }
+}
+@keyframes fadein {
+    from {        opacity:0;    }
+    to {      opacity:1;  }
+}
+@keyframes fadein-slideup {
+  from {   opacity: 0;    transform: translateY(20px);  }
+    to {    opacity: 1;    transform: translateY(0);  }
+}
+
+@keyframes fadein-slidedown {
+  from {   opacity: 0;    transform: translateY(-20px);  }  
+  to {    opacity: 1;    transform: translateY(0);  }
+}
+/***menu***/
+a.navbar-brand:before {    content: url(https://i.imgur.com/nmbc93X.png);    position: relative;    top: 17px;}
+.bg-light, .dropdown-menu{    background-color: #283b62!important;}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link {  color: rgb(255, 255, 255);}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {    color: #bfd1e5;}
+.navbar-light .navbar-nav .nav-link {    font-size: smaller;      text-transform: uppercase;}
+.dropdown-item.active, .dropdown-item:active {    color: #fff;    text-decoration: none;    background-color: #283b62;}
+.dropdown-menu {    border-radius: 0rem;    font-size: smaller;    padding: .3125rem 0;    -webkit-box-shadow: rgba(0,0,0,.176) 0 6px 12px;    box-shadow: 0 0px 0px rgba(0,0,0,.176);    border-color: #283b6200;    color: white;    transition: 1s ease-in;}
+.dropdown-item {    color: #ffffff;}
+.dropdown-menu .dropdown-item {    line-height: 1.52857143;    padding: 0rem 1rem;}
+.navbar, .navbar .dropdown-menu, .topnavbar { filter: none!important;    position: fixed;    z-index: 33;    max-width: 100%;    width: 100%!important;    top: 0px;   left: 0;    right: 0;     height: auto;}
+ul.navbar-nav {    float: right;    right: 2rem;    text-align: right;    position: absolute;     float: right;    right: 2rem;    text-align: right;    position: absolute;    font-size: 1rem;}
+.navbar-brand {    display: inline-block;    margin-top:-29px; padding-top: .3125rem;    padding-bottom: .3125rem;    margin-right: 1rem;    font-size: x-large;    line-height: inherit;    white-space: nowrap;    text-transform: uppercase;    font-style: italic;}
+.dropdown-menu.show {    top: 43px;    position: relative;}
+.navbar-light .navbar-toggler-icon {    background-image: url(http://www.vn2ny.com/image/menu.png);}
+div#mem ul.navbar-nav.flex-row.mr-3 {    width: 25%;    right: 70px;    top: 11px;}
+div#mem {    position: fixed;    top: 38px;    width: 80px;    float: right;    z-index: 47;    height: 49px;    text-align: center;    padding: 5px;    right: -42px;}
+div#mem li.nav-item {      margin-right: 15%;  padding: 10%;}
+
+/***Scoreboard***/
+.cfm-score-score {right: unset;    text-align: center;    font-size: 1.6rem;    width: 100px;    letter-spacing: -1px;}
+.cfm-score {height: 40px; border-right: none; }
+.cfm-score-index-0 {    left: -1.4rem;    min-width: 50%;}
+.yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-alert-box, .yui3-scorestrip-tile-bigplay .yui3-scorestrip-tile-content, .yui3-scorestrip-tile-content:hover, .yui3-scorestrip-tile-content:hover>span {
+    color: #ffffff!important;
+    text-decoration: none;
+    background: url(https://i.imgur.com/n5cClE4.png), #616161 !important;
+    background-size: 10% !important;
+    background-position: 46% !important;
+    background-repeat: no-repeat !important;
+}
+li#game-:hover {    text-decoration: none;    background: url(https://i.imgur.com/n5cClE4.png) #212529!important;    background-image: url(https://i.imgur.com/n5cClE4.png) !important;   background-position-y: center !important;    background-attachment: initial !important;    background-origin: initial !important;    background-clip: initial !important;    background-size: 10% !important;    background-position: 51%!important;    background-repeat: no-repeat !important;    transition: .2s ease-in;}
+span.cfm-score-hts.cfm-score-home.cfm-score-score {
+    float: right;
+    right: 11rem; color: gray; background: none !important; 
+    top: 33%;
+}
+.cfm-score-bigplay .cfm-score-alert-box, .cfm-score-bigplay .cfm-score-content, .cfm-score-content:hover, .cfm-score-content:hover>span {
+    background: url(https://i.imgur.com/n5cClE4.png) no-repeat scroll 0 0 #363636!important;
+    color: #ffffff!important;
+    text-decoration: none;
+    background-size: 12%, 0% !important;
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+}
+span.cfm-score-vts.cfm-score-visitor.cfm-score-score {
+    float: left;
+    left: 11rem;
+    top: 33%; 
+     background: none !important;
+}
+div#js-ticker-fade{
+      position: absolute;
+    height: auto;
+    width: 100%;
+    top: 25px;
+    border: 2px solid #ddd;
+    padding: 1%;
+    overflow: hidden;
+    background-size: 3%;
+    z-index: 5;
+    background: linear-gradient(to top, rgb(199, 199, 199), rgb(255, 255, 255));
+	ol {
+		position: relative;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li#game- {
+			width: 100%;
+			margin: 0;  
+			padding: 0;
+		}
+	}
+}
+li#game-:nth-child(odd) {    border-right: 1px solid #c7c7c7;}
+li#game- {    background: url(https://i.imgur.com/n5cClE4.png);    background-size: 10%;    background-position: 50%;    background-repeat: no-repeat;     border-bottom: 2px solid #cfcfcf;}
+li#game-:nth-child(1) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(2) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(3) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(4) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(5) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(6) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(7) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(8) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(9) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(10) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(11) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(12) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(13) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(14) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(15) {animation: fadein-slideup ease 1s;}
+li#game-:nth-child(16) {animation: fadein-slideup ease 1s;}
+
+.yui3-scorestrip-tile-visitor {
+    top: 14px;
+}
+.yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home, .yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor {
+    color: #545454;
+    right: 69px; text-align:center;
+}
+.small, small {
+    font-size: 60%;
+}
+.yui3-scorestrip-tile-big-play a, .yui3-scorestrip-tile-home {     top: 14px;    right: 36px;}
+.teamname:nth-child(3) {
+    float: left;
+    position: relative;
+    text-align: left;
+    left: 85px;
+}
+.teamname {      font-size: large;
+    top: 2px;
+    position: relative;
+    right: 85px;
+    line-height: 15px;
+    float: right;
+    width: 47%;
+    text-align: right; }
+img.scoreboard:nth-child(2) {
+    left: 1rem;
+    position: absolute;
+}
+img.scoreboard {      margin-bottom: 0px;
+    position: absolute;
+    object-position: 25px 29%;
+    top: 0px;
+    width: 25%; right:-3rem;
+    overflow: hidden;
+    display: -webkit-inline-box;
+    height: 100%;
+    object-fit: scale-down;
+}
+a.cfm-score-content {
+    background: none repeat scroll 0 0 #f0f0f000;}
+
+.yui3-scorestrip-tile-score {
+    right: 370px;
+    text-align: center;
+    font-size: 34px;
+}
+a.yui3-scorestrip-tile-content{     display: flex;     border-right: 2px solid;
+    height: 45px;
+    width: 100%; }
+.yui3-scorestrip-tile-index-0 {left: -20px; min-width: 50%;}
+.yui3-scorestrip-tile {   border-right: 0px solid #cccccc78;  left:-49px,  top: -9px; height: 45px;}
+#scorelist {     height: 45px;    overflow: hidden;    top: -5px;}
+div#flip {      position: fixed;
+    top: 54px;
+    width: 100%;
+    z-index: 30;
+    height: 29px;
+    background: linear-gradient(to top, rgb(199, 199, 199), rgb(255, 255, 255));
+    overflow: hidden;
+    font-size: 12px;
+    text-align: center;
+    padding: 7px;
+    font-family: DLSansCondMedium;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+ color: #ff5464;
+}
+div#js-ticker-fade {    height: auto !important;}
+
+
+/*Jumbotron******/
+img.leaguebanner {    object-fit: contain;    width: 100%;}
+.btn:not(:disabled):not(.disabled) {    float: unset;}
+.intro-center {padding-left: 10%;   padding-right: 10%;}
+
+
+/***storylines***************/
+.info img.img {     object-fit: cover;    width: 100%;    height: 500px;    position: relative;    top: -125px;}
+.btn:not(:disabled):not(.disabled) {    float: right;    cursor: pointer;}
+ h4 strong a {        animation: 7s fadein-slideup;  text-transform: uppercase;    float: left;    width: 100%;    color: #fefeff;    position: relative;    top: 335px;    text-align: center;    padding: 18px;    font-size: 7vw;    z-index: 5;    line-height: 85px;    letter-spacing: -4px;    height: 110px;    overflow: hidden;   display: -webkit-box;    -webkit-line-clamp: 1;    -webkit-box-orient: vertical;    text-shadow: 0 2px 10px black;}
+img.img {  object-fit: cover;  object-position: 50% 60%;}
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.storylines button.btn.btn-danger { top: 63px;   position: absolute;    float: right;    right: 34px;   z-index: 1;}
+div#news-stream-container {    height: 545px;    margin-bottom: 5%; overflow: hidden;}
+.info {    height: 500px;}
+div#hp-stories {    position: relative;    display: block;    overflow: hidden;    height: 545px;}
+.blogpostfooter {    text-align: center;}
