@@ -1,5 +1,5 @@
 /*Setup****/
-.layout-cfm, div#app, .content, .wrapper .section-container, body, .container {   background: #fff;}
+.layout-cfm, div#app, .content, .wrapper .section-container, body, .container footer {   background: #fff;}
 .layout-cfm .wrapper .section-container {  width:100%;     max-width: 100%; margin-top: 56px;}
 * {font-family: Oswald; }
 ins,#daddyleagues-menu,#daddyleagues-navbar, footer p.text-center {display:none!important;}
