@@ -6,7 +6,12 @@ ins,#daddyleagues-menu,#daddyleagues-navbar, footer p.text-center {display:none!
 .content-wrapper { margin-top: 27px;     border-top: 0px solid rgba(0,0,0,.15);  padding: 0px;}
 @-webkit-keyframes fadein { from {opacity:0} to {opacity:1} }@keyframes fadein { from {opacity:0} to {opacity:1} } 
 a:hover {    color: #ffffff;    text-decoration: none;}
+
+/*Footer***/
 div#contact img {    object-fit: contain;    width: 100%;}
+div#contact p {    color: #2f4470;}
+
+
 
 @keyframes fadein-slidein-left {
   from {    opacity: 0;    transform: translateX(-500px); transform: translateY(-100px);  }
