@@ -145,7 +145,24 @@ li#game-:nth-child(odd) {    border-right: unset;}
 div#flip {   top: 60px;  padding: 7px;}
 div#flip h4 {    font-size: smaller;  padding-left: 10px;    float: left;  animation: fadein-left 3s ease-in;   padding: 0px;    font-family: oswald;}
 
-/*GOW*/
+/*Teams Page***/
+.row.teampage .list-group-item.cfm-hp-playoffrace .media-body.text-truncate p.mb-1 a {    position: relative;    text-align: left;    left: 59px;    float: left;    top: 7px;}
+.row.teampage .cfm-hp-playoffrace .badge {    top: 8px;   left: -183px;}
+.row.teampage .cfm-hp-playoffrace .teamname {     text-align: left;    left: 60px;      top: 6px;  font-size: 1rem;}
+div#tmpg .col-4 {    margin-bottom: 2rem;   flex: 0 0 33%;    max-width: 33%;}
+div#tmpg .col-4 h3.m-0 {    font-size: .6rem;}
+.col-12.py-3.rounded-right.cfm-team-info .col-xl-10 {    margin-top: 203px;    margin-bottom: -226px;}
+.col-12.d-flex.align-items-left.justify-content-center.cfm-team-logo img {       display: inline-block;    right: unset;    animation: fadein-slideup  4s;    width: auto!important;    height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 80%);    mask-image: linear-gradient(to bottom, transparent 0%, black 80%);}
+.ml-auto span.text-muted.ml-2.teamname {   width: 49px;    padding: 5px;}
+.list-group-item.cfm-hp-playoffrace {    height: 70px;}
+.row.teampage .list-group-item.cfm-hp-playoffrace p.m-0 {    float: left;    word-spacing: 2px;    left: 9px;    position: relative;    top: 22px;    font-size: xx-small;}
+.row.teampage  span.fa-stack img {    width: 5rem;    top: -21px;}
+.row.teampage .text-truncate {    margin-top: 3px;    height: 60px;    width: 100%;    left: 40px;    position: relative;}
+.row.teampage span.fa-stack img {    top: -14px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 {    top: -8px;}
+
+    
+    /*GOW*/
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek {     background: url(https://i.imgur.com/6Uw8tza.png);
     background-size: 5%;
     background-position: 50%;
@@ -236,23 +253,6 @@ div#tmpg .row.row-flush.cfm-team-schedule .m-0.text-muted.text-uppercase {      
 div#tmpg .col-12.py-3.rounded-right.cfm-team-info .h2.mt-0, div#tmpg .col-12.py-3.rounded-right.cfm-team-info .col-xl-10:nth-child(-n+3) {    animation: fadein-slidedown  3s;}
 div#tmpg div#scores .col-xl-10 {    margin-bottom: -63px;}
 div#tmpg .cfm-player-team-logo img {      animation: fadein-slidedown 3s;  width: auto!important;  left: 0px;  height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 43%, black 70%);    mask-image: linear-gradient(to bottom, transparent 43%, black 70%);}
-
-  
-/*Teams Page***/
-.row.teampage .list-group-item.cfm-hp-playoffrace .media-body.text-truncate p.mb-1 a {    position: relative;    text-align: left;    left: 59px;    float: left;    top: 7px;}
-.row.teampage .cfm-hp-playoffrace .badge {    top: 8px;   left: -183px;}
-.row.teampage .cfm-hp-playoffrace .teamname {     text-align: left;    left: 60px;      top: 6px;  font-size: 1rem;}
-div#tmpg .col-4 {    margin-bottom: 2rem;   flex: 0 0 33%;    max-width: 33%;}
-div#tmpg .col-4 h3.m-0 {    font-size: .6rem;}
-.col-12.py-3.rounded-right.cfm-team-info .col-xl-10 {    margin-top: 203px;    margin-bottom: -226px;}
-.col-12.d-flex.align-items-left.justify-content-center.cfm-team-logo img {       display: inline-block;    right: unset;    animation: fadein-slideup  4s;    width: auto!important;    height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 80%);    mask-image: linear-gradient(to bottom, transparent 0%, black 80%);}
-.ml-auto span.text-muted.ml-2.teamname {   width: 49px;    padding: 5px;}
-.list-group-item.cfm-hp-playoffrace {    height: 70px;}
-.row.teampage .list-group-item.cfm-hp-playoffrace p.m-0 {    float: left;    word-spacing: 2px;    left: 9px;    position: relative;    top: 22px;    font-size: xx-small;}
-.row.teampage  span.fa-stack img {    width: 5rem;    top: -21px;}
-.row.teampage .text-truncate {    margin-top: 3px;    height: 60px;    width: 100%;    left: 40px;    position: relative;}
-.row.teampage span.fa-stack img {    top: -14px;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 {    top: -8px;}
 
   
   /*Player Page*/
