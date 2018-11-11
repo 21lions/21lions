@@ -1,0 +1,363 @@
+/***mobile layout*************************************************************************************************************************************************/
+
+@media screen and (min-width: 325px) and (max-width: 768px) {     /* start of medium tablet styles********************** */
+/***menu***/
+ul.navbar-nav {    float: left;    left: 1rem;    text-align: left;    position: relative;}
+.dropdown-menu.show {   top: -.51rem;    position: relative;}
+.navbar-collapse {    width: auto;    padding: 1%;    background-color: #283b62;}
+.navbar, .navbar .dropdown-menu, .topnavbar {    height: unset;}
+div#mem {      position: fixed;  top: 32px;      margin-right: 0%;  right: 0rem;}
+a.navbar-brand {
+    font-size: x-large;
+    font-family: anton;
+    position: relative;
+    top: 0px;
+    letter-spacing: 0px;
+}
+a.navbar-brand:before {
+    content: url(https://i.imgur.com/nmbc93X.png);
+    position: relative;
+    top: 13px;
+}
+  
+  
+/*setup***/
+.row {      margin-right: -5px;    margin-left: -5px;  white-space: nowrap;}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {    margin-bottom: 0rem;
+}
+ .col-3 {    -ms-flex: 0 0 25%;    flex: 0 0 25%;    max-width: 25%;}
+  h3.m-0 { width:100%;   font-size: .75rem;    text-align: center;}
+/*stats page***/
+td.tbdy-sorted.team-logo-container {    display: none;}
+
+/*compare player page***/
+.col-lg-4.col-sm-4.col-md-4.col-xs-4 {    width: 33%;}
+.col-lg-4.col-sm-4.col-md-4.col-xs-4 h3.panel-title {    font-size: xx-small;    text-align: center;}
+.col-lg-4.col-sm-4.col-md-4.col-xs-4 img {    object-fit: contain;    width: 100%;}
+#playerSearchContainer {    background-color: #fff;    top:0px; border: 2px solid #428bca00;    border-radius: 5px;    margin-left: -193px;    padding: 15px;    width: 100%;    z-index: 6;    display:block;}
+p#playerSearchLabel {    display: none;}
+div#playerSearchContainer .form-group:nth-child(2):after {    content: "Scroll to view other positions";    font-size: unset;    color: #f10b0b;    position: absolute;   width: 100%;    text-align: center;}
+div#playerSearchContainer .form-group {    overflow-x: scroll;}
+
+/*front-office***/
+div#frontoffice_wrapper li.nav-item {    width: 50%;}'
+  
+  
+/*pow****/
+.col-lg-6.col-md-12.col-sm-12.col-xs-12 .card .card-header {   letter-spacing:0px;  font-size: small;}
+.oplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left, .dplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left {    width: 100%!important;}
+div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {       position: relative;    float: left;    left: 0px;    display: inline-block;    top: 0px;    width: 100%!important;    height: 200px!important;    object-position: 0px -55px;    margin-right: 0rem!important;    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 49%);    mask-image: linear-gradient(to bottom, transparent 0%, black 25%);}
+div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-container img.rounded-circle.thumb24 {       position: absolute;
+    width: 100%!important;    height: auto!important;    left: 0px;    top: -178px;    z-index: -1;    -webkit-mask-image: linear-gradient(to top, transparent 26%, black 80%);    mask-image: linear-gradient(to bottom, transparent 33%, black 50%);}
+.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    font-size:small; position: absolute;    top: -67px;    width: 100%!important;}
+.oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {    position: relative;    line-height: 0px; font-size:small;    top: -4px!important;}
+  
+  /*power rankings****/
+div#powerrankings span.fa-stack img {    width: 4rem;    position: relative;    top: -15px;}
+.cfm-hp-powerrankings .teamname {    font-size: .7rem;    color: #fff;    float: left;    left: 30px;}
+div#powerrankings p.mb-1 {    height: 28px;    top: 0px;}
+div#oplayeroftheweek-container, div#dplayeroftheweek-container {    height: 200px;}
+div#powerrankings .list-group .list-group-item {    padding: 5px;}
+div#powerrankings-container {    margin-bottom: 2rem;}
+  
+ 
+  /*tables***/
+.table td, .table th {    padding: 0.25rem;}
+td.tbdy-sorted.team-logo-container {    border-right: 0px !important;}
+td {    width: 100%;}
+ .col-md-6.col-xs-6.col-sm-6.clearfix tr.thd1 td:nth-child(2) {    position: absolute;    background: none;    left: 0px;    text-align: right;    padding-right: 5%;}
+.col-xl-6 tr.thd1 td:nth-child(2) {    position: absolute;    background: none;    left: 0px;    text-align: right;    padding-right: 5%;}
+
+  
+  /*Splash***/
+.Splash.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+    position: fixed;
+    background: url(https://i.imgur.com/EHYdPSj.png), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-diagram.png),linear-gradient(to top, rgb(107, 105, 105), rgb(255, 255, 255));
+    width: 100%;
+    max-width: 100%;
+    height: 145%;
+    z-index: 100;
+    top: -56px;
+    left: 0px;
+    background-position: 0rem 35%, 0rem 33%;
+    background-size: 100%, contain;
+    background-repeat: no-repeat, no-repeat;
+}
+  
+  /*Jumbotron***/
+.intro-center {    padding-left: 5%;    padding-right: 5%;}
+
+  /*schedules***/
+div#scores .card.b.mb-2 {    width: 100%;}
+ul#pills-tab {    white-space: nowrap;    display: block;}
+.cfm-team-schedule img {    margin: -13px 0px;    overflow: hidden;    height: 65px;    width: auto;}
+.row.row-flush.cfm-team-schedule .m-0.text-muted.text-uppercase {     font-size: x-small;   color:gray!important;  top: -8px;    position: relative;}
+.row.row-flush.cfm-team-schedule .h2.m-0.text-bold {    font-size: 1rem;    padding: 5px;}
+.row.row-flush.cfm-team-schedule {    height: 50px;}
+.cfm-team-schedule h4 {    font-size: smaller;    margin-left: 0px;    position: relative;    top: 0px;}
+div#scores .col-xl-10 {    margin-bottom: -69px;}
+.cfm-team-schedule .col-2, .cfm-team-schedule .col-3 {    -webkit-box-flex: 0;    -ms-flex: 0 0 35.8%;    flex: 0 0 20%;    max-width: 20%;}
+.col-5 {    -ms-flex: 0 0 40%;    flex: 0 0 40%;    max-width: 40%;}
+h4.mt-3 a {    font-size: .8rem;}
+div#pills-season {    white-space: nowrap;    display: -webkit-inline-box;    width: 100%;    overflow-x: scroll;}
+
+  /*Game Recap Page*/
+.card.Hometeam.flex-row.align-items-center.align-items-stretch.border-0 .col-4.d-flex.align-items-center.justify-content-center.rounded-left.cfm-team-logo-medium, .card.Awayteam.flex-row.align-items-center.align-items-stretch.border-0 .col-4.d-flex.align-items-center.justify-content-center.rounded-left.cfm-team-logo-medium {
+    flex: 0 0 15%;    max-width: 15%;    border-right: 1px solid;    overflow: hidden;    background: #00000026;}
+.col-8.py-3.card-madden-team.rounded-right h1 {    font-size: 1.8rem;}
+div#gamerecapdownload .col-8.py-3.card-madden-team.rounded-right {   flex: 0 0 85%;    max-width: 85%;}
+.recap-container .col-8 {    -ms-flex: 0 0 66.66666667%;    flex: 0 0 85%;    max-width: 85%;}
+.card-body.bb {    display: -webkit-box;    column-count: 2;}
+ p.mb-0 {    width: 135px;    height: 5px;    white-space: nowrap;}
+.card.b .d-flex.align-items-center {    white-space: nowrap;    width: 30%!important;      left: 57px;    position: relative;}
+div#gamerecapdownload .col-8.py-3.card-madden-team.rounded-right .cfm-player-info {   margin-top: -14px;}
+div#gamerecapdownload .col-12.py-3.card-madden-team.rounded-right .cfm-player-info h2 {  top: 6px;   font-size: medium;}
+.col-4.d-flex.align-items-center.justify-content-center.rounded-left.cfm-team-logo-medium img {  height: auto;    width: auto;    object-fit: cover;}
+.card.card-default ul.nav.nav-tabs li.nav-item {    width: 33%!important;}
+div#playerstats .col-8.py-3.card-madden-team.rounded-right {    flex: 85%;    max-width: 85%;}
+div#gamerecapdownload .pull-right {    float: right!important;    background: #e9ecef;    padding: 8px;   color: #353638;    font-family: anton;  border-radius: 5px;    border-top: white 1px solid;    border-left: 1px #d2c8c8 solid;    border-right: 1px darkgray solid;    border-bottom: 1px #5f5a5a solid;}
+.card-body.bb {    display: -webkit-box;    column-count: 2;}
+.d-flex.align-items-center .ml-auto.col.wd-xxs.text-right.p-0 .text-muted {    color: #6c757d!important;    Font-family: DLSansCondMedium;    padding: 10px;}
+
+  
+/*new scoreboard***/
+div#js-ticker-fade div#scores  .cfm-team-schedule img {     margin: -6px 0px;    background: #b9b9b9;    overflow: hidden;     o bject-fit: cover;    height: 71px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 {    top: -8px;} 
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-6 {   top: -12px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 .card-body.text-center .m-0.text-muted.text-uppercase, div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3.text-center.d-flex.align-items-end.justify-content-end.rounded-right .m-0.text-muted.text-uppercase {    top: -5px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 {    top: 5px; }
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {    font-size: 1.2rem;    background: #343a40;    color: #ececec;     top: 5px;}
+div#js-ticker-fade div#scores .cfm-team-schedule img {    object-fit: cover;}
+
+  
+  /***scoreboard***/
+div#js-ticker-fade { position: absolute ; top: 30px;}
+  .cfm-score-index-0 {    width: 100%;}
+img.scoreboard {  object-position: 22px 29%;   top: 6px;    height: 80%;    right: -25px;}
+img.scoreboard:nth-child(2) {    object-fit: contain;  left: -22px;}
+.teamname {  right:35px;   font-size: larger;}
+.teamname:nth-child(3) {    left: 34px;}
+.cfm-score-score {    font-size: small;}
+span.cfm-score-hts.cfm-score-home.cfm-score-score {    right: 4rem;}
+span.cfm-score-vts.cfm-score-visitor.cfm-score-score {    left: 4rem;}
+li#game- {    background-size: 17%;}
+li#game-:nth-child(odd) {    border-right: unset;}
+div#flip {   top: 60px;  padding: 7px;}
+div#flip h4 {    font-size: smaller;  padding-left: 10px;    float: left;  animation: fadein-left 3s ease-in;   padding: 0px;    font-family: oswald;}
+
+/*GOW*/
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek {     background: url(https://i.imgur.com/6Uw8tza.png);
+    background-size: 5%;
+    background-position: 50%;
+    background-repeat: no-repeat;}
+div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {  margin-bottom:3rem;  height: 200px;}
+.col-6.d-flex.align-items-center.justify-content-center.rounded-left {    background-position: -4rem 50%;}
+.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {    background-position: 4rem 50%;}
+span.away, span.home {    top: 1.5rem;}
+span.away {  right: 1rem;}
+span.home{  left: 1rem;}
+span.away p:nth-child(2), span.home p:nth-child(2) {    font-size: x-small;}
+span.away p:nth-child(3), span.home p:nth-child(3) {    font-size: x-large;    line-height: 0px;}
+.gow.away.score {    float: left;    left: 5rem;    top: 5.75rem;    width: 100px;}
+.gow.home.score {    float: right;    right: 3rem;    top: 5.75rem;    width: 100px;}
+.gow.away.score h4.mt-0 {    font-size: xx-large;    left: 26px;    position: absolute;    background: #00000099;    width: 50px;    top: 11px;}
+.gow.home.score h4.mt-0 {     font-size: xx-large;    right: 57px;   position: absolute;    background: #00000099;    width: 50px;    top: 11px;    z-index: 1;}
+.gow.away.score p.mb-0.text-muted {      top: -.5rem;  font-size: xx-small;  left:-33px;  letter-spacing: 1px;}
+.gow.home.score p.mb-0.text-muted {      top: -.5rem;  font-size: xx-small; right:-3px;   letter-spacing: 1px;}
+div#gameoftheweek-container .text-muted {    top: -28px;}
+span.away p:nth-child(2), span.home p:nth-child(2), span.away p:nth-child(3), span.home p:nth-child(3) {    top: 23px;    position: relative;    line-height: 9px;}
+
+/*storylines***/
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.storylines.hidden.animation-complete .info img.img {    object-fit: cover;    width: 100%;    height: 300px;    position: relative;   top: 0px;}
+.blogpostheader h3 strong a {    font-size: larger;    text-transform: uppercase;}
+.blogpost {    OVERFLOW: HIDDEN;}
+.blogpost img.img, .col-md-12.col-xs-12.col-sm-12 img.img-responsive {  object-fit: cover;    width: 150%;    height: 200px;    OBJECT-POSITION: -61PX 50%;}
+.col-md-12.col-xs-12.col-sm-12 h4 strong a {    float: left;   text-align: left;    position: relative;    width: 100%;    top: 0px;    left: -20px;}
+div#hp-stories h4 strong a {    animation: 2s fadein-slidedown;    font-family: oswald;    color: #ffffff;    top: 215px;    text-shadow: 0 1px 4px black;    text-align: center;   left: 0px;    width: 100%;    font-size: 8vw;    letter-spacing: 0px;}
+div#hp-stories .blogpostfooter, div#hp-stories .blogpostfooter a {    color: white;    font-size: smaller;    background: #343a4000;    top: 0px;    animation: fadein 5s;}
+div#hp-stories {    height: 310px;}
+div#news-stream-container i, div#news-stream-container p {    display: -webkit-inline-box;}
+div#news-stream-container .info img.img {  object-fit: cover;    width: 100%;    height: 385px;    OBJECT-POSITION: -177PX 40PX;    position: absolute;    top: 0px;}
+div#news-stream-container {    height: 355px;}
+
+/*storylines page***/
+.blogpostfooter {   font-size: smaller;    top: 0px;    animation: fadein 5s;}
+h4 strong a {     animation: 2s fadein-slidedown;    font-family: oswald;    color: #283b62;    top: 230px;    font-size: 8vw;    letter-spacing: -2px;}
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.storylines button.btn.btn-danger {    top: -4px;    right: 20px;}
+.blogpost p, .blogpost i {    font-family: DLSansCondMedium!important;    font-size: 1.1em!important;    font-style: normal!important;   font-weight: lighter!important;}
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.storylines.hidden.animation-complete {    margin-top: 1rem;}
+div#commentcontainer form.form-horizontal table tr:nth-child(1) td:nth-child(1) {    display: none;}
+div#commentcontainer input#visitorbutton {    display: block!important;}
+h2#commentheading {    font-size: larger;}
+.blogpost a {    text-transform: uppercase;}
+.blogpost img.img {    height: 200px;}
+div#hp-stories .info {    top: -78px;    height: 270px;    position: relative;}
+
+/*standings***/
+.Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 .card-default .card-header {    font-size: small;}
+.nfc.standings .table-responsive, .afc.standings .table-responsive {    column-count: 1;    white-space: nowrap;}
+.Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 th:nth-child(n+6), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 th:nth-child(n+6), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 td:nth-child(n+6), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 td:nth-child(n+6) {    display: none;}
+table.table.table-striped.cfm-standings th:nth-child(n+6), table.table.table-striped.cfm-standings td:nth-child(n+6) {
+    display: none;}
+
+/*carousel controls****/
+.carousel-control-next-icon, .carousel-control-prev-icon {    top: -13px;}
+
+/*Playoff Race***/
+div#afc-playoff-container {    padding-left: 0px;}
+div#nfc-playoff-container {    padding-right: 0px;}
+.list-group-item.cfm-hp-playoffrace span.fa-stack img{    width: 5rem;    top: -24px; left:-9px; }
+.text-truncate {    margin-top: 3px;}
+.list-group-item.cfm-hp-playoffrace .media-body.text-truncate p.mb-1 {    position: relative;    text-align: left;    left: -50px;}
+.list-group-item.cfm-hp-playoffrace p.m-0 {    float: left;    left: 85%;    position: absolute;  top: 3px;}
+div#nfc-playoff-container .cfm-hp-playoffrace .teamname, div#afc-playoff-container .cfm-hp-playoffrace .teamname {     font-size: 1.1rem;    text-align: left;    left: 70px;    top: 11px;}
+div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0, div#afc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0 {
+   float: left;    left: 85%;    position: absolute;    font-size: large;    top: 1px;}
+div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace small, div#afc-playoff-container .list-group-item.cfm-hp-playoffrace small {    font-size: small;    position: relative;    top: 9px;    left: -18px;    float: left;}
+.list-group-item.cfm-hp-playoffrace .media .media-body.text-truncate {    height: 60px;    top: -5px;    left: 17px;    position: relative;}
+.row.teampage .list-group-item.cfm-hp-playoffrace .media .media-body.text-truncate {   height: 60px;    top: -3px;    left: 40px;    position: relative;}
+.cfm-hp-playoffrace .rank {    padding: 5px;    margin-top: 1px;  font-family: anton;   width: 32px;    font-size: 1rem;}
+div#afc_playoff .list-group-item.cfm-hp-playoffrace, div#nfc_playoff .list-group-item.cfm-hp-playoffrace  {    height: 45px;}
+  
+  /*transactions***/
+div#transactions table.dl-table1.madden-team-table .dl-table1 td.tbdy1, table.dl-table1 .tbdy1 td {    border-right: 75px solid #ffffff00;}
+table.dl-table1.madden-team-table .dl-table1 td.tbdy1, table.dl-table1 .tbdy1 td {    border-right: 0px solid #ffffff00;}
+.container-fluid-marquee {    top: 87px;}
+.marquee div {    -webkit-animation: left-marquee 80s linear infinite 5s normal;    -moz-animation: left-marquee 80s linear infinite 5s normal;    animation: left-marquee 80s linear infinite 5s normal;}
+  
+
+/*team page***/
+div#tmpg h1.cfm-team-name {    font-size: 2.5rem;    top: 170px!important;}
+div#tmpg .col-12.py-3.rounded-right.cfm-team-info .col-xl-12.col-lg-6.col-md-12.pt-2 div#scores .card.b.mb-2 .col-xl-10 {    margin-top: 0px;}
+div#tmpg .cfm-team-stats h4 {    margin: 0!important;    font-size: .75rem;    position: relative;    top: -25px;    padding: 10px;}
+div#tmpg .card-body.text-center, .m-0.text-muted.text-uppercase {    color: #fff!important;}
+div#tmpg .row.row-flush.cfm-team-schedule .h2.m-0.text-bold { display:none;}
+div#tmpg .row.row-flush.cfm-team-schedule .m-0.text-muted.text-uppercase {       font-size: x-small;    top: 14px;  padding: 4px;   color: gray!important;    position: relative;}
+div#tmpg .col-12.py-3.rounded-right.cfm-team-info .h2.mt-0, div#tmpg .col-12.py-3.rounded-right.cfm-team-info .col-xl-10:nth-child(-n+3) {    animation: fadein-slidedown  3s;}
+div#tmpg div#scores .col-xl-10 {    margin-bottom: -63px;}
+div#tmpg .cfm-player-team-logo img {      animation: fadein-slidedown 3s;  width: auto!important;  left: 0px;  height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 43%, black 70%);    mask-image: linear-gradient(to bottom, transparent 43%, black 70%);}
+
+  
+/*Teams Page***/
+.row.teampage .list-group-item.cfm-hp-playoffrace .media-body.text-truncate p.mb-1 a {    position: relative;    text-align: left;    left: 59px;    float: left;    top: 7px;}
+.row.teampage .cfm-hp-playoffrace .badge {    top: 8px;   left: -183px;}
+.row.teampage .cfm-hp-playoffrace .teamname {     text-align: left;    left: 60px;      top: 6px;  font-size: 1rem;}
+div#tmpg .col-4 {    margin-bottom: 2rem;   flex: 0 0 33%;    max-width: 33%;}
+div#tmpg .col-4 h3.m-0 {    font-size: .6rem;}
+.col-12.py-3.rounded-right.cfm-team-info .col-xl-10 {    margin-top: 203px;    margin-bottom: -226px;}
+.col-12.d-flex.align-items-left.justify-content-center.cfm-team-logo img {       display: inline-block;    right: unset;    animation: fadein-slideup  4s;    width: auto!important;    height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 80%);    mask-image: linear-gradient(to bottom, transparent 0%, black 80%);}
+.ml-auto span.text-muted.ml-2.teamname {   width: 49px;    padding: 5px;}
+.list-group-item.cfm-hp-playoffrace {    height: 70px;}
+.row.teampage .list-group-item.cfm-hp-playoffrace p.m-0 {    float: left;    word-spacing: 2px;    left: 9px;    position: relative;    top: 22px;    font-size: xx-small;}
+.row.teampage  span.fa-stack img {    width: 5rem;    top: -21px;}
+.row.teampage .text-truncate {    margin-top: 3px;    height: 60px;    width: 100%;    left: 40px;    position: relative;}
+.row.teampage span.fa-stack img {    top: -14px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 {    top: -8px;}
+
+  
+  /*Player Page*/
+.col-1.d-flex.align-items-left.justify-content-center.cfm-player-team-logo {    position: absolute;    width: 100%;    height: 100%;}
+.cfm-player-team-logo img {     animation: fadein-slidedown 3s;  width: 100%!important;  left: 0px;  height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 50%, black 70%);    mask-image: linear-gradient(to bottom, transparent 50%, black 70%);  margin: auto;    object-fit: cover;    position: relative;}
+.cfm-player-team-logo, .cfm-team-logo, .cfm-team-stats {    background-color: rgba(0, 0, 0, 0);}
+.rounded-circle {    border-radius: 0%!important;}
+img.rounded-circle.thumb128 {         animation: fadein-slideup 1s;  width: 20rem!important;    height: auto !important;    margin: auto;    top: -40px;    left: -172px;    position: absolute;    border-bottom: 0px solid;    object-position: 50% -18px;    -webkit-mask-image: linear-gradient(to top, transparent 13%, black 35%);    mask-image: linear-gradient(to bottom, transparent 13%, black 35%);}
+h1.cfm-team-name {     font-size: 1.5rem;    position: relative;    top: 160px!important;   text-align: center;    z-index: 1;}
+span.pull-right.cfm-team-ovr {    left:0px; float: left; font-size: x-large;     top: -169px;    position: absolute;}
+.card {    overflow: hidden;}
+.col-10.py-3.rounded-right.cfm-player-info { max-width: 100%;   position: relative;    z-index: 33;    font-size: 3vw;    float: left;    text-align: center;}
+.card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors {    position: relative;    height:auto;}
+.card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors ul.nav.nav-tabs {   width:100%;  position: relative;  column-count: 2;}
+.card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors ul.nav.nav-tabs li.nav-item {   width: 50%;    display: contents;}
+  h3.m-0 { width:100%;   font-size: .75rem;    text-align: center;}
+ p.m-0.text-muted {    position: relative;    top: -34px;    font-size: .75rem;    font-family: DLSansCondMedium;    text-align: center;}
+ .col-12.py-3.rounded-right.cfm-player-info .col-xl-12 {    margin-bottom: -10px;} 
+  .col-12.py-3.rounded-right.cfm-player-info .col-4 {    -ms-flex: 0 0 21.33333333%;    flex: 0 0 50%;    max-width: 50%;}
+  .col-4 {    flex: 0 0 50%;    max-width: 50%;}
+.col-12.d-flex.align-items-left.justify-content-center.cfm-player-team-logo h1.cfm-team-name, .col-12.d-flex.align-items-left.justify-content-center.cfm-player-team-logo .col-xl-10 {       animation: fadein-slidedown 2s;  padding: 2px;    margin-bottom: -21px;   top: 195px;}
+.col-12.py-3.rounded-right.cfm-player-info .col-6 {  flex: 0 0 100%;    max-width: 100%;  margin-bottom:189px;   margin-top: 35px;}
+  p.mb-0.text-muted {   margin-top: -22px;    float: none;   font-size:.65rem;  padding-left: 0;}
+ .cfm-team-stats h4, .cfm-team-stats h6 {    margin: 0!important;    font-size: .75rem;    position: relative;    top: -14px;    padding: 10px;}
+  .card-footer.text-center.cfm-player-attribute .col-xl-10 {    top: 0px!important;}
+  .col-xl-10.col-lg-6.col-md-12.pt-2 {    top: 0px!important;}
+  .cfm-player-attribute .col-lg-1 {    width: 33%!important;}
+  .col-xl-10.col-lg-6.col-md-12.pt-2 .col-xl-10 {    top: 0px!important;}
+.nav-tabs>.nav-item>.nav-link {    padding: 10px 0%;}
+table.table.table-hover, table.dl-table1 {    border: 2px solid #ccc0;    overflow-x: scroll;    display: block;    white-space: nowrap;}
+  .panel.panel-playertraits {    display: block;}
+  .card.card-madden-team {    width: -webkit-fill-available;    display: block;    padding: 1%;}
+  .col-12.py-3.rounded-right.cfm-player-info .col-xl-12.col-lg-6.col-md-12.pt-2 .col-xl-10 {    position: relative;    top: -25px!important;}
+.col-12.d-flex.align-items-left.justify-content-center.cfm-player-team-logo h1.cfm-team-name, .col-12.d-flex.align-items-left.justify-content-center.cfm-player-team-logo .col-xl-10:nth-child(3) {    margin-top: 15px;}
+ .card .d-flex.Teamcolors .w-25 .d-flex.align-items-center.justify-content-center {    width: 100%!important;}
+ .d-flex.Teamcolors p.mb-0.text-muted {   top: -5px;    position: relative;  width: 100%!important;}
+  .col-12.py-3.card-madden-team.rounded-right .cfm-player-info h2 {    font-size: medium;}
+  
+/*league leaders home page***/
+.container-fluid-stats table.dl-table1 .thd1 td {     width:100%!important;     background-position: 50% 50%, 0 0, 0 0;   background-size: 85%,100%, auto;    padding-left: 0px;}
+.passingleaders.table-responsive td:nth-child(8), .passingleaders .table-responsive td:nth-child(8) {    display: -webkit-inline-box!important;}
+.rushingleaders .col-xl-10 td:nth-child(9), .rushingleaders .col-xl-10 th:nth-child(9) {    display: -webkit-box!important;}
+.receivingleaders .col-xl-10 td:nth-child(8), .receivingleaders .col-xl-10 th:nth-child(8) {    display: -webkit-box!important;}
+.receivingleaders .col-xl-10 td:nth-child(5), .receivingleaders .col-xl-10 th:nth-child(5) {    display: none;}
+.sacksleaders .col-xl-10 td:nth-child(2), .sacksleaders .col-xl-10 th:nth-child(2) {    display: none;}
+.tacklesleaders .col-xl-10 td:nth-child(3), .tacklessleaders .col-xl-10 th:nth-child(3) {    display: none;}
+.interceptionsleaders .col-xl-10 td:nth-child(6), .interceptionsleaders .col-xl-10 th:nth-child(6) {    display: -webkit-box!important;}
+.interceptionsleaders .col-xl-10 td:nth-child(2), .interceptionsleaders .col-xl-10 th:nth-child(2), .interceptionsleaders .col-xl-10 td:nth-child(3), .interceptionsleaders .col-xl-10 th:nth-child(3) {    display: none!important;}
+.container-fluid-stats table.dl-table1 {    overflow: hidden;}
+  
+/*player search page****/
+.legendtwo {     position: absolute;     text-align: center; top: 0px;  z-index: 1;    width: 100%;   left: 0px;}
+form.form-horizontal {    position: relative;    padding: 20px;    width: 100%;    background: #d6d6d6;    z-index: 2;    top: 30px;    left: 0px;}
+form.form-horizontal .col-xl-10 {    margin-bottom: -15px;}
+label.col-xl-2.col-form-label {    margin-bottom: -5px;}
+td {    padding: 4px;}
+ul.players-add-filter.dropdown-menu.show {  width: 100%;    padding: 6%;   background: #343a40!important;  color: #ffffff;    text-align: center;   z-index: 1;    transform: translate3d(3px, -271px, 0px)!important;}
+label {    font-size: smaller;}
+table.responsive {    margin-left: 0px;    overflow-x: scroll;    display: block;    white-space: nowrap;}
+th {    text-align: inherit;    padding: 3px;}
+table.responsive> thead:first-child > tr:first-child > th:first-child {   position: absolute;    display: inline-block; width:36%;  background-color: #ccc;}
+table.responsive> tbody > tr > td:first-child {      position: absolute;    display: inline-block;    background-color: #ffffff;   width: 36%;}
+table.responsive> thead:first-child > tr:first-child > th:nth-child(2) {    padding-left: 155px;}
+table.responsive> tbody > tr > td:nth-child(2) {    padding-left: 155px !important;}
+tr.tbdy1:nth-child(odd) {    background: white;}
+.card {    overflow: unset;}
+
+/*Storylines***/
+.info img.img {    object-fit: cover;    width: 100%;    height: 300px;    position: relative;    top: -125px;}
+.info {    height: 350px;}
+h4 strong a {    animation: 7s fadein-slideup;    text-transform: uppercase;    float: left;    width: 100%;    color: #283b62;    position: relative;    top: 222px;    text-align: center;    padding: 18px;    font-size: 7vw;    z-index: 1;    line-height: 85px;    letter-spacing: -2px;    height: 85px;    text-shadow: none;}
+.blogpostfooter {    position: relative;    top: -43px;    text-align: center;}
+div#hp-stories {    position: relative;display: block;    overflow: hidden;    height: 380px;}
+div#news-stream-container {    height: 400px;    margin-bottom: 5%;    overflow: hidden;}
+
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {     /* start of large tablet styles*********************************************************/
+
+  
+  /*menu***/
+img.scoreboard:nth-child(2) {    left: -1.6rem;}
+img.scoreboard {     padding: .75%;    top: 7px;    width: 25%;      object-position: 25px 29%;  right: -1.85rem;    display: -webkit-inline-box;   height: 75%;  }
+.teamname:nth-child(3) {    left: 2rem;}
+.teamname {     font-size: small;   right: 2rem;}
+span.cfm-score-hts.cfm-score-home.cfm-score-score {   right: 6rem;}
+span.cfm-score-vts.cfm-score-visitor.cfm-score-score {    left: 6rem;}
+li#game- {    background-size: 13%;}
+.cfm-score-score {    font-size: 1rem;    width: 2rem;}
+div#mem {    top: 37px;}
+.dropdown-item {    color: #5d9cec;}
+
+  /*setup***/
+.row {      margin-right: -5px;    margin-left: -5px;  white-space: nowrap;}
+
+/*GOW*/
+div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {    height: 300px;}
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek {     background: url(https://i.imgur.com/6Uw8tza.png);    background-size: 8%;    background-position: 50%;    background-repeat: no-repeat;}
+.col-6.d-flex.align-items-center.justify-content-center.rounded-left {    background-position: -8rem 50%;}
+.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {    background-position: 8rem 50%;}
+span.away, span.home {    top: 3rem;}
+span.away p:nth-child(2), span.home p:nth-child(2) {    font-size: large;}
+span.away {    right: 2rem;}
+span.home {    left: 2rem;}
+.gow.home.score {    right: 10rem;    top: 10rem;}
+.gow.away.score {    left: 12rem;    top: 10rem;}
+
+
+}
