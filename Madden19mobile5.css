@@ -251,7 +251,7 @@ div#tmpg .row.row-flush.cfm-team-schedule .h2.m-0.text-bold { display:none;}
 div#tmpg .row.row-flush.cfm-team-schedule .m-0.text-muted.text-uppercase {       font-size: x-small;    top: 14px;  padding: 4px;   color: gray!important;    position: relative;}
 div#tmpg .col-12.py-3.rounded-right.cfm-team-info .h2.mt-0, div#tmpg .col-12.py-3.rounded-right.cfm-team-info .col-xl-10:nth-child(-n+3) {    animation: fadein-slidedown  3s;}
 div#tmpg div#scores .col-xl-10 {    margin-bottom: -63px;}
-div#tmpg .cfm-player-team-logo img {      animation: fadein-slidedown 3s;  width: auto!important;  left: 0px;  height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 40%, black 70%);   mask-image: linear-gradient(to bottom, transparent 43%, black 70%);}
+div#tmpg .cfm-player-team-logo img {      animation: fadein-slidedown 3s;  width: auto!important;  left: 0px;  height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 42%, black 73%);   mask-image: linear-gradient(to bottom, transparent 42%, black 73%);}
 
   
   /*Player Page*/
