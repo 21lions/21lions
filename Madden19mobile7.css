@@ -24,7 +24,33 @@ a.navbar-brand:before {
 .dropdown-menu.dropdown-menu-right.animated.flipInX.show {   float: left!important;    position: absolute!important;    left: 0px!important;    width: 100%!important;    top: -7px!important;    background: white!important;}
  
   
-/*setup***/
+/*new scoreboard***/
+div#js-ticker-fade div#scores  .cfm-team-schedule img {     margin: -6px 0px;    background: #b9b9b9;    overflow: hidden;     o bject-fit: cover;    height: 71px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 {    top: -8px;} 
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-6 {   top: -12px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 .card-body.text-center .m-0.text-muted.text-uppercase, div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3.text-center.d-flex.align-items-end.justify-content-end.rounded-right .m-0.text-muted.text-uppercase {    top: -5px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 {    top: 5px; }
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {    font-size: 1.2rem;    background: #343a40;    color: #ececec;     top: 5px;}
+div#js-ticker-fade div#scores .cfm-team-schedule img {    object-fit: cover;}
+
+  
+  /***scoreboard***/
+div#js-ticker-fade { position: absolute ; top: 30px;}
+  .cfm-score-index-0 {    width: 100%;}
+img.scoreboard {  object-position: 22px 29%;   top: 6px;    height: 80%;    right: -25px;}
+img.scoreboard:nth-child(2) {    object-fit: contain;  left: -22px;}
+.teamname {  right:35px;   font-size: larger;}
+.teamname:nth-child(3) {    left: 34px;}
+.cfm-score-score {    font-size: small;}
+span.cfm-score-hts.cfm-score-home.cfm-score-score {    right: 4rem;}
+span.cfm-score-vts.cfm-score-visitor.cfm-score-score {    left: 4rem;}
+li#game- {    background-size: 17%;}
+li#game-:nth-child(odd) {    border-right: unset;}
+div#flip {    border-top: 0px solid #ff1d1d;  top: 60px;  padding: 7px;}
+div#flip h4 {   top:0px; position:relative;  font-size: smaller;  padding-left: 10px;    float: left;  animation: fadein-left 3s ease-in;   padding: 0px;    font-family: oswald;}
+
+    
+    /*setup***/
 .row {      margin-right: -5px;    margin-left: -5px;  white-space: nowrap;}
 .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {    margin-bottom: 0rem;
 }
@@ -124,30 +150,6 @@ div#gamerecapdownload .pull-right {      float: right!important;    background: 
 .d-flex.align-items-center .ml-auto.col.wd-xxs.text-right.p-0 .text-muted {    color: #6c757d!important;    Font-family: DLSansCondMedium;    padding: 10px;}
 
   
-/*new scoreboard***/
-div#js-ticker-fade div#scores  .cfm-team-schedule img {     margin: -6px 0px;    background: #b9b9b9;    overflow: hidden;     o bject-fit: cover;    height: 71px;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 {    top: -8px;} 
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-6 {   top: -12px;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 .card-body.text-center .m-0.text-muted.text-uppercase, div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3.text-center.d-flex.align-items-end.justify-content-end.rounded-right .m-0.text-muted.text-uppercase {    top: -5px;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 {    top: 5px; }
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {    font-size: 1.2rem;    background: #343a40;    color: #ececec;     top: 5px;}
-div#js-ticker-fade div#scores .cfm-team-schedule img {    object-fit: cover;}
-
-  
-  /***scoreboard***/
-div#js-ticker-fade { position: absolute ; top: 30px;}
-  .cfm-score-index-0 {    width: 100%;}
-img.scoreboard {  object-position: 22px 29%;   top: 6px;    height: 80%;    right: -25px;}
-img.scoreboard:nth-child(2) {    object-fit: contain;  left: -22px;}
-.teamname {  right:35px;   font-size: larger;}
-.teamname:nth-child(3) {    left: 34px;}
-.cfm-score-score {    font-size: small;}
-span.cfm-score-hts.cfm-score-home.cfm-score-score {    right: 4rem;}
-span.cfm-score-vts.cfm-score-visitor.cfm-score-score {    left: 4rem;}
-li#game- {    background-size: 17%;}
-li#game-:nth-child(odd) {    border-right: unset;}
-div#flip {    border-top: 0px solid #ff1d1d;  top: 60px;  padding: 7px;}
-div#flip h4 {   top:0px; position:relative;  font-size: smaller;  padding-left: 10px;    float: left;  animation: fadein-left 3s ease-in;   padding: 0px;    font-family: oswald;}
 
 /*Teams Page***/
 .row.teampage .list-group-item.cfm-hp-playoffrace .media-body.text-truncate p.mb-1 {    position: relative;    text-align: left;    left: -120px;    top: 1px;}
