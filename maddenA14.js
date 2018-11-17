@@ -5,13 +5,7 @@ $('.Splash.col-lg-12.col-md-12.col-sm-12.col-xs-12').fadeIn('slow').delay(2000).
 /*DL personal menu ****/
 $( ".dropdown-menu.dropdown-menu-right.animated.flipInX.show" ).wrap( "<div class='col-xl-12'></div>" );
 
-/***scoreboard*****/
- $('div#flip2').attr('class', 'simple-ticker');
-$('.simple-ticker').attr('id', 'js-ticker-fade');
-    $("div#js-ticker-fade").hide();
-    $("#flip").on("click", function(){
-        $("div#js-ticker-fade").fadeToggle('slow');
-    });
+
 
 /***Jumbotron****/
 $('.jumbotron').fadeIn('slow').delay(20000).fadeOut('slow');
