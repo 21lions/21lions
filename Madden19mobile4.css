@@ -19,7 +19,10 @@ a.navbar-brand:before {
     position: relative;
     top: 13px;
 }
-  
+ .dropdown-menu .dropdown-item {    padding: 0.4rem 1rem;}
+.dropdown-menu.dropdown-menu-right.animated.flipInX.show .media p.m-0 {   word-spacing: 5px;    text-align: left;    float: left;    left: 15px;    top: 4px;    position: relative;}
+.dropdown-menu.dropdown-menu-right.animated.flipInX.show {   float: left!important;    position: absolute!important;    left: 0px!important;    width: 100%!important;    top: -7px!important;    background: white!important;}
+ 
   
 /*setup***/
 .row {      margin-right: -5px;    margin-left: -5px;  white-space: nowrap;}
@@ -44,13 +47,14 @@ div#frontoffice_wrapper li.nav-item {    width: 50%;}'
   
   
 /*pow****/
-.col-lg-6.col-md-12.col-sm-12.col-xs-12 .card .card-header {   letter-spacing:0px;  font-size: small;}
+.cfm-hp-powerrankings .rank {    font-size: .7rem;}
+.col-lg-6.col-md-12.col-sm-12.col-xs-12 .card .card-header {   letter-spacing:0px;  font-size: x-small;}
 .oplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left, .dplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left {    width: 100%!important;}
-div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {       position: relative;    float: left;    left: 0px;    display: inline-block;    top: 0px;    width: 100%!important;    height: 200px!important;    object-position: 0px -55px;    margin-right: 0rem!important;    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 49%);    mask-image: linear-gradient(to bottom, transparent 0%, black 25%);}
+div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {       position: relative;    float: left;    left: 0px;    display: inline-block;    top: 0px;    width: 100%!important;    height: 200px!important;    object-position: 0px -55px;    margin-right: 0rem!important;   -webkit-mask-image: linear-gradient(to top, transparent 25%, black 45%);    mask-image: linear-gradient(to bottom, transparent 25%, black 45%);}
 div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-container img.rounded-circle.thumb24 {       position: absolute;
-    width: 100%!important;    height: auto!important;    left: 0px;    top: -178px;    z-index: -1;    -webkit-mask-image: linear-gradient(to top, transparent 26%, black 80%);    mask-image: linear-gradient(to bottom, transparent 33%, black 50%);}
-.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    font-size:small; position: absolute;    top: -67px;    width: 100%!important;}
-.oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {    position: relative;    line-height: 0px; font-size:small;    top: -4px!important;}
+    width: 100%!important;    height: auto!important;    left: 0px;    top: -178px;    z-index: -1;  -webkit-mask-image: linear-gradient(to top, transparent 25%, black 45%);    mask-image: linear-gradient(to bottom, transparent 25%, black 45%);}
+.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    top: -107px;  font-size:small; position: absolute;   line-height: 0px;    width: 100%!important;}
+.oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {    position: relative;  line-height: 23px;    top: 39px!important;font-size:small;}
   
   /*power rankings****/
 div#powerrankings span.fa-stack img {    width: 4rem;    position: relative;    top: -15px;}
@@ -115,7 +119,7 @@ div#gamerecapdownload .col-12.py-3.card-madden-team.rounded-right .cfm-player-in
 .col-4.d-flex.align-items-center.justify-content-center.rounded-left.cfm-team-logo-medium img {  height: auto;    width: auto;    object-fit: cover;}
 .card.card-default ul.nav.nav-tabs li.nav-item {    width: 33%!important;}
 div#playerstats .col-8.py-3.card-madden-team.rounded-right {    flex: 85%;    max-width: 85%;}
-div#gamerecapdownload .pull-right {    float: right!important;    background: #e9ecef;    padding: 8px;   color: #353638;    font-family: anton;  border-radius: 5px;    border-top: white 1px solid;    border-left: 1px #d2c8c8 solid;    border-right: 1px darkgray solid;    border-bottom: 1px #5f5a5a solid;}
+div#gamerecapdownload .pull-right {      float: right!important;    background: #e9ecef00;   padding: 0px;    color: #ffffff;    font-size: smaller;   font-family: anton;    border-radius: 5px;    border-top: white 0px solid;    border-left: 0px #d2c8c8 solid;    border-right: 0px darkgray solid;    border-bottom: 0px #5f5a5a solid;}
 .card-body.bb {    display: -webkit-box;    column-count: 2;}
 .d-flex.align-items-center .ml-auto.col.wd-xxs.text-right.p-0 .text-muted {    color: #6c757d!important;    Font-family: DLSansCondMedium;    padding: 10px;}
 
@@ -142,11 +146,18 @@ span.cfm-score-hts.cfm-score-home.cfm-score-score {    right: 4rem;}
 span.cfm-score-vts.cfm-score-visitor.cfm-score-score {    left: 4rem;}
 li#game- {    background-size: 17%;}
 li#game-:nth-child(odd) {    border-right: unset;}
-div#flip {   top: 60px;  padding: 7px;}
-div#flip h4 {    font-size: smaller;  padding-left: 10px;    float: left;  animation: fadein-left 3s ease-in;   padding: 0px;    font-family: oswald;}
+div#flip {    border-top: 0px solid #ff1d1d;  top: 60px;  padding: 7px;}
+div#flip h4 {   top:0px; position:relative;  font-size: smaller;  padding-left: 10px;    float: left;  animation: fadein-left 3s ease-in;   padding: 0px;    font-family: oswald;}
 
 /*Teams Page***/
-
+.row.teampage .list-group-item.cfm-hp-playoffrace .media-body.text-truncate p.mb-1 {    position: relative;    text-align: left;    left: -120px;    top: 1px;}
+.row.teampage .list-group-item.cfm-hp-playoffrace .media .media-body.text-truncate {    height: 60px;    top: -3px;    text-align: left!important;    left: 36px!important;    position: relative;    float: left!important;}
+div#tmpg .col-4 {    margin-bottom: 2rem;   flex: 0 0 33%;    max-width: 33%;}
+div#tmpg .col-4 h3.m-0 {    font-size: .6rem;}
+.col-12.py-3.rounded-right.cfm-team-info .col-xl-10 {    margin-top: 203px;    margin-bottom: -226px;}
+.col-12.d-flex.align-items-left.justify-content-center.cfm-team-logo img {       display: inline-block;    right: unset;    animation: fadein-slideup  4s;    width: auto!important;    height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 80%);    mask-image: linear-gradient(to bottom, transparent 0%, black 80%);}
+.ml-auto span.text-muted.ml-2.teamname {   width: 49px;    padding: 5px;}
+.list-group-item.cfm-hp-playoffrace {    height: 70px;}
     
     /*GOW*/
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek {     background: url(https://i.imgur.com/6Uw8tza.png);
@@ -165,9 +176,9 @@ span.away p:nth-child(3), span.home p:nth-child(3) {    font-size: x-large;    l
 .gow.home.score {    float: right;    right: 3rem;    top: 5.75rem;    width: 100px;}
 .gow.away.score h4.mt-0 {    font-size: xx-large;    left: 26px;    position: absolute;    background: #00000099;    width: 50px;    top: 11px;}
 .gow.home.score h4.mt-0 {     font-size: xx-large;    right: 57px;   position: absolute;    background: #00000099;    width: 50px;    top: 11px;    z-index: 1;}
-.gow.away.score p.mb-0.text-muted {      top: -.5rem;  font-size: xx-small;  left:-33px;  letter-spacing: 1px;}
-.gow.home.score p.mb-0.text-muted {      top: -.5rem;  font-size: xx-small; right:-3px;   letter-spacing: 1px;}
-div#gameoftheweek-container .text-muted {    top: -28px;}
+.gow.away.score p.mb-0.text-muted {      top:-25px;  font-size: xx-small;  left:-33px;  letter-spacing: 1px;}
+.gow.home.score p.mb-0.text-muted {      top: -.5rem;  font-size: xx-small; right:5px;   letter-spacing: 1px;}
+div#gameoftheweek-container .text-muted {    top: -25px;}
 span.away p:nth-child(2), span.home p:nth-child(2), span.away p:nth-child(3), span.home p:nth-child(3) {    top: 23px;    position: relative;    line-height: 9px;}
 
 /*storylines***/
@@ -184,9 +195,10 @@ div#news-stream-container .info img.img {  object-fit: cover;    width: 100%;   
 div#news-stream-container {    height: 355px;}
 
 /*storylines page***/
-.blogpostfooter {   font-size: smaller;    top: 0px;    animation: fadein 5s;}
-h4 strong a {     animation: 2s fadein-slidedown;    font-family: oswald;    color: #283b62;    top: 230px;    font-size: 8vw;    letter-spacing: -2px;}
-.col-lg-12.col-md-12.col-sm-12.col-xs-12.storylines button.btn.btn-danger {    top: -4px;    right: 20px;}
+.blogpostfooter {   font-size: smaller;   display: contents; top: 0px;    animation: fadein 5s;}
+div#news-stream-container h4 strong a {    top: 200px!important;}
+div#news-stream-container div#hp-stories {  position: relative;    display: block;    overflow: hidden;    height: 305px;}h4 strong a {     animation: 2s fadein-slidedown;    font-family: oswald;    color: #283b62;    top: 230px;    font-size: 8vw;    letter-spacing: -2px;}
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.storylines button.btn.btn-danger {    top: 0px;    right: 20px;}
 .blogpost p, .blogpost i {    font-family: DLSansCondMedium!important;    font-size: 1.1em!important;    font-style: normal!important;   font-weight: lighter!important;}
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.storylines.hidden.animation-complete {    margin-top: 1rem;}
 div#commentcontainer form.form-horizontal table tr:nth-child(1) td:nth-child(1) {    display: none;}
@@ -195,7 +207,8 @@ h2#commentheading {    font-size: larger;}
 .blogpost a {    text-transform: uppercase;}
 .blogpost img.img {    height: 200px;}
 div#hp-stories .info {    top: -78px;    height: 270px;    position: relative;}
-
+div#news-stream-container .blogpostfooter {    display: inherit;}
+    
 /*standings***/
 .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 .card-default .card-header {    font-size: small;}
 .nfc.standings .table-responsive, .afc.standings .table-responsive {    column-count: 1;    white-space: nowrap;}
@@ -238,12 +251,12 @@ div#tmpg .row.row-flush.cfm-team-schedule .h2.m-0.text-bold { display:none;}
 div#tmpg .row.row-flush.cfm-team-schedule .m-0.text-muted.text-uppercase {       font-size: x-small;    top: 14px;  padding: 4px;   color: gray!important;    position: relative;}
 div#tmpg .col-12.py-3.rounded-right.cfm-team-info .h2.mt-0, div#tmpg .col-12.py-3.rounded-right.cfm-team-info .col-xl-10:nth-child(-n+3) {    animation: fadein-slidedown  3s;}
 div#tmpg div#scores .col-xl-10 {    margin-bottom: -63px;}
-div#tmpg .cfm-player-team-logo img {      animation: fadein-slidedown 3s;  width: auto!important;  left: 0px;  height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 43%, black 70%);    mask-image: linear-gradient(to bottom, transparent 43%, black 70%);}
+div#tmpg .cfm-player-team-logo img {      animation: fadein-slidedown 3s;  width: auto!important;  left: 0px;  height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 40%, black 70%);   mask-image: linear-gradient(to bottom, transparent 43%, black 70%);}
 
   
   /*Player Page*/
 .col-1.d-flex.align-items-left.justify-content-center.cfm-player-team-logo {    position: absolute;    width: 100%;    height: 100%;}
-.cfm-player-team-logo img {     animation: fadein-slidedown 3s;  width: 100%!important;  left: 0px;  height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 50%, black 70%);    mask-image: linear-gradient(to bottom, transparent 50%, black 70%);  margin: auto;    object-fit: cover;    position: relative;}
+.cfm-player-team-logo img {     animation: fadein-slidedown 3s;  width: 100%!important;  left: 0px;  height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 50%, black 70%);    mask-image: linear-gradient(to bottom, transparent 50%, black 70%);  margin: auto;    object-fit: cover;    position: absolute;}
 .cfm-player-team-logo, .cfm-team-logo, .cfm-team-stats {    background-color: rgba(0, 0, 0, 0);}
 .rounded-circle {    border-radius: 0%!important;}
 img.rounded-circle.thumb128 {         animation: fadein-slideup 1s;  width: 20rem!important;    height: auto !important;    margin: auto;    top: -40px;    left: -172px;    position: absolute;    border-bottom: 0px solid;    object-position: 50% -18px;    -webkit-mask-image: linear-gradient(to top, transparent 13%, black 35%);    mask-image: linear-gradient(to bottom, transparent 13%, black 35%);}
@@ -327,7 +340,7 @@ span.cfm-score-hts.cfm-score-home.cfm-score-score {   right: 6rem;}
 span.cfm-score-vts.cfm-score-visitor.cfm-score-score {    left: 6rem;}
 li#game- {    background-size: 13%;}
 .cfm-score-score {    font-size: 1rem;    width: 2rem;}
-div#mem {    top: 37px;}
+div#mem {    top: 36px;}
 .dropdown-item {    color: #5d9cec;}
 
   /*setup***/
