@@ -289,7 +289,8 @@ table.table.table-hover, table.dl-table1 {    border: 2px solid #ccc0;    overfl
  .card .d-flex.Teamcolors .w-25 .d-flex.align-items-center.justify-content-center {    width: 100%!important;}
  .d-flex.Teamcolors p.mb-0.text-muted {   top: -5px;    position: relative;  width: 100%!important;}
   .col-12.py-3.card-madden-team.rounded-right .cfm-player-info h2 {    font-size: medium;}
-  
+ .att-snapshot em.fa.fa-chevron-circle-down {    display: contents;}
+    
 /*league leaders home page***/
 .container-fluid-stats table.dl-table1 .thd1 td {     width:100%!important;     background-position: 50% 50%, 0 0, 0 0;   background-size: 85%,100%, auto;    padding-left: 0px;}
 .passingleaders.table-responsive td:nth-child(8), .passingleaders .table-responsive td:nth-child(8) {    display: -webkit-inline-box!important;}
