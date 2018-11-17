@@ -12,10 +12,32 @@ a:hover {    color: #283b62;    text-decoration: none;}
 .card-default {    border-top-width: 0px;}
 h4 strong a {   z-index: 1;}
 h4 strong a:hover {    color: white;}
-.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {    margin-bottom: 1rem;
-}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {    margin-bottom: 1rem;}
 [src*="/FA.png"]{content:url(https://i.imgur.com/ImyLtZ8.png);}
 .text-center {    text-align: center!important;    font-family: DLSansCondMedium;    text-transform: uppercase;  }
+table.dl-table1 tr:nth-child(odd) {    background-color: #f2f2f200;}
+table.dl-table1 tr:hover {    background-color: #f5f5f500;}
+@keyframes fadein-slidein-left {
+  from {    opacity: 0;    transform: translateX(-500px); transform: translateY(-100px);  }
+    to {    opacity: 1; transform: translateX(0px);    transform: translateY(0);  }
+}
+@keyframes fadein {
+    from {        opacity:0;    }
+    to {      opacity:1;  }
+}
+@keyframes fadein-slideup {
+  from {   opacity: 0;    transform: translateY(20px);  }
+    to {    opacity: 1;    transform: translateY(0);  }
+}
+
+@keyframes fadein-slidedown {
+  from {   opacity: 0;    transform: translateY(-20px);  }  
+  to {    opacity: 1;    transform: translateY(0);  }
+}
+@keyframes fadein-left {
+  from {    opacity: 0;    transform: transform: translateX(-100px);  }
+    to {    opacity: 1; transform: transform: translateX(0);  }
+}
 
 
 /*Footer***/
@@ -194,7 +216,7 @@ a.yui3-scorestrip-tile-content{     display: flex;     border-right: 2px solid;
 .yui3-scorestrip-tile-index-0 {left: -20px; min-width: 50%;}
 .yui3-scorestrip-tile {   border-right: 0px solid #cccccc78;  left:-49px,  top: -9px; height: 45px;}
 #scorelist {     height: 45px;    overflow: hidden;    top: -5px;}
-div#flip {      position: fixed;
+div#flip {      position: fixed;   display: -webkit-inline-box;  
     top: 63px;
     width: 100%;
     border-top: 4px solid #ff1d1d;
@@ -214,6 +236,7 @@ div#flip {      position: fixed;
 }
 div#js-ticker-fade {    height: auto !important;}
 .scorelist {    display: none;} 
+div#flip h4.card-title {   text-align: center;    width: 100%!important;}
 
 
 /*front-office page get rid of trade link***/
@@ -295,7 +318,7 @@ div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameofthew
 .home.team.cle,  .away.team.cle {   background: linear-gradient(to top, rgba(0, 0, 0, 0.26), rgba(255, 255, 255, 0)),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), #3f230d;   }
 .home.team.dal,  .away.team.dal {   background: linear-gradient(to top, rgba(0, 0, 0, 0.26), rgba(255, 255, 255, 0)),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), #a9b4c1;   }
 .home.team.den,  .away.team.den{   background: linear-gradient(to top, rgba(0, 0, 0, 0.26), rgba(255, 255, 255, 0)),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), #002a5c;   }
-.home.team.det,  .away.team.det {   background: linear-gradient(to top, rgba(0, 0, 0, 0.26), rgba(255, 255, 255, 0)),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), #002a5c;   }
+.home.team.det,  .away.team.det {   background: linear-gradient(to top, rgba(0, 0, 0, 0.26), rgba(255, 255, 255, 0)),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), #0076b6;   }
 .home.team.ind , .away.team.ind {  background: linear-gradient(to top, rgba(0, 0, 0, 0.26), rgba(255, 255, 255, 0)),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), #003a70;   }
 .home.team.gb, .away.team.gb{  background: linear-gradient(to top, rgba(0, 0, 0, 0.26), rgba(255, 255, 255, 0)),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), #ffc20e;   }
 .home.team.hou, .away.team.hou {  background: linear-gradient(to top, rgba(0, 0, 0, 0.26), rgba(255, 255, 255, 0)),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), #03202f;   }
@@ -540,7 +563,9 @@ div#transactions tr.tbdy1 {
     position: absolute;
     display: contents;
 }
-
+div#transactions .dl-table1 td.tbdy1, div#transactions table.dl-table1 .tbdy1 td {
+    color: #283b62!important;
+}
 .marquee { 
   height: 25px;
   width: 100%; padding-top:3px; 
@@ -600,7 +625,7 @@ width: 100%;
 .dl-table1 td.tbdy1, table.dl-table1 .tbdy1 td {
     background-color: #fff0;
     border-bottom: 0px dotted #ddd;
-    color: #344d7f;
+    color: #d2d1d1;
 }
 table.dl-table1 {    border: 0px solid #ccc;}
 table.dl-table1 .tbdy1 td {    padding: 5px 5px;}
@@ -795,8 +820,10 @@ p.mb-0.text-muted {    margin-top: -22px;    float: left;    padding-left: 5px;}
 .col-12.d-flex.align-items-left.justify-content-center.cfm-player-team-logo h1.cfm-team-name, .col-12.d-flex.align-items-left.justify-content-center.cfm-player-team-logo .col-xl-10 {    padding: 2px;}
 .col-xl-12 .card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors .col-xl-10:nth-child(3) .row .col-4:nth-child(3) {    display: none;}
 .att-snapshot {    font-family: DLTechBold;    padding: 5px;    position: relative;    text-align: center;  top:-50px;  text-transform: uppercase;}
+.cfm-player-skill tbody tr:nth-child(odd), .cfm-player-skill tbody tr:nth-child(2n) {    background: none repeat scroll 0 0 #f5f5f500;}
 
 /*Team page***/
+.cfm-player-skill .greenskills {    color: #37ef37;    text-shadow: 0 0px 35px #b3f5b3;}
 .cfm-hp-playoffrace .teamname {    font-size: 1.125rem;    float: left;   top: 3px;  color: #333;    text-align: left;    left: 124px;    font-family: anton;    text-transform: uppercase;}
 .cfm-hp-playoffrace .badge {      font-size: 0.8rem;    font-family: DLSansCondMedium;    background: transparent;    top: 6px;    left: -105px;    position: relative;}
 a.btn.btn-oval.btn-secondary {    display: contents;}
