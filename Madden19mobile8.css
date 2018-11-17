@@ -47,7 +47,7 @@ span.cfm-score-vts.cfm-score-visitor.cfm-score-score {    left: 4rem;}
 li#game- {    background-size: 17%;}
 li#game-:nth-child(odd) {    border-right: unset;}
 div#flip {    border-top: 0px solid #ff1d1d;  top: 60px;  padding: 7px;}
-div#flip h4 {   top:0px; position:relative;  font-size: smaller;  padding-left: 10px;    float: left;  animation: fadein-left 3s ease-in;   padding: 0px;    font-family: oswald;}
+div#flip h4 {   top:0px; position:relative;  font-size: small;  padding-left: 10px;    float: left;  animation: fadein-left 3s ease-in;   padding: 0px;    font-family: oswald;}
 
     
     /*setup***/
