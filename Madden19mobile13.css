@@ -1,6 +1,6 @@
 /***mobile layout*************************************************************************************************************************************************/
 
-@media screen and (min-width: 325px) and (max-width: 1000px) {     /* start of medium tablet styles********************** */
+@media screen and (min-width: 325px) and (max-width: 768px) {     /* start of medium tablet styles********************** */
 /***menu***/
 ul.navbar-nav {    float: left;    left: 1rem;    text-align: left;    position: relative;}
 .dropdown-menu.show {   top: -.51rem;    position: relative;}
