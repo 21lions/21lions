@@ -279,7 +279,7 @@ div#news-stream-container {    height: 455px;}
 h3#gow {    width: 100%;}
 p em.icon-user {    padding: 3px;}
 div#gameoftheweek-container h4.mt-0 {    top: 47px;}
-div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {   padding:0px;  height: 300px;}
+div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {   padding:0px;  height: 18rem;}
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek {
     background:url(https://i.imgur.com/6Uw8tza.png);
     background-size: 3%;
