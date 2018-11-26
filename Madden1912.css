@@ -278,7 +278,6 @@ div#news-stream-container {    height: 455px;}
 /*GOW****/
 h3#gow {    width: 100%;}
 p em.icon-user {    padding: 3px;}
-div#gameoftheweek-container h4.mt-0 {    top: 47px;}
 div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {   padding:0px;  height: 18rem;}
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek {
     background:url(https://i.imgur.com/6Uw8tza.png);
@@ -288,9 +287,6 @@ div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameofthew
 }
 .col-3.d-flex.align-items-center.justify-content-center.rounded-left, .col-3.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {
     background-size: 100% !important;
-}
-.gow.away.score, .gow.home.score {
-    position: absolute; color:white; text-shadow: 0 1px 1px black; 
 }
 .col-6.d-flex.align-items-center.justify-content-center.rounded-left {
     background-repeat: no-repeat;
@@ -373,48 +369,6 @@ span.away p:nth-child(3), span.home p:nth-child(3) {
 }
 span.away, span.home {
     top: 3rem;
-}
-.gow.home.score {
-    float: right;
-    right: 24rem;
-    top: 9rem;
-    width: 100px;
-}
-.gow.home.score h4.mt-0 {
-    font-size: 4rem;
-    right: 9.5rem;
-    position: absolute;
-    width: 75px;
-}
-.gow.home.score p.mb-0.text-muted {
-    top: -1rem;
-    position: absolute;
-    width: 100%;
-    right: 108px;
-    text-align: left;
-}
-.gow.away.score {
-    float: left;
-    left: 26rem;
-    top: 9rem;
-    width: 100px;
-}
-.gow.away.score h4.mt-0 {    font-size: 4rem;
-    left: 7.5rem;
-    position: absolute;
-    width: 75px;
-}
-.gow.away.score p.mb-0.text-muted {
-    top: -1rem;
-    position: absolute;
-    width: 100%;
-    left: 77px;
-    text-align: right;
-}
-
-div#gameoftheweek-container .text-muted {
-    color: #ffffff!important; top: 45px; 
-    text-shadow: 0 1px 1px black;
 }
 
 
