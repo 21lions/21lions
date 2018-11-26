@@ -332,17 +332,4 @@ div#mem {    top: 36px;}
   /*setup***/
 .row {      margin-right: -5px;    margin-left: -5px;  white-space: nowrap;}
 
-/*GOW*/
-div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {    height: 300px;}
-.col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek {     background: url(https://i.imgur.com/6Uw8tza.png);    background-size: 8%;    background-position: 50%;    background-repeat: no-repeat;}
-.col-6.d-flex.align-items-center.justify-content-center.rounded-left {    background-position: -8rem 50%;}
-.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {    background-position: 8rem 50%;}
-span.away, span.home {    top: 3rem;}
-span.away p:nth-child(2), span.home p:nth-child(2) {    font-size: large;}
-span.away {    right: 2rem;}
-span.home {    left: 2rem;}
-.gow.home.score {    right: 10rem;    top: 10rem;}
-.gow.away.score {    left: 12rem;    top: 10rem;}
-
-
 }
