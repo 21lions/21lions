@@ -162,27 +162,6 @@ div#tmpg .col-4 h3.m-0 {    font-size: .6rem;}
 .list-group-item.cfm-hp-playoffrace {    height: 70px;}
  .cfm-hp-playoffrace .teamname {    font-size: 1.125rem;    float: left;    top: 9px; text-align: left;    left: 71px;    font-family: anton;    text-transform: uppercase;}
    
-    /*GOW*/
-.col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek {     background: url(https://i.imgur.com/6Uw8tza.png);
-    background-size: 5%;
-    background-position: 50%;
-    background-repeat: no-repeat;}
-div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {  margin-bottom:3rem;  height: 200px;}
-.col-6.d-flex.align-items-center.justify-content-center.rounded-left {    background-position: -4rem 50%;}
-.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {    background-position: 4rem 50%;}
-span.away, span.home {    top: 1.5rem;}
-span.away {  right: 1rem;}
-span.home{  left: 1rem;}
-span.away p:nth-child(2), span.home p:nth-child(2) {    font-size: x-small;}
-span.away p:nth-child(3), span.home p:nth-child(3) {    font-size: x-large;    line-height: 0px;}
-.gow.away.score {    float: left;    left: 5rem;    top: 5.75rem;    width: 100px;}
-.gow.home.score {    float: right;    right: 3rem;    top: 5.75rem;    width: 100px;}
-.gow.away.score h4.mt-0 {    font-size: xx-large;    left: 26px;    position: absolute;    background: #00000099;    width: 50px;    top: 11px;}
-.gow.home.score h4.mt-0 {     font-size: xx-large;    right: 57px;   position: absolute;    background: #00000099;    width: 50px;    top: 11px;    z-index: 1;}
-.gow.away.score p.mb-0.text-muted {      top:-25px;  font-size: xx-small;  left:-33px;  letter-spacing: 1px;}
-.gow.home.score p.mb-0.text-muted {      top: -.5rem;  font-size: xx-small; right:5px;   letter-spacing: 1px;}
-div#gameoftheweek-container .text-muted {    top: -25px;}
-span.away p:nth-child(2), span.home p:nth-child(2), span.away p:nth-child(3), span.home p:nth-child(3) {    top: 23px;    position: relative;    line-height: 9px;}
 
 /*storylines***/
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.storylines.hidden.animation-complete .info img.img {    object-fit: cover;    width: 100%;    height: 300px;    position: relative;   top: 0px;}
