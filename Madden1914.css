@@ -546,16 +546,8 @@ table.dl-table1 .tbdy1 td {    padding: 5px 5px;}
  /*compare player page***/
 table.table.table-condensed.table-hover.player_compact div img {    display: none;}
 .col-lg-4.col-sm-4.col-md-4.col-xs-4 .btn:not(:disabled):not(.disabled) {    float: unset;    cursor: pointer;    display: block;    width: 100%;}
- /*pow****/
-.oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p  {    position: relative;    line-height: 0px;    top: 0px!important;}
-div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {     position: relative;    float: left;    left: 0px;    top: 0px;    width: 100%!important;    height: 250px!important;    object-position: 0px -180px;    object-fit: cover;     -webkit-mask-image: linear-gradient(to top, transparent 0%, black 25%);
-    mask-image: linear-gradient(to bottom, transparent 0%, black 25%);}
-div#oplayeroftheweek-container  .col-8.py-2.pl-0 .text-center, div#dplayeroftheweek-container  .col-8.py-2.pl-0 .text-center {    text-align: left!important;    float: left!important;    left: 89px!important;    position: relative;    top: 47px;}
-div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-container img.rounded-circle.thumb24 {  position: absolute;    width: 100%!important;    height: auto!important;    left: 0px;    top: -385px;    z-index: -1;    -webkit-mask-image: linear-gradient(to top, transparent 33%, black 50%);    mask-image: linear-gradient(to bottom, transparent 33%, black 50%);}
-div#oplayeroftheweek-container , div#dplayeroftheweek-container {    height: 285px;    overflow: hidden;}
-.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    position: relative;    top: -92px;}
-.col-lg-6.col-md-12.col-sm-12.col-xs-12 .card .card-header {    border-bottom: 0;    font-size: medium;    letter-spacing: 4px;    color: #343a40!important;    padding: .25rem .375rem;    background: linear-gradient(to top, rgb(199, 199, 199), rgb(255, 255, 255))!important;}
- /*league leaders***/
+
+/*league leaders***/
 .container-fluid-stats .col-xl-10 {    margin-bottom: 0rem;}
 .passingleaders.table-responsive td:nth-child(3), .passingleaders .table-responsive td:nth-child(3), .passingleaders.table-responsive td:nth-child(2), .passingleaders .table-responsive td:nth-child(2), .passingleaders tr.tbdy1:nth-child(n+12) ,  .rushingleaders tr.tbdy1:nth-child(n+12) , .sacksleaders tr.tbdy1:nth-child(n+12) ,  .tacklesleaders tr.tbdy1:nth-child(n+12) ,  .interceptionsleaders tr.tbdy1:nth-child(n+12) , .receivingleaders tr.tbdy1:nth-child(n+12) {    display: none;}
 .container-fluid-stats table.dl-table1 .thd1 td:hover {    opacity: 0;    transition: .5s ease-in;}
