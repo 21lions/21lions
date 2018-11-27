@@ -72,16 +72,7 @@ div#playerSearchContainer .form-group {    overflow-x: scroll;}
 div#frontoffice_wrapper li.nav-item {    width: 50%;}'
   
   
-/*pow****/
-.cfm-hp-powerrankings .rank {    font-size: .7rem;}
-.col-lg-6.col-md-12.col-sm-12.col-xs-12 .card .card-header {   letter-spacing:0px;  font-size: x-small;}
-.oplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left, .dplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left {    width: 100%!important;}
-div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {       position: relative;    float: left;    left: 0px;    display: inline-block;    top: 0px;    width: 100%!important;    height: 200px!important;    object-position: 0px -55px;    margin-right: 0rem!important;   -webkit-mask-image: linear-gradient(to top, transparent 25%, black 45%);    mask-image: linear-gradient(to bottom, transparent 25%, black 45%);}
-div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-container img.rounded-circle.thumb24 {       position: absolute;
-    width: 100%!important;    height: auto!important;    left: 0px;    top: -178px;    z-index: -1;  -webkit-mask-image: linear-gradient(to top, transparent 25%, black 45%);    mask-image: linear-gradient(to bottom, transparent 25%, black 45%);}
-.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    top: -107px;  font-size:small; position: absolute;   line-height: 0px;    width: 100%!important;}
-.oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {    position: relative;  line-height: 23px;    top: 39px!important;font-size:small;}
-  
+
   /*power rankings****/
 div#powerrankings span.fa-stack img {    width: 4rem;    position: relative;    top: -15px;}
 .cfm-hp-powerrankings .teamname {    font-size: .7rem;    color: #fff;    float: left;    left: 30px;}
