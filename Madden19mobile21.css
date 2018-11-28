@@ -182,12 +182,6 @@ h2#commentheading {    font-size: larger;}
 div#hp-stories .info {    top: -78px;    height: 270px;    position: relative;}
 div#news-stream-container .blogpostfooter {    display: inherit;}
     
-/*standings***/
-.Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 .card-default .card-header {    font-size: small;}
-.nfc.standings .table-responsive, .afc.standings .table-responsive {    column-count: 1;    white-space: nowrap;}
-.Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 th:nth-child(n+6), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 th:nth-child(n+6), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 td:nth-child(n+6), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 td:nth-child(n+6) {    display: none;}
-table.table.table-striped.cfm-standings th:nth-child(n+6), table.table.table-striped.cfm-standings td:nth-child(n+6) {
-    display: none;}
 
 /*carousel controls****/
 .carousel-control-next-icon, .carousel-control-prev-icon {    top: -13px;}
