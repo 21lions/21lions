@@ -87,7 +87,7 @@ $(".card-footer.text-center.cfm-player-attribute").hide();
 /*Team Page****/
 $( '.col-10.py-3.rounded-right.cfm-team-info').attr('class', 'col-12 py-3 rounded-right cfm-team-info');
 $(' .col-2.d-flex.align-items-left.justify-content-center.cfm-team-logo').attr('class', 'col-12 d-flex align-items-left justify-content-center cfm-team-logo  ');
-$(' .col-xl-10.col-lg-6.col-md-12.pt-2').attr('class', 'col-xl-12 col-lg-6 col-md-12 pt-2 ');
+$(' .col-xl-10.col-lg-6.col-md-12.pt-2').attr('class', 'col-xl-12 col-lg-12 col-md-12 pt-2 ');
  $('.col-xl-12.col-lg-6.col-md-12 .card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors').attr('id', 'tmpg');
 $(" ul.nav.nav-tabs").appendTo(".col-12.py-3.rounded-right.cfm-team-info  ");
 $(" .col-md-6.col-xs-6.col-sm-6 .card").appendTo(".col-12.py-3.rounded-right.cfm-team-info");
