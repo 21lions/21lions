@@ -93,7 +93,7 @@ $(" ul.nav.nav-tabs").appendTo(".col-12.py-3.rounded-right.cfm-team-info  ");
 $(" .col-md-6.col-xs-6.col-sm-6 .card").appendTo(".col-12.py-3.rounded-right.cfm-team-info");
 $(".card.card-madden-team").appendTo(".col-12.py-3.rounded-right.cfm-team-info");
  $('table.dl-table1.madden-team-table').appendTo(".col-12.py-3.rounded-right.cfm-team-info");
-$(" .col-xl-12.col-lg-6.col-md-12.pt-2").appendTo("div#tmpg .col-12.py-3.rounded-right.cfm-team-info");
+$(" .col-xl-12.col-lg-12.col-md-12.pt-2").appendTo("div#tmpg .col-12.py-3.rounded-right.cfm-team-info");
 
 /*front-office***/
 $("div#frontoffice_wrapper").attr('class', 'col-12 frontoffice_wrapper');
