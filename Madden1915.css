@@ -1,4 +1,5 @@
 /*Setup****/
+.slideitem {    overflow: hidden;}
 .layout-cfm, div#app, .content, .wrapper .section-container, body, .container footer {   background: #fff;}
 .layout-cfm .wrapper .section-container {  width:100%;     max-width: 100%; margin-top: 56px;}
 * {font-family: Oswald; }
@@ -260,14 +261,16 @@ div#news-stream-container .blogpostfooter {    text-align: center;    top: -92px
 div#news-stream-container {    height: 455px;}
 .col-md-12.col-xs-12.col-sm-12 img.img-responsive {    object-fit: cover;    width: 125%;    height: 500px;    position: relative;    top: 0px;    object-position: -150px -99px;}
  /*GOW****/
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek .col-xl-10 {    padding: 0;} 
 h3#gow {    width: 100%;}
 p em.icon-user {    padding: 3px;}
-div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {   padding:0px;  height: 18rem;}
+div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {    margin-bottom: -1rem!important;  padding:0px;  height: 18rem;}
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek {
-    background:url(https://i.imgur.com/6Uw8tza.png);
-    background-size: 3%;
-    background-position: 50%;
-    background-repeat: no-repeat; overflow:hidden; 
+    background: url(https://i.imgur.com/6Uw8tza.png),url(https://www.focusforhealth.org/wp-content/uploads/2017/10/Football-Stadium.jpg);
+    background-size: 3%, cover;
+    background-position: 50%, 0% 65%;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 .col-3.d-flex.align-items-center.justify-content-center.rounded-left, .col-3.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {
     background-size: 100% !important;
@@ -448,7 +451,7 @@ div#afc-playoff-container {   padding-top:27px;  padding-left: 45px;}
 div#nfc-playoff-container {  padding-top:27px;   padding-right: 45px;}
 div#afc-playoff-container small.text-muted.ml-2, div#nfc-playoff-container small.text-muted.ml-2 {    display: none;}
 span.fa-stack img { width: 10rem;    position: absolute;   top: -60px; }
-div#afc_playoff .cfm-hp-playoffrace .teamname, div#nfc_playoff .cfm-hp-playoffrace .teamname  {    font-size: 1.50rem;    color: #333;    font-family: DLSansCondMedium;    text-align: left;    line-height: inherit;}
+div#afc_playoff .cfm-hp-playoffrace .teamname, div#nfc_playoff .cfm-hp-playoffrace .teamname  {    font-size: 1rem;    color: #333;    font-family: DLSansCondMedium;    text-align: left;    line-height: inherit;}
 .list-group-item.cfm-hp-playoffrace {    padding: 5px;}
 div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0, div#afc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0 {    float: left;    left: 31rem;    position: absolute;    font-size: medium;    top: 11px;}
 .list-group-item.cfm-hp-playoffrace {    overflow: hidden;}
@@ -536,7 +539,7 @@ width: 100%;
 .dl-table1 td.tbdy1, table.dl-table1 .tbdy1 td {
     background-color: #fff0;
     border-bottom: 0px dotted #ddd;
-    color: #d2d1d1;
+    color: #283b62;
 }
 table.dl-table1 {    border: 0px solid #ccc;}
 table.dl-table1 .tbdy1 td {    padding: 5px 5px;}
@@ -581,10 +584,11 @@ p.list-group-item-text.salary span.overall {    margin-top: -20px;    font-size:
 .card-header {    padding: 0.2rem 0.25rem;}
 .card-header.h3.mb-0.AFCcolors, .card-header.h3.mb-0.NFCcolors {    font-size: small;}
  /*Power Rankings***/
+.cfm-hp-powerrankings .teamname {   font-size: larger;   color: #fff;    left: 35%;    float: left;    text-align: left;}
 .list-group-item.cfm-hp-powerrankings:nth-child(1) {    animation: fadein-slidedown ease 1.2s;}
 div#powerrankings .card-footer {    text-align: center;}
 .list-group .list-group-item {    overflow: hidden;}
-.cfm-hp-powerrankings .rank {    font-size: 1rem;    background: linear-gradient(to top, #b3b3b3, #ececec);   padding: 3px;    color: #343a40;    width: 25px;    text-align: center;    border-radius: 4px;}
+.cfm-hp-powerrankings .rank {    font-size: 1rem;    background: linear-gradient(to top, #b3b3b3, #ececec);   padding: 3px;    color: #343a40;    width: 30px;    text-align: center;    border-radius: 4px;}
 div#powerrankings p.mb-1 {height:32px;  top: 0px;}
 div#powerrankings .media-body.text-truncate, div#powerrankings small.text-muted.ml-2 {    top: 10px;   position: relative;}
 .list-group-item.cfm-hp-powerrankings {     background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), linear-gradient(to top, rgba(0, 0, 0, 0.4), #f71b3000);    background-size: 4px,100%, auto;    background-position: 0, 0px -68px, 0;}
@@ -607,7 +611,11 @@ div#tmpg .col-12.py-3.rounded-right.cfm-team-info .col-xl-10:nth-child(3) .row .
 .col-12.py-3.rounded-right.cfm-team-info ul.nav.nav-tabs {    margin-top: -48px;}
 .col-12.py-3.rounded-right.cfm-team-info .col-xl-10:nth-child(3) {    margin-bottom: 30px;}
 .col-12.py-3.rounded-right.cfm-team-info table.dl-table1.madden-team-table {    margin-bottom: 10px;}
- /*Standings Page***/
+.col-xl-10.teams .media p.m-0 {   top: 19px;}
+.col-xl-10.teams .media-body.text-truncate {   top: 13px;    position: relative;    height: 58px;}
+.col-xl-10.teams .cfm-hp-playoffrace .teamname {   width: 100%;}
+.col-xl-10.teams .badge.bg-gray {    display: none;}
+/*Standings Page***/
 .table-responsive-page th:nth-child(n+11), .table-responsive-page th:nth-child(n+11), .table-responsive-page td:nth-child(n+11), .table-responsive-page td:nth-child(n+11) {    display: none;}
 table.table.table-striped.cfm-standings img {    width: auto!important;    position: relative;    float: left;    height: 60px;    margin: -21px 0px;}
  /*Game Recap***/
@@ -631,9 +639,11 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left {   height: 265
 .h2.m-0.text-bold {    font-size: 2rem;}
 div#scores .card.b.mb-2 {    width: 50%;    display: -webkit-box;    float: right;}
 .card-body {   padding: 1rem;}
+div#tmpg .cfm-team-schedule img {  height: 100px;   background: gray;    width: 3rem;    object-fit: cover;}
 .cfm-team-schedule img {       margin: -17px 0px;    overflow: hidden;    height: 100px;    top: 3px;    width: auto;    object-fit: contain;    position: relative;}
 .text-muted {    color: grey;}
-div#scores {        column-count: 1;    overflow: hidden; padding-right: 15px;    padding-left: 15px;}
+div#scores {        column-count: 1;    overflow: hidden; padding-right: 15px; padding-left: 15px;}
+div#scores .col-xl-10 {    margin-bottom: -15px;}
 .col-5 {    -ms-flex: 0 0 40%;  flex: 0 0 40%;    max-width: 40%;}
 .col-2 {    -ms-flex: 0 0 20%;    flex: 0 0 20%;   max-width: 20%;}
 div#scores .col-xl-10 {    margin-bottom: -30px;}
@@ -667,16 +677,19 @@ div#scores .row.row-flush.cfm-team-schedule:hover {    background: #343a40;    c
 div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a:hover {    color: white!important;}
 div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {    font-size: 1.4rem;    background: #343a40;    color: #ececec;}
  /*player page***/
+.fa {    display: contents;}
 .panel.panel-playertraits {    display: -webkit-box;}
  div#cardChart9 {    display: none;}
 .card .d-flex.Teamcolors .w-25 {    width: 33% !important;}
 .card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors ul.nav.nav-tabs {     display: inline-block;    position: relative;    width: 100%;  z-index: 1;     background: linear-gradient(to top, rgb(237, 241, 242), #dddddd);    z-index: 1;}
-.nav-tabs>.nav-item>.nav-link {    font-weight: 700;    color: #656565;   margin: 0;    border: 1px solid #dde6e9;    border-radius: 0;    padding: 10px 20px;    text-align: center;}
+.nav-tabs>.nav-item>.nav-link {    font-weight: 700;    color: #656565;   margin: 0;    border: 1px solid #dde6e9;    border-radius: 0;    padding: 10px 18px;    text-align: center;}
 .card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors ul.nav.nav-tabs li.nav-item {    width: 16%;    display: inline-block;}
 .card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors { background-image:  url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),linear-gradient(to top, transparent 50%, #0000005e 100%);}
 .col-2.d-flex.align-items-left.justify-content-center.cfm-player-team-logo {    overflow: hidden;}
 .cfm-player-team-logo img {     width: fit-content;    height: auto;    margin: auto;    top: 0rem;    position: absolute;    float: right;    right: 223px;}
 img.rounded-circle.thumb128 {       width: 25rem!important;    height: auto !important;    margin: auto;    top: -146px;    right: 0px;    position: absolute;    object-position: -22px 76px;    border-bottom: 0px solid;}
+.card-body.text-center.cfm-team-stats p.mb-0.text-muted {    margin-top: -22px;    float: left;    padding-left: 5px;}
+.col-4.d-flex.align-items-left.justify-content-center.cfm-player-logo img.rounded-circle.thumb128 {   width: 25rem!important;   height: auto !important;   margin: auto;   top: -83px;    right: 5%;    position: absolute;    object-position: 10px 0px;    border-bottom: 0px solid;    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 9%);}
 .rounded-circle {    border-radius: 0%!important;}
 .col-2.d-flex.align-items-left.justify-content-center.cfm-player-team-logo {    overflow: hidden;}
 .col-10.py-3.rounded-right.cfm-player-info {    margin-top: 3rem;}
@@ -705,8 +718,33 @@ p.mb-0.text-muted {    margin-top: -22px;    float: left;    padding-left: 5px;}
  /*Team page***/
 .cfm-player-skill .greenskills {    color: #37ef37;    text-shadow: 0 0px 35px #b3f5b3;}
 .cfm-hp-playoffrace .teamname {    font-size: 1.125rem;    float: left;   top: 3px;  color: #333;    text-align: left;    left: 124px;    font-family: anton;    text-transform: uppercase;}
-.cfm-hp-playoffrace .badge {      font-size: 0.8rem;    font-family: DLSansCondMedium;    background: transparent;    top: 6px;    left: -105px;    position: relative;}
+.cfm-hp-playoffrace .badge {      font-size: 0.8rem;    font-family: DLSansCondMedium;    background: transparent;    top: 2px;    left: -66px;    position: relative;}
 a.btn.btn-oval.btn-secondary {    display: contents;}
 .media p.m-0 {     word-spacing: 5px;    text-align: left;    float: left;    left: 164px;    top: 35px;    position: absolute;}
 .ml-auto span.text-muted.ml-2.teamname {        font-size: 1.125rem;    float: left;  color: #fff!important;    background: #6c757d;    left: -8px;    width: 40px;    top: 1px;    text-align: center;    font-family: DLSansCondMedium;    text-transform: uppercase;    position: relative;    padding: 2px;    line-height: 20px;    text-shadow: none;    border-radius: 5px;}
 .media-body.text-truncate p.mb-1 {    position: relative;    top: -3px;}
+/*POW****/
+.oplayeroftheweek.col-12.py-2.pl-0 .text-center , .dplayeroftheweek.col-12.py-2.pl-0 .text-center {  font-family: anton;    font-size: medium;
+}
+.oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {
+    font-size: large;
+    line-height: 0px;
+}
+div#oplayeroftheweek-container, div#dplayeroftheweek-container {
+    height: 250px; overflow:hidden;  background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-diagram.png),linear-gradient(to top, #ffffff, #9E9E9E);
+    background-size: 35%, auto;
+    background-repeat: repeat, repeat;
+    background-position: 0 0, 0 0;
+}
+div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-container img.rounded-circle.thumb24 {     position: absolute;
+    width: 100%!important;
+    height: auto!important;
+    left: 90%;
+    top: -20px;    z-index: 0;    -webkit-mask-image: linear-gradient(to top, transparent 33%, black 80%);    mask-image: linear-gradient(to bottom, transparent 33%, black 80%);}
+.dplayeroftheweek.col-12.py-2.pl-0, .oplayeroftheweek.col-12.py-2.pl-0 {    width: 50%;}
+.NFCcolors, .NPRcolors, .AFCcolors, .APRcolors {
+    background-color: #d3d3d3!important;
+    font-size: initial;
+    color: #35383a!important;
+    margin: 0px!important;     padding: 5px!important;
+}
