@@ -1,6 +1,12 @@
 /***mobile layout*************************************************************************************************************************************************/
 
-@media screen and (min-width: 300px) and (max-width:500px) {     /* start of large tablet styles*********************************************************/
+@media screen and (min-width: 300px) and (max-width:340px) {     /* start of large tablet styles*********************************************************/
+.cfm-hp-powerrankings .teamname {
+    font-size: .6rem!important;
+}
+}
+    
+    @media screen and (min-width: 300px) and (max-width:500px) {     /* start of large tablet styles*********************************************************/
 .col-6.d-flex.align-items-center.justify-content-center.rounded-left, .col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {
     background-size: 100%;
     background-position: 0rem 0%;
