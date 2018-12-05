@@ -106,7 +106,7 @@ div#news-stream-container h4 strong a {    top: 11.5rem!important;}
 table.table.table-striped.cfm-standings th:nth-child(n+6), table.table.table-striped.cfm-standings td:nth-child(n+6) {
     display: none;}
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {     /* start of medium tablet styles********************** */
+@media screen and (min-width: 315px) and (max-width: 768px) {     /* start of medium tablet styles********************** */
 /***menu***/
 ul.navbar-nav {    float: left;    left: 1rem;    text-align: left;    position: relative;}
 .dropdown-menu.show {   top: -.51rem;    position: relative;}
