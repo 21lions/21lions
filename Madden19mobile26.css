@@ -1,8 +1,8 @@
 /***mobile layout*************************************************************************************************************************************************/
 
 @media screen and (min-width: 300px) and (max-width:340px) {     /* start of large tablet styles*********************************************************/
-.cfm-hp-powerrankings .teamname {
-    font-size: .6rem!important;
+.cfm-hp-powerrankings .teamname {    font-size: .6rem!important;}
+  div#nfc-playoff-container .cfm-hp-playoffrace .teamname, div#afc-playoff-container .cfm-hp-playoffrace .teamname {  font-size: .8rem!important;    top: 14px!important;
 }
 }
     
