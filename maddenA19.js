@@ -12,8 +12,6 @@ $('.jumbotron').fadeIn('slow').delay(20000).fadeOut('slow');
 
 
 /*GOW************************************************************************************************************/
- $( ".gow.away.score" ).appendTo( $( ".col-6.d-flex.align-items-center.justify-content-center.rounded-left" ) );
-$( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
 $('.col-3.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', ' col-6 d-flex align-items-center justify-content-center rounded-left');
  $('.col-3.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right').attr('class', ' col-6 bg-inverse d-flex align-items-center justify-content-center rounded-right');
  $('.row.row-flush .col-3:nth-child(2)').attr('class', ' gow away score');
@@ -23,6 +21,8 @@ $('.row.row-flush .col-3:nth-child(3)').attr('class', ' gow home score');
  $('.gameoftheweek .cfm-table tr td.cfm-at').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 at');
 $('.gameoftheweek').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 gameoftheweek');
 $('.gameoftheweek .GOW').wrapInner('<div class="record"></div>');
+ $( ".gow.away.score" ).appendTo( $( ".col-6.d-flex.align-items-center.justify-content-center.rounded-left" ) );
+$( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
 
 /*storylines***/
  $('.slideshow').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 slideshow');
