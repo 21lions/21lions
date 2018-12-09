@@ -71,7 +71,6 @@ $('.col-4.d-flex.justify-content-start').attr('class', 'col-5 d-flex  justify-co
 
 
 /*Player Page***/
-$(".col-4.d-flex.align-items-left.justify-content-center.cfm-player-logo img.rounded-circle.thumb128").unwrap();
 $( "ul.nav.nav-tabs" ).wrap( "<div class='col-xl-12'></div>" );
 $(".col-md-6.col-xs-6.col-sm-6 .card .d-flex.Teamcolors").appendTo(".card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors .col-10.py-3.rounded-right.cfm-player-info");
 $(".xl-12").appendTo(".card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors .col-10.py-3.rounded-right.cfm-player-info");
@@ -90,6 +89,8 @@ $(".card-footer.text-center.cfm-player-attribute").hide();
     $(".att-snapshot").on("click", function(){
         $(".card-footer.text-center.cfm-player-attribute").fadeToggle('slow');
 });
+$(".col-4.d-flex.align-items-left.justify-content-center.cfm-player-logo img.rounded-circle.thumb128").unwrap();
+
 
 /*Team Page****/
 $( '.col-10.py-3.rounded-right.cfm-team-info').attr('class', 'col-12 py-3 rounded-right cfm-team-info');
