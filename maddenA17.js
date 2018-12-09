@@ -12,7 +12,9 @@ $('.jumbotron').fadeIn('slow').delay(20000).fadeOut('slow');
 
 
 /*GOW************************************************************************************************************/
- $('.col-3.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', ' col-6 d-flex align-items-center justify-content-center rounded-left');
+ $( ".gow.away.score" ).appendTo( $( ".col-6.d-flex.align-items-center.justify-content-center.rounded-left" ) );
+$( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
+$('.col-3.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', ' col-6 d-flex align-items-center justify-content-center rounded-left');
  $('.col-3.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right').attr('class', ' col-6 bg-inverse d-flex align-items-center justify-content-center rounded-right');
  $('.row.row-flush .col-3:nth-child(2)').attr('class', ' gow away score');
 $('.row.row-flush .col-3:nth-child(3)').attr('class', ' gow home score');
@@ -23,6 +25,7 @@ $('.gameoftheweek').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 gameo
 $('.gameoftheweek .GOW').wrapInner('<div class="record"></div>');
 
 /*storylines***/
+ $('.slideshow').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 slideshow');
 $('.col-md-9.col-xs-9.col-sm-9').attr('class', 'col-md-12  col-xs-12 col-sm-12');
 $('.col-md-10.col-xs-10.col-sm-10').attr('class', 'col-md-12  col-xs-12 col-sm-12');
 $('div#hp-stories').attr('class', 'slideshow');
@@ -43,6 +46,9 @@ $("#slideshow > div:gt(0)").hide();
         $("div#nfc_playoff .list-group-item.cfm-hp-playoffrace:nth-child(n+8)").slideToggle('slow');
 });
 
+
+/*Standings tab***/
+$(".col-xl-10.teams .row .col-xl-6").attr("class","col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12");
 
 /*Game Recap Page***/
 $( ".card.b" ).wrap( "<div class='col-xl-12'></div>" );
@@ -65,6 +71,7 @@ $('.col-4.d-flex.justify-content-start').attr('class', 'col-5 d-flex  justify-co
 
 
 /*Player Page***/
+$(".col-4.d-flex.align-items-left.justify-content-center.cfm-player-logo img.rounded-circle.thumb128").unwrap();
 $( "ul.nav.nav-tabs" ).wrap( "<div class='col-xl-12'></div>" );
 $(".col-md-6.col-xs-6.col-sm-6 .card .d-flex.Teamcolors").appendTo(".card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors .col-10.py-3.rounded-right.cfm-player-info");
 $(".xl-12").appendTo(".card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors .col-10.py-3.rounded-right.cfm-player-info");
@@ -88,7 +95,8 @@ $(".card-footer.text-center.cfm-player-attribute").hide();
 $( '.col-10.py-3.rounded-right.cfm-team-info').attr('class', 'col-12 py-3 rounded-right cfm-team-info');
 $(' .col-2.d-flex.align-items-left.justify-content-center.cfm-team-logo').attr('class', 'col-12 d-flex align-items-left justify-content-center cfm-team-logo  ');
 $(' .col-xl-10.col-lg-6.col-md-12.pt-2').attr('class', 'col-xl-12 col-lg-12 col-md-12 pt-2 ');
- $('.col-xl-12.col-lg-6.col-md-12 .card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors').attr('id', 'tmpg');
+$('.col-xl-12.col-lg-6.col-md-12').attr('class', 'col-xl-12 col-lg-12 col-md-12 ');
+$('.col-xl-12.col-lg-12.col-md-12 .card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors').attr('id', 'tmpg');
 $(" ul.nav.nav-tabs").appendTo(".col-12.py-3.rounded-right.cfm-team-info  ");
 $(" .col-md-6.col-xs-6.col-sm-6 .card").appendTo(".col-12.py-3.rounded-right.cfm-team-info");
 $(".card.card-madden-team").appendTo(".col-12.py-3.rounded-right.cfm-team-info");
