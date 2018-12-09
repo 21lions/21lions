@@ -298,7 +298,7 @@ div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameofthew
     background-size: 100% !important;
 }
 .col-6.d-flex.align-items-center.justify-content-center.rounded-left, .col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {
-    background-position: 0rem 0%;
+    background-position: 0rem 47%;
 }
 .col-6.d-flex.align-items-center.justify-content-center.rounded-left {
     background-repeat: no-repeat;
