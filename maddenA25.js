@@ -7,8 +7,6 @@ $( ".dropdown-menu.dropdown-menu-right.animated.flipInX.show" ).wrap( "<div clas
 
 
 
-/***Jumbotron****/
-$('.jumbotron').fadeIn('slow').delay(20000).fadeOut('slow');
 
 
 /*GOW************************************************************************************************************/
