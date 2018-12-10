@@ -293,31 +293,67 @@ $('a>span:contains("TEN")').replaceWith('<img src="https://static.nfl.com/static
 $('a>span:contains("WAS")').replaceWith('<img src="https://static.nfl.com/static/site/img/logos/svg/teams/WAS.svg" width="35" height="25"" class="scoreboard"><div class="teamname"><small>Washington</small><br>Redskins </div>');
 
 
-$(document).ready(function(){
-  // Initialize Tooltip
-  $('[data-toggle="tooltip"]').tooltip(); 
-  
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+jQuery(window).load(function() {
+	
+	var windowHeight, windowScrollPosTop, windowScrollPosBottom = 0;
+	
+	
+	function calcScrollValues() {
+		windowHeight = jQuery(window).height();
+		windowScrollPosTop = jQuery(window).scrollTop();
+		windowScrollPosBottom = windowHeight + windowScrollPosTop;
+	} 
+	
+	jQuery.fn.revealOnScroll = function(direction, speed) {
+		return this.each(function() {
+			
+			var objectOffset = jQuery(this).offset();
+			var objectOffsetTop = objectOffset.top;
+			
+			if (!jQuery(this).hasClass("hidden")) {
+				
+				
+				if (direction == "top") {
+					jQuery(this).css({
+						"opacity"	: 0,
+						"top"		: "325px",
+						"position"	: "relative"
+					});
+				} else {
+					jQuery(this).css({
+						"opacity"	: 0,
+						"top"		: "-325px",
+						"position"	: "relative"
+					});
+					
+				}
+				
+				jQuery(this).addClass("hidden");	
+			} 
+			if (!jQuery(this).hasClass("animation-complete")) {
+				
+				
+				if (windowScrollPosBottom > objectOffsetTop) {
+					jQuery(this).animate({"opacity" : 1, "top" : 0}, speed).addClass("animation-complete");
+				}
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
+			} 
+			
+		});
+	}
+	
+	function revealCommands() {
+		jQuery(".col-lg-12.col-md-12.col-sm-12.col-xs-12.storylines").revealOnScroll("top", 600);
+		jQuery(".GOW.col-lg-12.col-md-12.col-sm-12.col-xs-12").revealOnScroll("top", 600);
+jQuery(".Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12").revealOnScroll("top", 600);
+	}
 
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-})
+	calcScrollValues();
+	revealCommands();
+	
+	
+	jQuery(window).scroll(function() {
+		calcScrollValues()
+		revealCommands();
+	});
+});
