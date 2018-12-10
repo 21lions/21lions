@@ -423,7 +423,6 @@ span.cfm-score-hts.cfm-score-home.cfm-score-score {   right: 6rem;}
 span.cfm-score-vts.cfm-score-visitor.cfm-score-score {    left: 6rem;}
 li#game- {    background-size: 13%;}
 .cfm-score-score {    font-size: 1rem;    width: 2rem;}
-div#mem {    top: 36px;}
 .dropdown-item {    color: #5d9cec;}
 
   /*setup***/
@@ -564,7 +563,6 @@ img.rounded-circle.thumb128 {    top: -166px;}
 .col-12.d-flex.align-items-left.justify-content-center.cfm-team-logo img {    right: 50px;}
 .col-12.py-3.rounded-right.cfm-team-info .col-4 {
     min-height: 30px;}
-div#mem {    top: 47px!important;}
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {     /* start of small and medium phone styles*****************************************************/
 ul.navbar-nav {    float: left;    left: 1rem;    text-align: left;    position: relative;}
