@@ -90,7 +90,7 @@ div#nfc-playoff-container .cfm-hp-playoffrace .teamname, div#afc-playoff-contain
 div#scores .col-xl-10 {
     margin-bottom: -9px;
 }
-a.navbar-brand {  top:15px;   font-size: x-large;}
+a.navbar-brand {  font-size: x-large;}
 div#flip {    top: 56px;}
 .container-fluid-marquee {    top: 84px;}
 div#mem {    top: 32px;}
@@ -120,8 +120,6 @@ div#mem {      position: fixed;  top: 36px;      margin-right: 0%;  right: 0rem;
 a.navbar-brand {
     font-size: x-large;
     font-family: anton;
-    position: relative;
-    top: 0px;
     letter-spacing: 0px;
 }
 
@@ -585,7 +583,7 @@ div#news-stream-container .info img.img {    OBJECT-POSITION: -259PX -65PX;
 }
 }
 @media screen and (min-width: 992px) and (max-width: 1150px) {     /* start of large tablet styles*********************************************************/
-a.navbar-brand {   font-size: x-large;    font-family: anton;    position: relative;    top: 0px;    letter-spacing: -1px;}
+a.navbar-brand {   font-size: x-large;    font-family: anton; letter-spacing: 0px;}
 
 @media screen and (min-width: 992px) and (max-width: 1100px) {     /* start of small and medium phone styles*****************************************************/
 .col-12.py-3.rounded-right.cfm-team-info .h2.m-0.text-bold {    color: #2f2f2f;    font-size: 1.5rem;}
