@@ -703,7 +703,6 @@ div#scores {        column-count: 1;    overflow: hidden; padding-right: 15px; p
 div#scores .col-xl-10 {    margin-bottom: -15px;}
 .col-5 {    -ms-flex: 0 0 40%;  flex: 0 0 40%;    max-width: 40%;}
 .col-2 {    -ms-flex: 0 0 20%;    flex: 0 0 20%;   max-width: 20%;}
-div#scores .col-xl-10 {    margin-bottom: -30px;}
 .col-5.d-flex.justify-content-start .m-0.text-muted.text-uppercase {    top: -6px;    position: relative;}
 h4.mt-3 a {  font-size: 1.5rem;    background: darkslategray;    padding: 15%;      margin-top: 0.8rem!important;  color: white;    font-family: DLSansCondMedium;}
  /*Player Search***/
