@@ -557,6 +557,7 @@ display:grid; }
     right: 11%;
 }
 .col-12.py-3.rounded-right.cfm-player-info h1.cfm-team-name {    font-size: 3rem;}
+img.rounded-circle.thumb128 {    top: -166px;}
 }
 
 @media screen and (min-width: 769px) and (max-width: 800px) {     /* start of small and medium phone styles*****************************************************/
