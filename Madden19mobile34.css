@@ -685,7 +685,9 @@ div#powerrankings small.text-muted.ml-2 {
 }
 
 /*storylines***/
-div#news-stream-container {    height: 50rem;}
+
+  
+  div#news-stream-container {    height: 50rem;}
 div#news-stream-container .info img.img {    OBJECT-POSITION: -125PX -176PX;}
 div#news-stream-container h4 strong a {
     float: left;
@@ -720,6 +722,6 @@ div#news-stream-container .info img.img {
 .info {
     height: 50rem;
 }
-div#hp-stories {    height:50rem;}
+div#hp-stories {   display: block;  height:50rem;}
 
 }
