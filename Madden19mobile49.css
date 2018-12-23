@@ -686,7 +686,7 @@ div#oplayeroftheweek-container, div#dplayeroftheweek-container {
 }
 
 @media screen and (min-width: 1800px) and (max-width:3000px) {     /* start of large tablet styles*********************************************************/
-div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {    z-index: 1;    right: -15%;    width: 31rem!important;    top: -173px!important;}
+div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {    z-index: 1;    right: -8%;    width: 31rem!important;    top: -173px!important;}
 div#dplayeroftheweek-container, div#oplayeroftheweek-container {   height: 150px;}
 .oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {    font-size: larger;    line-height: 3px;}
 div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-container img.rounded-circle.thumb24 {
