@@ -70,7 +70,8 @@ div#powerrankings span.fa-stack img {
 }
 }
 @media screen and (min-width : 315px) and (max-width : 420px) {
-div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {    z-index: 1;   top: -54px;   width: auto!important;   left: unset;   right: unset; -webkit-mask-image: linear-gradient(to top, transparent 22%, black 28%);}
+div#scores { padding-right: 5px;    padding-left: 5px;}
+  div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {    z-index: 1;   top: -54px;   width: auto!important;   left: unset;   right: unset; -webkit-mask-image: linear-gradient(to top, transparent 22%, black 28%);}
 div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-container img.rounded-circle.thumb24 {     position: absolute;    width: 100%!important;    height: auto!important;   left: 3%;   top:-240%;     z-index: -1;    opacity: .4;}
 .dplayeroftheweek.col-12.py-2.pl-0, .oplayeroftheweek.col-12.py-2.pl-0 {    width: 100%;}
 .oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {   font-size: x-small;   font-family: inherit;    margin-top: 88px!important;    text-align: center!important;    padding-left: 10%!important;    z-index: 0;   position: relative;}
