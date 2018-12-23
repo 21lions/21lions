@@ -315,7 +315,7 @@ div#nfc-playoff-container {    padding-right: 0px;}
 div#nfc-playoff-container .cfm-hp-playoffrace .teamname, div#afc-playoff-container .cfm-hp-playoffrace .teamname {     font-size: 1.1rem;    text-align: left;    left: 70px;    top: 11px;}
 div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0, div#afc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0 {
    float: left;    left: 85%;    position: absolute;    font-size: large;    top: 1px;}
-div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace small, div#afc-playoff-container .list-group-item.cfm-hp-playoffrace small {    font-size: small;    position: relative;    top: 9px;    left: -18px;    float: left;}
+div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace small, div#afc-playoff-container .list-group-item.cfm-hp-playoffrace small { font-size: 0.6rem;   position: relative;    top: 11px;    left: -15px;    float: left;}
 .list-group-item.cfm-hp-playoffrace .media .media-body.text-truncate {    height: 60px;    top: -5px;    left: 17px;    position: relative;}
 .row.teampage .list-group-item.cfm-hp-playoffrace .media .media-body.text-truncate {   height: 60px;    top: -3px;    left: 40px;    position: relative;}
 .cfm-hp-playoffrace .rank {    padding: 5px;    margin-top: 1px;  font-family: anton;   width: 32px;    font-size: 1rem;}
