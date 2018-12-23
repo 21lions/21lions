@@ -83,7 +83,6 @@ h3.mt-0 a {    font-family: inherit;   font-size: small!important;}
   table.responsive> thead:first-child > tr:first-child > th:first-child {    width: 20%;}
 table.responsive> tbody > tr > td:first-child {    width: 20%;}
 
-div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {    margin-bottom: 3rem!important;}
 div#nfc-playoff-container .cfm-hp-playoffrace .teamname, div#afc-playoff-container .cfm-hp-playoffrace .teamname {
     font-size: 1rem;}
 .col-12.py-3.rounded-right.cfm-team-info div#scores .col-xl-10 {    margin-top: -5px;}
