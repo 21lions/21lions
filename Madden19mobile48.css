@@ -599,7 +599,7 @@ a.btn.btn-oval.btn-secondary {    display: block;    font-size: 9px;    backgrou
   
   div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-container img.rounded-circle.thumb24 {   position: absolute;   width: auto!important;   height: auto!important;    left: 44%;    top: -20px;   z-index: 0;    -webkit-mask-image: linear-gradient(to top, transparent 33%, black 80%);    mask-image: linear-gradient(to bottom, transparent 33%, black 80%);}
 div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {   z-index: 1;    top: -60px;    right: -31%;}
-.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    font-family: anton;    font-size: x-small;    margin-top: 36%!important;    text-align: left!important;  padding-left: 5%;}
+.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    font-family: anton;    font-size: x-small;    margin-top: -6%!important;    text-align: left!important;  padding-left: 5%;}
   div#powerrankings-container span.fa-stack img {    width: 4rem;   position: absolute;    top: -14px;}
 .cfm-hp-powerrankings .teamname {    left: 25%;}
 }
