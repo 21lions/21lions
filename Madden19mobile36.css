@@ -69,7 +69,7 @@ div#powerrankings span.fa-stack img {
     height: 48px;
 }
 }
-@media only screen and (min-device-width : 315px) and (max-device-width : 420px) {
+@media screen and (min-device-width : 315px) and (max-device-width : 420px) {
 div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {    z-index: 1;   top: -54px;   width: auto!important;   left: unset;   right: unset; -webkit-mask-image: linear-gradient(to top, transparent 22%, black 28%);}
 div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-container img.rounded-circle.thumb24 {     position: absolute;    width: 100%!important;    height: auto!important;   left: 3%;   top:-240%;     z-index: -1;    opacity: .4;}
 .dplayeroftheweek.col-12.py-2.pl-0, .oplayeroftheweek.col-12.py-2.pl-0 {    width: 100%;}
