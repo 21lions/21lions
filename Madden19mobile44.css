@@ -87,8 +87,6 @@ div#nfc-playoff-container .cfm-hp-playoffrace .teamname, div#afc-playoff-contain
     font-size: 1rem;}
 .col-12.py-3.rounded-right.cfm-team-info div#scores .col-xl-10 {    margin-top: -5px;}
 
-.col-xl-10.teams .cfm-hp-playoffrace .teamname {    top: 18px;}
-
 .col-xl-10.teams .media p.m-0 {
     word-spacing: -1px;
     text-align: left;
@@ -324,8 +322,17 @@ div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace small, div#afc-pla
 div#afc_playoff .list-group-item.cfm-hp-playoffrace, div#nfc_playoff .list-group-item.cfm-hp-playoffrace  {    height: 45px;}
 div#afc_playoff  .list-group-item.cfm-hp-playoffrace span.fa-stack img , div#nfc_playoff  .list-group-item.cfm-hp-playoffrace span.fa-stack img {    width: 5rem;    top: -25px;    left: -9px;}
  .cfm-hp-playoffrace .badge {    font-size: 0.8rem;    font-family: DLSansCondMedium;    background: transparent;    top: -11px;    white-space: nowrap;    float: left;    left: 15px;    position: relative;    width: 84px;    text-align: left;}
-   .col-xl-10.teams .cfm-hp-playoffrace .teamname {   font-size: 1.125rem;   float: left;    top: 7px;   width: 100%; text-align: left;    left: 75px;    font-family: anton;    text-transform: uppercase;    position: relative;} 
-    
+ .col-xl-10.teams .cfm-hp-playoffrace .teamname {
+    font-size: inherit;
+    float: left;
+    top: 21px;
+    width: 100%;
+    text-align: left;
+    left: 75px;
+    font-family: anton;
+    text-transform: uppercase;
+    position: relative;
+}    
   /*transactions***/
 div#transactions table.dl-table1.madden-team-table .dl-table1 td.tbdy1, table.dl-table1 .tbdy1 td {    border-right: 75px solid #ffffff00;}
 table.dl-table1.madden-team-table .dl-table1 td.tbdy1, table.dl-table1 .tbdy1 td {    border-right: 0px solid #ffffff00;}
