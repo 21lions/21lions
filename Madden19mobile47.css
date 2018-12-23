@@ -610,8 +610,8 @@ div#news-stream-container .info img.img {    OBJECT-POSITION: -262PX -50PX;}
 @media screen and (min-width: 769px) and (max-width: 991px) {     /* start of large tablet styles*********************************************************/
 div#mem {    top: 43px;    right: -8px;}
 span.fa-stack img {   width: unset;   position: absolute;  top: -15px;    height: 58px;}  
-  div#afc_playoff .cfm-hp-playoffrace .teamname, div#nfc_playoff .cfm-hp-playoffrace .teamname {   left: 27px;}
-  div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0, div#afc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0 {  left: 19rem;}
+  div#afc_playoff .cfm-hp-playoffrace .teamname, div#nfc_playoff .cfm-hp-playoffrace .teamname {     font-size: 1rem;  left: 27px;}
+  div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0, div#afc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0 {  left: 85%;}
 }
 @media screen and (min-width: 801px) and (max-width: 1100px) {     /* start of large tablet styles*********************************************************/
 div#news-stream-container .info img.img {    OBJECT-POSITION: -259PX -65PX;
