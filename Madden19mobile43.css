@@ -125,7 +125,9 @@ table.table.table-striped.cfm-standings th:nth-child(n+6), table.table.table-str
 }
 
 @media screen and (min-width: 315px) and (max-width: 768px) {     /* start of medium tablet styles********************** */
-/***menu***/
+select#season {   width: fit-content;}
+
+  /***menu***/
 ul.navbar-nav {    float: left;    left: 1rem;    text-align: left;    position: relative;}
 .dropdown-menu.show {   top: -.51rem;    position: relative;}
 .navbar-collapse {    width: auto;    padding: 1%;    background-color: #283b62;}
