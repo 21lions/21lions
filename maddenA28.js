@@ -55,6 +55,16 @@ $(".card.Hometeam.flex-row.align-items-center.align-items-stretch.border-0 .col-
 $('.card.b .card-body.bb p.mb-0').contents().filter(function() {
     return this.nodeType == 3
 }).each(function(){
+    this.textContent = this.textContent.replace('Passing Yards Allowed','Pass Yds Allowed');
+});
+$('.card.b .card-body.bb p.mb-0').contents().filter(function() {
+    return this.nodeType == 3
+}).each(function(){
+    this.textContent = this.textContent.replace('Rushing Yards Allowed','Rush Yds Allowed');
+});
+$('.card.b .card-body.bb p.mb-0').contents().filter(function() {
+    return this.nodeType == 3
+}).each(function(){
     this.textContent = this.textContent.replace('DaddyLeagues estimated Score','Predicted Score');
 });
 
