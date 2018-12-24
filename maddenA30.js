@@ -1,3 +1,4 @@
+$(document).ready(function(){
 
 /***menu league title and additional links********************************************************************************************/
 $( "a.navbar-brand" ).text( "Heavyhitters" );
@@ -196,7 +197,7 @@ $('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="
 /*TEXANS*/
 	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/31.png"]').attr( "style", "" ).css( 'background-image', 'url("https://i.imgur.com/1OJdXcp.png")').wrapInner( "<div id='host'><p>Username</p><p>Houston</p><p>Texans</p></div>");
 	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/31.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/HOU.svg")').wrapInner( "<div id='visitor'><p>Username</p><p>Houston</p><p>Texans</p></div>");
-
+});
 
 /***Splash page***/
 $('.Splash.col-lg-12.col-md-12.col-sm-12.col-xs-12').fadeIn('slow').delay(2000).fadeOut('slow');
