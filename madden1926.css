@@ -274,6 +274,7 @@ div#flip h4.card-title {     margin-top: -2px!important; text-align: center;    
  /*front-office page get rid of trade link***/
 div#frontoffice_wrapper div#admin-main-nav ul.nav.nav-tabs li.nav-item:nth-child(-n + 2) {    display: none;}
  /*Jumbotron******/
+.jumbotron, .well {   border: 0px solid #dde6e9;}
 img.leaguebanner {    object-fit: contain;    width: 100%;}
 .btn:not(:disabled):not(.disabled) {    float: unset;}
 .intro-center {padding-left: 10%;   padding-right: 10%;}
