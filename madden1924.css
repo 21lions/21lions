@@ -857,8 +857,7 @@ a.btn.btn-oval.btn-secondary {    display: contents;}
 .ml-auto span.text-muted.ml-2.teamname {        font-size: 1.125rem;    float: left;  color: #fff!important;    background: #6c757d;    left: -8px;    width: 40px;    top: 1px;    text-align: center;    font-family: DLSansCondMedium;    text-transform: uppercase;    position: relative;    padding: 2px;    line-height: 20px;    text-shadow: none;    border-radius: 5px;}
 .media-body.text-truncate p.mb-1 {    position: relative;    top: -3px;}
 /*POW****/
-.oplayeroftheweek.col-12.py-2.pl-0 .text-center , .dplayeroftheweek.col-12.py-2.pl-0 .text-center {  font-family: anton;    font-size: medium;
-}
+.oplayeroftheweek.col-12.py-2.pl-0 .text-center , .dplayeroftheweek.col-12.py-2.pl-0 .text-center { font-size: medium;}
 .oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {
     font-size: large;
     line-height: 0px;
