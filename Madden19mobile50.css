@@ -104,8 +104,7 @@ div#scores .col-xl-10 {
 a.navbar-brand {  font-size: x-large;}
 div#flip {    top: 56px;}
 .container-fluid-marquee {    top: 84px;}
-div#mem {    top: 32px;}
-div#flip h4.card-title {    text-align: left;    padding-left: 5px;    width: 100%!important;   margin-top: 0px!important;}
+div#flip h4.card-title {    text-align: left;    padding-left: 5px;    width: 100%!important;   margin-top: -2px!important;}
 
 div#visitor p:nth-child(3), div#host p:nth-child(3) {     top: -71px;  font-size: -webkit-xxx-large;}
 div#news-stream-container .info img.img {   width: 150%!important;}
@@ -130,7 +129,7 @@ ul.navbar-nav {    float: left;    left: 1rem;    text-align: left;    position:
 .dropdown-menu.show {   top: -.51rem;    position: relative;}
 .navbar-collapse {    width: auto;    padding: 1%;    background-color: #283b62;}
 .navbar, .navbar .dropdown-menu, .topnavbar {    height: unset;}
-div#mem {      position: fixed;  top: 36px;      margin-right: 0%;  right: 0rem;}
+div#mem {      position: fixed;  top: 40px;      margin-right: 0%;  right: 0rem;}
 a.navbar-brand {
     font-size: x-large;
     font-family: anton;
