@@ -195,6 +195,39 @@ $('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="
 /*TEXANS*/
 	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/31.png"]').attr( "style", "" ).css( 'background-image', 'url("https://i.imgur.com/1OJdXcp.png")').wrapInner( "<div id='host'><p>Username</p><p>Houston</p><p>Texans</p></div>");
 	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/31.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/HOU.svg")').wrapInner( "<div id='visitor'><p>Username</p><p>Houston</p><p>Texans</p></div>");
+
+	
+/*Shamrocks*/
+	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/179.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/right/179.png")').wrapInner( "<div id='host'><p>Username</p><p>Dublin</p><p>Shamrocks</p></div>");
+	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/179.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/left/179.png")').wrapInner( "<div id='visitor'><p>Username</p><p>Dublin</p><p>Shamrocks</p></div>");
+
+/*Black Knights*/
+	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/163.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/right/163.png")').wrapInner( "<div id='host'><p>Username</p><p>London</p><p>Black Knights</p></div>");
+	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/163.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/left/163.png")').wrapInner( "<div id='visitor'><p>Username</p><p>London</p><p>Black Knights</p></div>");
+
+/*Crusaders*/
+	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/155.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/right/155.png")').wrapInner( "<div id='host'><p>Username</p><p>San Diego</p><p>Crusaders</p></div>");
+	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/155.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/left/155.png")').wrapInner( "<div id='visitor'><p>Username</p><p>San Diego</p><p>Crusaders</p></div>");
+
+/*Bulldogs*/
+	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/144.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/right/144.png")').wrapInner( "<div id='host'><p>Username</p><p>London</p><p>Bulldogs</p></div>");
+	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/144.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/left/144.png")').wrapInner( "<div id='visitor'><p>Username</p><p>London</p><p>Bulldogs</p></div>");
+
+/*Condors*/
+	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/147.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/right/147.png")').wrapInner( "<div id='host'><p>Username</p><p>Sacramento</p><p>Condors</p></div>");
+	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/147.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/left/147.png")').wrapInner( "<div id='visitor'><p>Username</p><p>Sacramento</p><p>Condors</p></div>");
+
+/*Diablos*/
+	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/152.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/right/152.png")').wrapInner( "<div id='host'><p>Username</p><p>Mexico City</p><p>Diablos</p></div>");
+	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/152.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/left/152.png")').wrapInner( "<div id='visitor'><p>Username</p><p>Mexico City</p><p>Diablos</p></div>");
+
+/*Barons*/
+	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/187.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/right/187.png")').wrapInner( "<div id='host'><p>Username</p><p>Brooklyn</p><p>Barons</p></div>");
+	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/187.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/left/187.png")').wrapInner( "<div id='visitor'><p>Username</p><p>Brooklyn</p><p>Barons</p></div>");
+
+/*Gunners*/
+	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/160.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/right/160.png")').wrapInner( "<div id='host'><p>Username</p><p>Houston</p><p>Gunners</p></div>");
+	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/160.png"]').attr( "style", "" ).css( 'background-image', 'url("/img/nfl/teams/left/160.png")').wrapInner( "<div id='visitor'><p>Username</p><p>Houston</p><p>Gunners</p></div>");	
 });
 
 /***Splash page***/
