@@ -5,7 +5,7 @@ $( "a.navbar-brand" ).text( "pfl" );
 $("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/pfl/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
 
 /***scoreboard**********************/
- $( "div#schedule").load( "/pfl/schedules div#scores" );
+ $( "div#flip2").load( "/pfl/schedules div#scores" );
  $( "div#LGstatus" ).load( "/pfl/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
 
 /*league leaders home page********/
