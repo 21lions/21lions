@@ -260,6 +260,13 @@ $('.card.b .card-body.bb p.mb-0').contents().filter(function() {
 });
 
 
+/*Homepage Schedules***/
+$('div#scores .row.row-flush.cfm-team-schedule .col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', 'col-1 text-center d-flex align-items-center justify-content-center rounded-left');
+$('div#scores .row.row-flush.cfm-team-schedule .col-2.d-flex.justify-content-start').attr('class', 'col-4 d-flex  justify-content-start');
+$('div#scores .row.row-flush.cfm-team-schedule .col-6').attr('class', 'col-3');
+$('div#scores .row.row-flush.cfm-team-schedule .col-3.text-center.d-flex.align-items-end.justify-content-end.rounded-right').attr('class', 'col-4 d-flex  justify-content-start');
+
+
 /*Schedules***/
 $('.row.row-flush.cfm-team-schedule .col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', 'col-1 text-center d-flex align-items-center justify-content-center rounded-left');
 $('.row.row-flush.cfm-team-schedule .col-2.d-flex.justify-content-start').attr('class', 'col-4 d-flex  justify-content-start');
