@@ -695,11 +695,7 @@ table.table.table-condensed.table-hover.player_compact div img {    display: non
 /*league leaders***/
 .container-fluid-stats .col-xl-10 {    margin-bottom: 0rem;}
 .passingleaders.table-responsive td:nth-child(3), .passingleaders .table-responsive td:nth-child(3), .passingleaders.table-responsive td:nth-child(2), .passingleaders .table-responsive td:nth-child(2), .passingleaders tr.tbdy1:nth-child(n+12) ,  .rushingleaders tr.tbdy1:nth-child(n+12) , .sacksleaders tr.tbdy1:nth-child(n+12) ,  .tacklesleaders tr.tbdy1:nth-child(n+12) ,  .interceptionsleaders tr.tbdy1:nth-child(n+12) , .receivingleaders tr.tbdy1:nth-child(n+12) {    display: none;}
-.container-fluid-stats table.dl-table1 .thd1 td:hover {    opacity: 0;    transition: .5s ease-in;}
-.container-fluid-stats table.dl-table1 .thd1 td {background: url(https://i.imgur.com/EHYdPSj.png), url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-diagram.png),linear-gradient(to top, #868686, rgb(255, 255, 255));
-    background-size: 100%,100%, auto;
-    background-repeat: no-repeat, repeat, repeat;
-    background-position: -10px 50%, 0 0, 0 0;
+.container-fluid-stats table.dl-table1 .thd1 td {
     color: #2f4470;
     text-transform: uppercase;
     font-weight: 700;
