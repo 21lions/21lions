@@ -695,6 +695,9 @@ table.table.table-condensed.table-hover.player_compact div img {    display: non
 /*league leaders***/
 .container-fluid-stats .col-xl-10 {    margin-bottom: 0rem;}
 .passingleaders.table-responsive td:nth-child(3), .passingleaders .table-responsive td:nth-child(3), .passingleaders.table-responsive td:nth-child(2), .passingleaders .table-responsive td:nth-child(2), .passingleaders tr.tbdy1:nth-child(n+12) ,  .rushingleaders tr.tbdy1:nth-child(n+12) , .sacksleaders tr.tbdy1:nth-child(n+12) ,  .tacklesleaders tr.tbdy1:nth-child(n+12) ,  .interceptionsleaders tr.tbdy1:nth-child(n+12) , .receivingleaders tr.tbdy1:nth-child(n+12) {    display: none;}
+table.dl-table1 .thd1 td {
+    background-color: transparent;
+}
 .container-fluid-stats table.dl-table1 .thd1 td {
     color: #2f4470;
     text-transform: uppercase;
