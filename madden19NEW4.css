@@ -143,7 +143,37 @@ ul.navbar-nav {    float: right;    right: 2rem;    text-align: right;    positi
 
 
 
+/*Player Search and Compare Page*********************************************************************************************************/
+/*player search*/
+#searchOverlay {    background-color: rgba(255, 255, 255, 0);}
 
+ /*compare player page***/
+table.table.table-condensed.table-hover.player_compact div img {    display: none;}
+.col-lg-4.col-sm-4.col-md-4.col-xs-4 .btn:not(:disabled):not(.disabled) {    float: unset;    cursor: pointer;    display: block;    width: 100%;}
+
+
+@media screen and (min-width: 315px) and (max-width: 768px) {     /* start of medium tablet styles********************** */
+/*player search page****/
+td {    padding: 4px;}
+table.responsive {    margin-left: 0px;    overflow-x: scroll;    display: block;    white-space: nowrap;}
+th {    text-align: inherit;    padding: 3px;}
+table.responsive> thead:first-child > tr:first-child > th:first-child {   position: absolute;    display: inline-block; width:140px;  background-color: #ccc;}
+table.responsive> tbody > tr > td:first-child {      position: absolute;    display: inline-block;    background-color: #ffffff;   width: 140px;}
+table.responsive> thead:first-child > tr:first-child > th:nth-child(2) {    padding-left: 155px;}
+table.responsive> tbody > tr > td:nth-child(2) {    padding-left: 155px !important;}
+tr.tbdy1:nth-child(odd) {    background: white;}
+
+
+/*compare player page***/
+.col-lg-4.col-sm-4.col-md-4.col-xs-4 {    width: 33%;}
+.col-lg-4.col-sm-4.col-md-4.col-xs-4 h3.panel-title {    font-size: inherit;    text-align: center;}
+.col-lg-4.col-sm-4.col-md-4.col-xs-4 img {    object-fit: cover;       background: #dc3545; width: 100%;}
+#playerSearchContainer {    background-color: #fff;    top:0px; border: 2px solid #428bca00;    border-radius: 5px;    margin-left: -193px;    padding: 15px;    width: 100%;    z-index: 6;    display:block;}
+p#playerSearchLabel {    display: none;}
+div#playerSearchContainer .form-group {    overflow-x: scroll;}
+table.responsive-2 {    margin-left: 0px;    overflow-x: scroll;    display: block;    white-space: nowrap;}
+
+}
 
 
 /*Mobile Designs for various screen widths***********************************************************************************************/
