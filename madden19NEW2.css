@@ -83,7 +83,7 @@ div#oplayeroftheweek-container, div#dplayeroftheweek-container {    overflow: hi
 .card.card-porlet.b {    border-top: none!important;    border-left: none!important;    border-right: none!important;}
 
 /*scoreboard*/
-.scorelist {    clear: both;    margin: 0;    display: table;    padding: 0;    position: relative;    top: 13px;}
+.scorelist {   BACKGROUND:WHITE; clear: both;    margin: 0;    display: table;    padding: 0;    position: relative;    top: 64px;}
 a.cfm-score-content, .cfm-score-home-wins .cfm-score-home, .cfm-score-visitor-wins .cfm-score-visitor {   background: none repeat scroll 0 0 #f0f0f000;    color: #013369;}
 .cfm-score-bigplay .cfm-score-alert-box, .cfm-score-bigplay .cfm-score-content, .cfm-score-content:hover, .cfm-score-content:hover>span {    background: none repeat scroll 0 0 #c6eafd00!important;    color: #f32121!important;}
 
