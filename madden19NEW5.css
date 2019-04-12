@@ -150,6 +150,7 @@ ul.navbar-nav {    float: right;    right: 2rem;    text-align: right;    positi
  /*compare player page***/
 table.table.table-condensed.table-hover.player_compact div img {    display: none;}
 .col-lg-4.col-sm-4.col-md-4.col-xs-4 .btn:not(:disabled):not(.disabled) {    float: unset;    cursor: pointer;    display: block;    width: 100%;}
+.col-lg-4.col-sm-4.col-md-4.col-xs-4 img {    object-fit: cover;       background: #dc3545; width: 100%;}
 
 
 @media screen and (min-width: 315px) and (max-width: 768px) {     /* start of medium tablet styles********************** */
@@ -167,7 +168,6 @@ tr.tbdy1:nth-child(odd) {    background: white;}
 /*compare player page***/
 .col-lg-4.col-sm-4.col-md-4.col-xs-4 {    width: 33%;}
 .col-lg-4.col-sm-4.col-md-4.col-xs-4 h3.panel-title {    font-size: inherit;    text-align: center;}
-.col-lg-4.col-sm-4.col-md-4.col-xs-4 img {    object-fit: cover;       background: #dc3545; width: 100%;}
 #playerSearchContainer {    background-color: #fff;    top:0px; border: 2px solid #428bca00;    border-radius: 5px;    margin-left: -193px;    padding: 15px;    width: 100%;    z-index: 6;    display:block;}
 p#playerSearchLabel {    display: none;}
 div#playerSearchContainer .form-group {    overflow-x: scroll;}
