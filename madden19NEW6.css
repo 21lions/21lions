@@ -39,7 +39,7 @@ div#nfc_playoff .cfm-hp-playoffrace .rank {   background: #176cb5;}
 .cfm-hp-playoffrace .rank {    font-size: 1rem;      margin-top: 10px;   padding: 5px;    color: white; width: 32px;    font-size: .75rem;  border-radius: 6%;  text-align: center;}
 .list-group-item.cfm-hp-playoffrace:nth-child(n+8) {    -webkit-filter: grayscale(95%);    filter: grayscale(95%);    -webkit-filter: grayscale(95%);    filter: grayscale(95%);    background: #82828259;  }
 div#afc_playoff h4:after, div#nfc_playoff h4:after {    content: '(Click Here)';}
-.playoffs {    padding: 52px;    text-align: center;}
+.playoffs {    padding-top: 52px;    text-align: center;}
 small.text-muted.ml-2 {    display: none;}
 .mr-2, .mx-2 {    margin-right: .5rem!important;    margin-top: 6px;}
 .list-group h4 {    font-size: small;    letter-spacing: 3px;    text-transform: uppercase;    color: #188db3;    text-align: center;}
