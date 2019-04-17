@@ -279,7 +279,7 @@ tr.tbdy1:nth-child(odd) {    background: white;}
 #playerSearchContainer {    background-color: #fff;    top:0px; border: 2px solid #428bca00;    border-radius: 5px;    margin-left: -193px;    padding: 15px;    width: 100%;    z-index: 6;    display:block;}
 p#playerSearchLabel {    display: none;}
 div#playerSearchContainer .form-group {    overflow-x: scroll;}
-table.responsive-2 {    margin-left: 0px;    overflow-x: scroll;    display: block;    white-space: nowrap;}
+table.responsive-2 {    margin-left: 0px;    overflow-x: scroll;  white-space: nowrap;}
 
 }
 
