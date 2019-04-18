@@ -1,4 +1,3 @@
-$(document).ready(function(){
 
 /***menu league title and additional links********************************************************************************************/
 $( "a.navbar-brand" ).text( "Heavyhitters" );
