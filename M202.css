@@ -447,43 +447,45 @@ div#visitor p.mb-0.text-muted, div#host p.mb-0.text-muted {
     color: white!important;
 }
 
- /*standings***/
-table.data-table2 {
-    border-collapse: collapse;
-    border: 1px solid #ccc;
-    width: 100%;
-    border: none;
-    display: table;
-    overflow-y: hidden;
-    overflow-x: auto;
-}
+/*standings***/
+div#afc-playoff-container {    margin-bottom: 70px;}
+div#afc-playoff-container:before {       content: "AFC Playoff Race";    position: absolute;    width: 100%;    text-align: center; left:20px;   color: red;   top: -39px;}
+div#nfc-playoff-container:before {      content: "NFC Playoff Race";    position: absolute;    width: auto;    text-align: center;    color: blue;    top: -39px;}
+p.mr-2.rank:before {    content: "#";}
+div#afc_playoff .cfm-hp-playoffrace .rank {   background: red;}
+div#nfc_playoff .cfm-hp-playoffrace .rank {   background: #176cb5;}
+.cfm-hp-playoffrace .rank {    font-size: 1rem;      margin-top: 10px;   padding: 5px;    color: white; width: 32px;    font-size: .75rem;  border-radius: 6%;  text-align: center;}
+.list-group-item.cfm-hp-playoffrace:nth-child(n+8) {    -webkit-filter: grayscale(95%);    filter: grayscale(95%);    -webkit-filter: grayscale(95%);    filter: grayscale(95%);    background: #82828259;  }
+div#afc_playoff h4:after, div#nfc_playoff h4:after {    content: '(Click Here)';}
+.playoffs {    padding-top: 52px;    text-align: center;}
+small.text-muted.ml-2 {    display: none;}
+.mr-2, .mx-2 {    margin-right: .5rem!important;    margin-top: 6px;}
+.list-group h4 {    font-size: small;    letter-spacing: 3px;    text-transform: uppercase;    color: #188db3;    text-align: center;}
+.Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 th:nth-child(n+12), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 th:nth-child(n+12), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 td:nth-child(n+12), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 td:nth-child(n+12) {    display: none;}
+table.table.table-striped.cfm-standings th:nth-child(n+12), table.table.table-striped.cfm-standings td:nth-child(n+12) {display: none;}
+.list-group .list-group-item { padding: 0px;padding-left: 10px;color: #555; padding-right: 10px;margin-bottom: 2px;border-bottom: 1px solid #013a6b59!important;border: none;}
+table.data-table2 { border-collapse: collapse;border: 1px solid #ccc; width: 100%; border: none;display: table;overflow-y: hidden; overflow-x: auto;}
 table.madden-team-table .thd1 td {    font-size: .75rem!important;}
 table.dl-table1 .thd2 td {     padding: 3px 3px;        color: #333;   background: linear-gradient(to top, rgb(199, 199, 199), rgb(255, 255, 255));}
 table.dl-table1 .thd1 td, table.dl-table1 .thd1 th {    padding: 3px 3px;}
- .table>tbody>tr>td {    vertical-align: middle;    overflow: hidden;}
-  .table-responsive {
-    column-count: 1;
-    white-space: nowrap;
-}
-.nfc.standings .table-responsive, .afc.standings .table-responsive {
-    column-count: 2;
-    white-space: nowrap;
-}
+.table>tbody>tr>td {    vertical-align: middle;    overflow: hidden;}
+.table-responsive { column-count: 1; white-space: nowrap;}
+.nfc.standings .table-responsive, .afc.standings .table-responsive {column-count: 2;white-space: nowrap;}
 .table>thead>tr>th {    padding: 8px 8px;    color: #464646;}
- .table-striped tbody tr:nth-of-type(-n+4) {
-    background-color: rgba(97, 78, 78, 0);
-}
-tr.thd2 {
-    background: linear-gradient(to top, rgb(199, 199, 199), rgb(255, 255, 255));
-}
-.Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 th:nth-child(n+11), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 td:nth-child(n+11) {
-    display: none;
-}
-.Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 .card-default .card-header {
-    background-color: #fff;
-    text-align: center;
-    font-size: x-large;
-}
+.table-striped tbody tr:nth-of-type(-n+4) {background-color: rgba(97, 78, 78, 0);}
+tr.thd2 {background: linear-gradient(to top, rgb(199, 199, 199), rgb(255, 255, 255));}
+.Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 th:nth-child(n+11), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 td:nth-child(n+11) { display: none;}
+.Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 .card-default .card-header { background-color: #fff;text-align: center;font-size: x-large;}
+ .carousel-control-next-icon, .carousel-control-prev-icon {    top: 25px;    background: #00000096 no-repeat 50%;    position: absolute;}
+.carousel-control-next, .carousel-control-prev {    width: 4%;}
+span.carousel-control-prev-icon {    background: url(https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-512.png);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    background-size: 100%;}
+span.carousel-control-next-icon {    background: url(https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-512.png);   -webkit-transform: scaleX(-1);    transform: scaleX(1);   background-size: 100%;}
+.table-responsive-page th:nth-child(n+11), .table-responsive-page th:nth-child(n+11), .table-responsive-page td:nth-child(n+11), .table-responsive-page td:nth-child(n+11) {    display: none;}
+table.table.table-striped.cfm-standings img {    margin: -21px -12px;}
+.card-header {    padding: 0.2rem 0.25rem;}
+.card-header.h3.mb-0.AFCcolors, .card-header.h3.mb-0.NFCcolors {    font-size: small;}
+ .carousel-inner .card-header {   text-align: center;}
+
  .carousel-control-next-icon, .carousel-control-prev-icon {    top: 25px;    background: #00000096 no-repeat 50%;    position: absolute;}
 .carousel-control-next, .carousel-control-prev {    width: 4%;}
 span.carousel-control-prev-icon {    background: url(https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-512.png);    -webkit-transform: scaleX(-1);    transform: scaleX(-1);    background-size: 100%;}
@@ -538,7 +540,9 @@ tr.tbdy1:nth-child(47) {animation: fadein-slidedown ease 11.4s;}
 tr.tbdy1:nth-child(48) {animation: fadein-slidedown ease 11.6s;}
 tr.tbdy1:nth-child(49) {animation: fadein-slidedown ease 11.8s;}
 tr.tbdy1:nth-child(50) {animation: fadein-slidedown ease 12s;}
- /*table****/
+
+
+/*table****/
 thead.thead-dlmain {    background: linear-gradient(to top, #adadad, #ddd);}
 tr.tbdy1:nth-child(odd) {    background: #80808036;}
 td {    padding: 2px;}
@@ -876,4 +880,53 @@ div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-
     font-size: initial;
     color: #35383a!important;
     margin: 0px!important;     padding: 5px!important;
+}
+
+
+/*Mobile Designs for various screen widths***********************************************************************************************/
+
+@media screen and (min-width: 315px) and (max-width: 768px) {/***********************************/
+/***menu***/
+ul.navbar-nav {    float: left;    left: 1rem;    text-align: left;    position: relative;}
+.dropdown-menu.show {   top: -.51rem;    position: relative;}
+.navbar-collapse {   z-index: 2;   top: 8px;   background-color: inherit!important;}
+.navbar, .navbar .dropdown-menu, .topnavbar {    height: unset;}
+div#mem {      position: fixed;  top: 40px;      margin-right: 0%;  right: 0rem;}
+a.navbar-brand {font-size: x-large;font-family: anton;letter-spacing: 0px;}
+
+ .dropdown-menu .dropdown-item {    padding: 0.4rem 1rem;}
+.dropdown-menu.dropdown-menu-right.animated.flipInX.show .media p.m-0 {   word-spacing: 5px;    text-align: left;    float: left;    left: 15px;    top: 4px;    position: relative;}
+.dropdown-menu.dropdown-menu-right.animated.flipInX.show {   float: left!important;    position: absolute!important;    left: 0px!important;    width: 100%!important;    top: -7px!important;    background: white!important;}
+
+/*sTORYLINES*/
+.blogpost.clearfix {   width: 100%;}
+}
+
+
+@media screen and (min-width: 315px) and (max-width: 1000px) { /***********************************/
+/*standings*/
+.nfc.standings .table-responsive, .afc.standings .table-responsive {    column-count: 1;    white-space: nowrap;}
+}
+
+
+
+@media screen and (min-width: 315px) and (max-width:1100px) { /***********************************/
+/*stats*/
+.stats td.tbdy-sorted.team-logo-container img {    left: 30%;}
+
+/*standings***/
+.Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 .card-default .card-header {    font-size: small;}
+.nfc.standings .table-responsive, .afc.standings .table-responsive {    column-count: 1;    white-space: nowrap;}
+.Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 th:nth-child(n+6), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 th:nth-child(n+6), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 td:nth-child(n+6), .Standings.col-lg-12.col-md-12.col-sm-12.col-xs-12 td:nth-child(n+6) {    display: none;}
+table.table.table-striped.cfm-standings th:nth-child(n+6), table.table.table-striped.cfm-standings td:nth-child(n+6) {
+display: none;}
+}
+
+
+
+@media (min-width: 1000px){/********************************************************************/
+/*stats*/
+.stats .col-sm-6 {   -webkit-box-flex: 0;    -ms-flex: 0 0 50%;    flex: 0 0 50%;    max-width: 50%;}
+/*storylines*/
+.col-md-6.col-xs-6.col-sm-6.clearfix { margin-bottom: 40px; }
 }
