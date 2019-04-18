@@ -1,18 +1,43 @@
 $(document).ready(function(){
-    
-/*GOW************************************************************************************************************/
-$('.col-3.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', ' col-6 d-flex align-items-center justify-content-center rounded-left');
- $('.col-3.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right').attr('class', ' col-6 bg-inverse d-flex align-items-center justify-content-center rounded-right');
- $('.row.row-flush .col-3:nth-child(2)').attr('class', ' gow away score');
-$('.row.row-flush .col-3:nth-child(3)').attr('class', ' gow home score');
- $('.align-right.clickable.ng-scope').attr('class', ' col-lg-12 col-md-12 col-sm-12 col-xs-12 GOW left');
- $('.clickable.ng-scope').attr('class',  'col-lg-12 col-md-12 col-sm-12 col-xs-12  GOW right');
- $('.gameoftheweek .cfm-table tr td.cfm-at').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 at');
-$('.gameoftheweek').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 gameoftheweek');
-$('.gameoftheweek .GOW').wrapInner('<div class="record"></div>');
- $( ".gow.away.score" ).appendTo( $( ".col-6.d-flex.align-items-center.justify-content-center.rounded-left" ) );
-$( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
 
+/***menu league title and additional links********************************************************************************************/
+$( "a.navbar-brand" ).text( "Heavyhitters" );
+$("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/Heavyhitters/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
+
+/***scoreboard**********************/
+ $( "div#flip2").load( "/Heavyhitters/schedules div#scores" );
+ $('div#flip2').attr('class', 'simple-ticker');
+$('.simple-ticker').attr('id', 'js-ticker-fade');
+    $("div#js-ticker-fade").hide();
+    $("#flip").on("click", function(){
+        $("div#js-ticker-fade").fadeToggle('slow');
+    });
+ $( "div#flip" ).load( "/Heavyhitters/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
+ $( "div#mem").load( "/Heavyhitters/admin ul.navbar-nav.flex-row.mr-3 " );
+
+/*league leaders home page********/
+$( ".passingleaders" ).load( "/Heavyhitters/stats/player/passing  .col-xl-10" );
+$( ".rushingleaders" ).load( "/Heavyhitters/stats/player/rushing .col-xl-10" );
+$( ".receivingleaders" ).load( "/Heavyhitters/stats/player/receiving .col-xl-10" );
+$( ".sacksleaders" ).load( "/Heavyhitters/stats/player/defense?sortby=sack  .col-xl-10" );
+$( ".tacklesleaders" ).load( "/Heavyhitters/stats/player/defense?sortby=tackles .col-xl-10" );
+$( ".interceptionsleaders" ).load( "/Heavyhitters/stats/player/defense?sortby=int .col-xl-10" );
+
+/*standings tabs*******************************************************/
+ $( ".afc.standings").load( "/Heavyhitters/standings .card.card-default:nth-child(4)" );
+ $( ".nfc.standings").load( "/Heavyhitters/standings .card.card-default:nth-child(5)" );
+
+/*All Teams Page**********************************************************/
+if(window.location.href=== "http://www.daddyleagues.com/Heavyhitters/teams") {
+         $(".col-xl-10").addClass("teams");
+     }
+
+/*Standings Page*********************************************************/
+if(window.location.href=== "/Heavyhitters/standings") {
+         $(" .table-responsive").addClass("table-responsive-page");
+     }
+
+/****Game of the Week******************************************************/
 /*BEARS*/
 	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/0.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CHI.svg")');
 	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/0.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CHI.svg")');
@@ -167,20 +192,27 @@ $('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="
 	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/31.png"]').attr( "style", "" ).css( 'background-image', 'url("https://i.imgur.com/1OJdXcp.png")');
 	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/31.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/HOU.svg")');
 
-/*tables*/
-$("table.dl-table1").attr('class', 'responsive-2');
-$("table.dl-table1.madden-team-table").attr('class', 'responsive');
-$('table.table.dl-table1.madden-team-table-responsive').wrapAll('<div class="col-xl-12"></div>');
+
+
+/*DL personal menu ****/
+$( ".dropdown-menu.dropdown-menu-right.animated.flipInX.show" ).wrap( "<div class='col-xl-12'></div>" );
 
 
 
-/*Schedules***/
-$('.row.row-flush.cfm-team-schedule .col-2.d-flex.justify-content-start').attr('class', 'col-4 d-flex  justify-content-start');
-$('.row.row-flush.cfm-team-schedule .col-6').attr('class', 'col-2');
-$('.row.row-flush.cfm-team-schedule .col-3.text-center.d-flex.align-items-end.justify-content-end.rounded-right').attr('class', 'col-4 d-flex  justify-content-start');
-$('.col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left').detach( );
-$('.col-4.d-flex.justify-content-start').attr('class', 'col-5 d-flex  justify-content-start');
 
+
+/*GOW************************************************************************************************************/
+$('.col-3.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', ' col-6 d-flex align-items-center justify-content-center rounded-left');
+ $('.col-3.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right').attr('class', ' col-6 bg-inverse d-flex align-items-center justify-content-center rounded-right');
+ $('.row.row-flush .col-3:nth-child(2)').attr('class', ' gow away score');
+$('.row.row-flush .col-3:nth-child(3)').attr('class', ' gow home score');
+ $('.align-right.clickable.ng-scope').attr('class', ' col-lg-12 col-md-12 col-sm-12 col-xs-12 GOW left');
+ $('.clickable.ng-scope').attr('class',  'col-lg-12 col-md-12 col-sm-12 col-xs-12  GOW right');
+ $('.gameoftheweek .cfm-table tr td.cfm-at').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 at');
+$('.gameoftheweek').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 gameoftheweek');
+$('.gameoftheweek .GOW').wrapInner('<div class="record"></div>');
+ $( ".gow.away.score" ).appendTo( $( ".col-6.d-flex.align-items-center.justify-content-center.rounded-left" ) );
+$( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
 
 /*story */ 
 $('.col-md-10.col-xs-10.col-sm-10').attr('class', '.col-md-12.col-xs-12.col-sm-12');
@@ -192,21 +224,6 @@ $('.blogpostbody a').contents().filter(function() {
     this.textContent = this.textContent.replace('[ Continue reading ]','Read More');
 });
 
-
-/*Player search page***/
- $('table.data-table2').attr('class', 'responsive');
-$( ".row" ).wrap( "<div class='col-xl-12'></div>" );
-$('td:contains("Star")').addClass('green');
- $('td').each(function() {
-      var text = parseInt($(this).text());
-      if (90< text &&  text <= 100) {
-        $(this).addClass('green');
-      } else if (80< text && text <= 90) {
-        $(this).addClass('yellow');
-      }
- })
-
-
 /*Playoff Race****/
   $("div#afc_playoff .list-group-item.cfm-hp-playoffrace:nth-child(n+8)").hide();
     $("div#afc_playoff .list-group h4").on("click", function(){
@@ -216,61 +233,6 @@ $('td:contains("Star")').addClass('green');
     $("div#nfc_playoff .list-group h4").on("click", function(){
         $("div#nfc_playoff .list-group-item.cfm-hp-playoffrace:nth-child(n+8)").slideToggle('slow');
 });
-
-
-/*standings tabs*******************************************************/
- $( ".afc.standings").load( "/Heavyhitters/standings .card.card-default:nth-child(4)" );
- $( ".nfc.standings").load( "/Heavyhitters/standings .card.card-default:nth-child(5)" );
-$(".col-xl-10.teams .row .col-xl-6").attr("class","col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12");
-
-
-
-/*pow***/
-$(".oplayeroftheweek .col-4.d-flex.align-items-center.justify-content-center.rounded-left	").attr('class', 'oplayeroftheweek col-12 d-flex align-items-center justify-content-center rounded-left');
-$(".oplayeroftheweek .col-8.py-2.pl-0").attr('class', 'oplayeroftheweek col-12 py-2 pl-0');
-$(".dplayeroftheweek .col-4.d-flex.align-items-center.justify-content-center.rounded-left	").attr('class', 'dplayeroftheweek col-12 d-flex align-items-center justify-content-center rounded-left');
-$(".dplayeroftheweek .col-8.py-2.pl-0").attr('class', 'dplayeroftheweek  col-12 py-2 pl-0');
-
-
-	
-	
-	
-	
-	
-
-/***menu league title and additional links********************************************************************************************/
-$( "a.navbar-brand" ).text( "gmfl" );
-$("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/gmfl/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
-
-/***scoreboard**********************/
- $( "div#flip2").load( "/gmfl/schedules div#scores" );
- $('div#flip2').attr('class', 'simple-ticker');
-$('.simple-ticker').attr('id', 'js-ticker-fade');
-    $("div#js-ticker-fade").hide();
-    $("#flip").on("click", function(){
-        $("div#js-ticker-fade").fadeToggle('slow');
-    });
- $( "div#flip" ).load( "/gmfl/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
- $( "div#mem").load( "/gmfl/admin ul.navbar-nav.flex-row.mr-3 " );
-
-/*league leaders home page********/
-$( ".passingleaders" ).load( "/gmfl/stats/player/passing  .col-xl-10" );
-$( ".rushingleaders" ).load( "/gmfl/stats/player/rushing .col-xl-10" );
-$( ".receivingleaders" ).load( "/gmfl/stats/player/receiving .col-xl-10" );
-$( ".sacksleaders" ).load( "/gmfl/stats/player/defense?sortby=sack  .col-xl-10" );
-$( ".tacklesleaders" ).load( "/gmfl/stats/player/defense?sortby=tackles .col-xl-10" );
-$( ".interceptionsleaders" ).load( "/gmfl/stats/player/defense?sortby=int .col-xl-10" );
-
-
-/*Standings Page*********************************************************/
-if(window.location.href=== "/gmfl/standings") {
-         $(" .table-responsive").addClass("table-responsive-page");
-     }
-
-/*DL personal menu ****/
-$( ".dropdown-menu.dropdown-menu-right.animated.flipInX.show" ).wrap( "<div class='col-xl-12'></div>" );
-
-
 
 
 /*Standings tab***/
@@ -296,6 +258,14 @@ $('.card.b .card-body.bb p.mb-0').contents().filter(function() {
     this.textContent = this.textContent.replace('DaddyLeagues estimated Score','Predicted Score');
 });
 
+
+/*Schedules***/
+$('.row.row-flush.cfm-team-schedule .col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', 'col-1 text-center d-flex align-items-center justify-content-center rounded-left');
+$('.row.row-flush.cfm-team-schedule .col-2.d-flex.justify-content-start').attr('class', 'col-4 d-flex  justify-content-start');
+$('.row.row-flush.cfm-team-schedule .col-6').attr('class', 'col-2');
+$('.row.row-flush.cfm-team-schedule .col-3.text-center.d-flex.align-items-end.justify-content-end.rounded-right').attr('class', 'col-4 d-flex  justify-content-start');
+$('.col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left').detach( );
+$('.col-4.d-flex.justify-content-start').attr('class', 'col-5 d-flex  justify-content-start');
 
 
 /*Player Page***/
@@ -335,4 +305,21 @@ $(" .col-xl-12.col-lg-12.col-md-12.pt-2").appendTo("div#tmpg .col-12.py-3.rounde
 /*front-office***/
 $("div#frontoffice_wrapper").attr('class', 'col-12 frontoffice_wrapper');
 
+/*pow***/
+$(".oplayeroftheweek .col-4.d-flex.align-items-center.justify-content-center.rounded-left	").attr('class', 'oplayeroftheweek col-12 d-flex align-items-center justify-content-center rounded-left');
+$(".oplayeroftheweek .col-8.py-2.pl-0").attr('class', 'oplayeroftheweek col-12 py-2 pl-0');
+$(".dplayeroftheweek .col-4.d-flex.align-items-center.justify-content-center.rounded-left	").attr('class', 'dplayeroftheweek col-12 d-flex align-items-center justify-content-center rounded-left');
+$(".dplayeroftheweek .col-8.py-2.pl-0").attr('class', 'dplayeroftheweek  col-12 py-2 pl-0');
+$("img.rounded-circle.thumb24").unwrap();
+
+/*Player search page***/
+ $('table.data-table2').attr('class', 'responsive');
+$( ".row" ).wrap( "<div class='col-xl-10'></div>" );
+$('ul.players-add-filter.dropdown-menu.show').attr('class', 'dropdown-menu');
+$("legend").appendTo(".col-xl-10 .row .col-12 .card.card-default .card-body");
+$( "legend" ).wrap( "<div class='legendtwo'>Player Search <em class='fa fa-chevron-circle-down'></em></div>" );
+$("form.form-horizontal").hide();
+    $(".legendtwo").on("click", function(){
+        $("form.form-horizontal").fadeToggle('slow');
+});
 
