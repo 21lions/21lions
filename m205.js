@@ -36,7 +36,19 @@ if(window.location.href=== "/Heavyhitters/standings") {
          $(" .table-responsive").addClass("table-responsive-page");
      }
 
-/****Game of the Week******************************************************/
+/*GOW************************************************************************************************************/
+$('.col-3.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', ' col-6 d-flex align-items-center justify-content-center rounded-left');
+ $('.col-3.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right').attr('class', ' col-6 bg-inverse d-flex align-items-center justify-content-center rounded-right');
+ $('.row.row-flush .col-3:nth-child(2)').attr('class', ' gow away score');
+$('.row.row-flush .col-3:nth-child(3)').attr('class', ' gow home score');
+ $('.align-right.clickable.ng-scope').attr('class', ' col-lg-12 col-md-12 col-sm-12 col-xs-12 GOW left');
+ $('.clickable.ng-scope').attr('class',  'col-lg-12 col-md-12 col-sm-12 col-xs-12  GOW right');
+ $('.gameoftheweek .cfm-table tr td.cfm-at').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 at');
+$('.gameoftheweek').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 gameoftheweek');
+$('.gameoftheweek .GOW').wrapInner('<div class="record"></div>');
+ $( ".gow.away.score" ).appendTo( $( ".col-6.d-flex.align-items-center.justify-content-center.rounded-left" ) );
+$( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
+
 /*BEARS*/
 	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/0.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CHI.svg")');
 	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/0.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/CHI.svg")');
@@ -192,26 +204,9 @@ $('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="
 	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/31.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/HOU.svg")');
 
 
-
 /*DL personal menu ****/
 $( ".dropdown-menu.dropdown-menu-right.animated.flipInX.show" ).wrap( "<div class='col-xl-12'></div>" );
 
-
-
-
-
-/*GOW************************************************************************************************************/
-$('.col-3.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', ' col-6 d-flex align-items-center justify-content-center rounded-left');
- $('.col-3.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right').attr('class', ' col-6 bg-inverse d-flex align-items-center justify-content-center rounded-right');
- $('.row.row-flush .col-3:nth-child(2)').attr('class', ' gow away score');
-$('.row.row-flush .col-3:nth-child(3)').attr('class', ' gow home score');
- $('.align-right.clickable.ng-scope').attr('class', ' col-lg-12 col-md-12 col-sm-12 col-xs-12 GOW left');
- $('.clickable.ng-scope').attr('class',  'col-lg-12 col-md-12 col-sm-12 col-xs-12  GOW right');
- $('.gameoftheweek .cfm-table tr td.cfm-at').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 at');
-$('.gameoftheweek').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 gameoftheweek');
-$('.gameoftheweek .GOW').wrapInner('<div class="record"></div>');
- $( ".gow.away.score" ).appendTo( $( ".col-6.d-flex.align-items-center.justify-content-center.rounded-left" ) );
-$( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
 
 /*story */ 
 $('.col-md-10.col-xs-10.col-sm-10').attr('class', '.col-md-12.col-xs-12.col-sm-12');
