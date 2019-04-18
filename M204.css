@@ -641,21 +641,35 @@ div.eas-plugin-ccmGamePlugin-widget-ccmGameRecap .team-info-left {   height: 265
 .card.b .card-body.bb {    display: -webkit-box;    column-count: 2;}
 .card.b p.mb-0 {    width: 25%;    height: 5px;    white-space: nowrap;}
 .card.b .d-flex.align-items-center {    white-space: nowrap;    width: 35%; }
- /*Schedule Page***/
-.row.row-flush.cfm-team-schedule {       overflow: hidden;    height: 75px;    background: linear-gradient(to top, rgba(0, 0, 0, 0.19), rgba(255, 255, 255, 0)),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), #e9ecef;    background-position: 0 0, 0 57%;    border-bottom: 3px solid #8c8b8b;    border-top: 2px solid #e3ebef;    border-left: 2px solid darkgray;    border-right: 2px solid;}
-.h2.m-0.text-bold {    font-size: 2rem;}
-div#scores .card.b.mb-2 {    width: 50%;    display: -webkit-box;    float: right;}
-.card-body {   padding: 1rem;}
-div#tmpg .cfm-team-schedule img {  height: 100px;   background: gray;    width: 3rem;    object-fit: cover;}
-.cfm-team-schedule img {       margin: -17px 0px;    overflow: hidden;    height: 100px;    top: 3px;    width: auto;    object-fit: contain;    position: relative;}
-.text-muted {    color: grey;}
-div#scores {        column-count: 1;    overflow: hidden; padding-right: 15px; padding-left: 15px;}
-div#scores .col-xl-10 {    margin-bottom: -15px;}
-.col-5 {    -ms-flex: 0 0 40%;  flex: 0 0 40%;    max-width: 40%;}
-.col-2 {    -ms-flex: 0 0 20%;    flex: 0 0 20%;   max-width: 20%;}
-.col-5.d-flex.justify-content-start .m-0.text-muted.text-uppercase {    top: -6px;    position: relative;}
-h4.mt-3 a {  font-size: 1.5rem;    background: darkslategray;    padding: 15%;      margin-top: 0.8rem!important;  color: white;    font-family: DLSansCondMedium;}
- /*Player Search***/
+/*schedules Page**********************************************************************************************************************************************/ 
+.card.b.mb-2 {    display: -webkit-inline-box;    width: 49%;}
+@media screen and (max-width: 768px) and (min-width: 315px){
+.card.b.mb-2 {   width: 100%;}
+}
+.card-body.text-center p.mb-0.text-muted {    color: white!important;}
+div#scores .row {    display: -webkit-box;}
+.row.row-flush.cfm-team-schedule {      background: #013369;}
+.row.row-flush.cfm-team-schedule .text-bold {    color: white;}
+div#scores .col-xl-6.col-md-6.col-sm-12:nth-child(2) {    position: relative;    float: right;    top: -700px;    margin-bottom: -700px;}
+.cfm-team-schedule .col-2, .cfm-team-schedule .col-3 {    -webkit-box-flex: 0;    -ms-flex: 0 0 35.8%;    flex: 0 0 20%;    max-width: 20%;}
+.cfm-team-schedule .col-5 {    -ms-flex: 0 0 41.66666667%;    flex: 0 0 40%;    max-width: 40%;}
+div#scores .col-xl-12 {    padding-left: 0px;    padding-right: 0px;}
+.cfm-team-schedule img {    height: 60px;}
+div#scores  .h2, h2 {    font-size: 1.875rem!important;}
+div#scores .m-0.text-muted.text-uppercase {    line-height: 10px;}
+.btn-group, .btn-group-vertical {  display: -webkit-inline-box;}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {/***********************************/
+/*schedules*/ 
+div#scores .col-xl-6.col-md-6.col-sm-12:nth-child(2) { top: -560px;    margin-bottom: -560px;}
+div#scores .h2, h2 {    font-size: 1.5rem!important; }
+}
+@media screen and (min-width: 250px) and (max-width: 767px) {/***********************************/
+/*schedules*/ 
+div#scores .col-xl-6.col-md-6.col-sm-12:nth-child(2) { top: 0px;    margin-bottom: 150px;}
+div#scores .h2, h2 {    font-size: 1.5rem!important; }
+}
+/*Player Search***/
 table.responsive {     margin-left: 0px; }
 ul.players-add-filter.dropdown-menu.show { width: 75%;    padding: 5%;   background: #d6d6d6!important;  color: #4c4c4c;    text-align: left;    z-index: 1;    transform: translate3d(653px, -311px, 0px)!important;    animation: fadein ease 1s;    column-count: 2;}
 ul.players-add-filter.dropdown-menu.show li {    padding: 1px;}
@@ -667,22 +681,8 @@ label.col-xl-2.col-form-label {    margin-bottom: -20px;}
 form.form-horizontal .col-xl-10 {    margin-bottom: -26px;}
 .btn:not(:disabled):not(.disabled) {    float: left;    cursor: pointer;}
 form.form-horizontal .col-xl-10:nth-child(4) {    margin-bottom: 0px;}
- /*new scoreboard***/
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left {display: none!important;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 {  top:-12px;  -ms-flex: 0 0 20%;    flex: 0 0 40%;    max-width: 40%;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-6 { top: -16px;   -ms-flex: 0 0 50%;    flex: 0 0 20%;    max-width: 20%;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 { top: 22px;   -ms-flex: 0 0 12%;    flex: 0 0 40%;   max-width: 40%;}
-div#js-ticker-fade div#scores .card.b.mb-2 {  height: 45px;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule {    height: 50px;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .h2.m-0.text-bold {     top: 5px;    position: relative;   font-size: 1.5rem!important; }
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 .card-body.text-center .m-0.text-muted.text-uppercase {    font-size: .75rem;    float: right;    width: 100px;    position: relative;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 .card-body.text-center .m-0.text-muted.text-uppercase {       font-size: .75rem!important;  position: relative;    width: 100px;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 .card-body.text-center .m-0.text-muted.text-uppercase {      border-top: none;    border-left: none;    border-right: none;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3.text-center.d-flex.align-items-end.justify-content-end.rounded-right .h2.m-0.text-bold {    font-size: 1.5rem!important;    top: 5px;    position: relative;}
-div#scores .row.row-flush.cfm-team-schedule:hover {    background: #343a40;    color: white !important;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a:hover {    color: white!important;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {    font-size: 1.4rem;    background: #343a40;    color: #ececec;}
- /*player page***/
+ 
+/*player page***/
 .fa {    display: contents;}
 .panel.panel-playertraits {    display: -webkit-box;}
  div#cardChart9 {    display: none;}
@@ -729,27 +729,17 @@ a.btn.btn-oval.btn-secondary {    display: contents;}
 .media p.m-0 {     word-spacing: 5px;    text-align: left;    float: left;    left: 164px;    top: 35px;    position: absolute;}
 .ml-auto span.text-muted.ml-2.teamname {        font-size: 1.125rem;    float: left;  color: #fff!important;    background: #6c757d;    left: -8px;    width: 40px;    top: 1px;    text-align: center;    font-family: DLSansCondMedium;    text-transform: uppercase;    position: relative;    padding: 2px;    line-height: 20px;    text-shadow: none;    border-radius: 5px;}
 .media-body.text-truncate p.mb-1 {    position: relative;    top: -3px;}
-/*POW****/
-.oplayeroftheweek.col-12.py-2.pl-0 .text-center , .dplayeroftheweek.col-12.py-2.pl-0 .text-center { font-size: medium;}
-.oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {
-    font-size: large;
-    line-height: 0px;
-}
-div#oplayeroftheweek-container, div#dplayeroftheweek-container {
-    height: 250px; overflow:hidden;  background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-diagram.png),linear-gradient(to top, #ffffff, #9E9E9E);
-    background-size: 35%, auto;
-    background-repeat: repeat, repeat;
-    background-position: 0 0, 0 0;
-}
-div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {    z-index: 1;   top: -100px;    right: -21%;}
-div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-container img.rounded-circle.thumb24 {     position: absolute; width: auto!important;    height: auto!important;     left: 70%;    top: -50px;   z-index: 0;    -webkit-mask-image: linear-gradient(to top, transparent 33%, black 80%);    mask-image: linear-gradient(to bottom, transparent 33%, black 80%);}
-.dplayeroftheweek.col-12.py-2.pl-0, .oplayeroftheweek.col-12.py-2.pl-0 {    width: 50%;}
-.NFCcolors, .NPRcolors, .AFCcolors, .APRcolors {
-    background-color: #d3d3d3!important;
-    font-size: initial;
-    color: #35383a!important;
-    margin: 0px!important;     padding: 5px!important;
-}
+
+/*playeroftheweek*/
+.rounded-circle {    border-radius: 0%!important;}
+.text-center {    line-height: 0px;}
+.thumb128 {    width: 300px!important;    height: auto!important;  }
+div#oplayeroftheweek-container, div#dplayeroftheweek-container {    overflow: hidden;}
+.dplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left { background-position: right top;}
+.oplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left {    background-position: left top;}
+.oplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left , .dplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left {    background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #6da8d8 10%);}
+.carousel-control-next, .carousel-control-prev {    width: 10%;}
+
 
 
 /*Mobile Designs for various screen widths***********************************************************************************************/
