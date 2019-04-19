@@ -1,6 +1,6 @@
 
 /***menu league title and additional links********************************************************************************************/
-$( "a.navbar-brand" ).text( "Heavyhitters" );
+$( "a.navbar-brand" ).text( "LeagueName" );
 $("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/Heavyhitters/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
 
 /***scoreboard**********************/
