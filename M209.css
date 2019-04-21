@@ -282,23 +282,7 @@ a.info:HOVER {  BACKGROUND: linear-gradient(to top, rgb(90, 90, 90), rgb(171, 17
  
  
 /*storylines*/
-hr {    border-top: 0px solid #e4eaec;}
-div#news-stream-container {   overflow: hidden;}
-div#hp-stories {   overflow-x:scroll;  display: -webkit-inline-box;}
-.blogpost img.blogpostimage {    height: -webkit-fill-available;    object-position: top;    object-fit: cover;}
-.blogpost h3 a {    font-size: xx-large;}
-.col-md-12.col-xs-12.col-sm-12 h4 strong a {    font-size: xx-large;}
-.blogpost p, .col-md-12.col-xs-12.col-sm-12 p{    font-family: DLSansCondMedium!important;    font-size: medium!important;    color: inherit!important;}
-.col-md-12.col-xs-12.col-sm-12 img.img-responsive {  width: 100%; }
-img.blogpostimage {      height: 210px;  object-position: top;  object-fit: cover;}
-.blogpost.clearfix { padding:12px;   width: 33%;}
-.blogpostbody p {    font-family: DLSansCondMedium!important;    font-size: initial!important;   color: inherit!important;}
-div#hp-stories .blogpostbody p {    display: none;}
-.blogpost.clearfix h4 strong a {          font-size: larger;    width: 85%;    top: 283px;    display: block;    text-overflow: ellipsis;    word-wrap: break-word;    overflow: hidden;    max-height: 49px;   height: 48px;    line-height: 25px;    padding-right: 15px;}
-.btn-primary {    margin-top: 12px;    margin-bottom: 7px;}
-@media screen and (max-width: 768px) and (min-width: 315px){
-.blogpost img.blogpostimage {    height: 200px!important;}
-}
+
 
 /*GOW*/
 div#gameoftheweek-container .col-xl-12 {    padding-left: 0px!important;    padding-right: 0px!important;}
