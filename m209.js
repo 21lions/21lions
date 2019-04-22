@@ -133,7 +133,7 @@ $('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="
 
 /*PACKERS*/
 	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/19.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/GB.svg")').wrapInner( "<div id='host'><p>Username</p><p>Green Bay</p><p>Packers</p></div>");
-	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/19.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/GB.svg")').wrapInner( "<div id='visitor'><p>Username</p><p>Green Bay</p><p>Packers</p></div>");
+	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/19.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/GB.svg")');
 
 
 
