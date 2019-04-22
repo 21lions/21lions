@@ -195,7 +195,7 @@ $('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="
 /*TEXANS*/
 	$('.col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/31.png"]').attr( "style", "" ).css( 'background-image', 'url("https://i.imgur.com/1OJdXcp.png")');
 	$('.col-6.d-flex.align-items-center.justify-content-center.rounded-left[style*="/img/nfl/teams/left/31.png"]').attr( "style", "" ).css( 'background-image', 'url("http://i.nflcdn.com/static/site/6.3/img/logos/svg/teams/HOU.svg")');
-
+});
 
 
 /***Splash page***/
