@@ -130,7 +130,8 @@ div#mem li.nav-item span.badge.badge-danger {  font-size: x-small;  position: ab
 /***Scoreboard***/
 div#js-ticker-fade .h2.m-0.text-bold, div#js-ticker-fade .text-muted {   background: linear-gradient(to top,white 31%, #c3ced2 52%, #efefef 65%);    -webkit-background-clip: text;   -webkit-text-fill-color: #ffffff2b;    -webkit-text-stroke: .05px #607D8B;    font-family: inherit;
 }
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {  background: linear-gradient(to top,white 31%, #c3ced2 52%, #efefef 65%);    -webkit-background-clip: text;  -webkit-text-stroke: .05px #607D8B;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a { 
+    background: #343a4000;  background: linear-gradient(to top,white 31%, #c3ced2 52%, #efefef 65%);    -webkit-background-clip: text;  -webkit-text-stroke: .05px #607D8B;}
 .cfm-score-score {right: unset;    text-align: center;    font-size: 1.6rem;    width: 100px;    letter-spacing: -1px;}
 .cfm-score {height: 40px; border-right: none; }
 .cfm-score-index-0 {    left: -1.4rem;    min-width: 50%;}
