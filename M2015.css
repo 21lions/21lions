@@ -97,7 +97,7 @@ footer {   color: #ffffff;   background: none;}
  /***menu***/
 .dlnavbar .navbar-nav .nav-link {    font-size: smaller;}
 .dlnavbar .navbar-nav .nav-link:focus, .dlnavbar .navbar-nav .nav-link:hover {   background-color: rgba(0, 0, 0, 0) !important;   color: #000!important;   text-shadow: none;}
-.dlnavbg, div#dlmaddenmenu, .navbar-expand-lg .navbar-nav .dropdown-menu  {    background-color: #2f4470!important;}
+.dlnavbg, div#dlmaddenmenu, .navbar-expand-lg .navbar-nav .dropdown-menu  {    background-color: #ff0000!important;}
 .navbar-expand-lg .navbar-nav .dropdown-menu {   height: auto!important;}
 .navbar-collapse { -ms-flex-preferred-size: 100%;   flex-basis: 100%;   padding: 1%;}
 a.navbar-brand:before {     content:none;   position: relative;    top: 5px;}
@@ -113,7 +113,7 @@ a.navbar-brand {   left:45px;  font-size: -webkit-xxx-large;    font-family: ant
 .dropdown-menu .dropdown-item {    line-height: 1.52857143;    padding: 0.1rem 1rem;}
 .navbar, .navbar .dropdown-menu, .topnavbar { filter: none!important;    position: fixed;    z-index: 33;    max-width: 100%;    width: 100%!important;    top: 0px;   left: 0;    right: 0;  height: 63px!important;}
 ul.navbar-nav {    float: right;    right: 2rem;    text-align: right;    position: absolute;     float: right;    right: 2rem;    text-align: right;    position: absolute;font-size: .8rem;    text-transform: uppercase;}
-.navbar-brand {    display: inline-block;    margin-top:-29px; padding-top: .3125rem;    padding-bottom: .3125rem;    margin-right: 1rem;    font-size: x-large;    line-height: inherit;    white-space: nowrap;    text-transform: uppercase;    font-style: italic;}
+.navbar-brand {    display: inline-block;    margin-top:-29px; padding-top: .3125rem;    padding-bottom: .3125rem;    margin-right: 1rem;    font-size: x-large;    line-height: inherit;    white-space: nowrap;    text-transform: uppercase; }
 .dropdown-menu.show {    top: 43px;      height: auto!important;  position: relative;}
 .navbar-light .navbar-toggler-icon {    background-image: url(http://www.vn2ny.com/image/menu.png);}
 div#mem ul.navbar-nav.flex-row.mr-3 {    width: 25%;    right: 70px;    top: 11px;}
@@ -130,7 +130,7 @@ div#mem li.nav-item span.badge.badge-danger {  font-size: x-small;  position: ab
 /***Scoreboard***/
 div#js-ticker-fade .h2.m-0.text-bold, div#js-ticker-fade .text-muted {   background: linear-gradient(to top,white 31%, #c3ced2 52%, #efefef 65%);    -webkit-background-clip: text;   -webkit-text-fill-color: #ffffff2b;    -webkit-text-stroke: .05px #607D8B;    font-family: inherit;
 }
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {  background: linear-gradient(to top,white 31%, #c3ced2 52%, #efefef 65%);    -webkit-background-clip: text;   -webkit-text-fill-color: #ffffff2b;    -webkit-text-stroke: .05px #607D8B;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {  background: linear-gradient(to top,white 31%, #c3ced2 52%, #efefef 65%);    -webkit-background-clip: text;  -webkit-text-stroke: .05px #607D8B;}
 .cfm-score-score {right: unset;    text-align: center;    font-size: 1.6rem;    width: 100px;    letter-spacing: -1px;}
 .cfm-score {height: 40px; border-right: none; }
 .cfm-score-index-0 {    left: -1.4rem;    min-width: 50%;}
@@ -915,3 +915,25 @@ div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-
     color: #35383a!important;
     margin: 0px!important;     padding: 5px!important;
 }
+
+@media screen and (max-width: 768px) and (min-width: 315px){.dropdown-menu.dropdown-menu-right.animated.flipInX.show {    left: 100px!important; }}
+@media screen and (max-width: 768px) and (min-width: 315px){ .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek:before {    padding-top: 6px;    font-size: 1rem;}
+div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {    height: 14rem;}
+}
+@media screen and (max-width: 768px) and (min-width: 315px){
+.carousel {    position: relative;    top: -80px;}
+.carousel-control-next, .carousel-control-prev {    width: 15%;}
+.carousel-item.active .blogpost .blogpostheader a { font-size: 2rem;   -webkit-line-clamp: 3;    line-height: 36px;}
+}
+@media screen and (max-width: 420px) and (min-width: 315px){
+div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {top: -60px;}}
+@media screen and (max-width: 768px) and (min-width: 315px) { div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 {    top: -11px;}
+div#js-ticker-fade div#scores .cfm-team-schedule img {   
+    background: #b9b9b900;  object-fit: contain;    padding: 2px;}}
+@media screen and (max-width: 1000px) and (min-width: 300px){ .jumbotron img {    width: 100%;} }
+/*Standings Overflow*/
+.nfc.standings {    margin-bottom: -33px;}
+@media screen and (max-width: 1000px) and (min-width: 300px){ .nfc.standings {    margin-bottom: unset;} }
+/*footer image*/
+.footer-dark img.img-fluid.mx-auto {    width: 12%;}
+@media screen and (max-width: 1000px) and (min-width: 300px){ .footer-dark img.img-fluid.mx-auto {    width: 50%;} }
