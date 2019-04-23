@@ -63,7 +63,7 @@ table.dl-table1 tr:hover {    background-color: #f5f5f500;}
 .footer-dark h5 { white-space: normal;}
 div#contact img {    text-align: center;   object-fit: contain;    width: 100%;}
 div#contact p {    color: #2f4470;}
-footer {   color: #ffffff;   background: none;}
+footer {  text-align:center; color: #ffffff;   background: none;}
 .footer-dark {  padding: 25px;  color: #f0f9ff;  background-color: #282d32;
 }
 .footer-dark h3 { margin-top: 0;  margin-bottom: 12px;  font-weight: bold;  font-size: 16px;
@@ -763,7 +763,7 @@ div#powerrankings .card-footer {    text-align: center;}
 .list-group .list-group-item {    overflow: hidden;}
 .cfm-hp-powerrankings .rank {    font-size: 1rem;    background: linear-gradient(to top, #b3b3b3, #ececec);   padding: 3px;    color: #343a40;    width: 30px;    text-align: center;    border-radius: 4px;}
 div#powerrankings p.mb-1 {height:32px;  top: 0px;}
-div#powerrankings .media-body.text-truncate, div#powerrankings small.text-muted.ml-2 {    top: 10px;   position: relative;}
+div#powerrankings .media-body.text-truncate, div#powerrankings small.text-muted.ml-2 {  color:white!important;  top: 10px;   position: relative;}
 .list-group-item.cfm-hp-powerrankings {     background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), linear-gradient(to top, rgba(0, 0, 0, 0.4), #f71b3000);    background-size: 4px,100%, auto;    background-position: 0, 0px -68px, 0;}
  /*team page***/
 .col-12.py-3.rounded-right.cfm-team-info .row.row-flush.cfm-team-schedule .m-0.text-muted.text-uppercase {    color: #343a40!important;}
