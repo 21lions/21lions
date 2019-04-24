@@ -131,7 +131,7 @@ div#mem li.nav-item span.badge.badge-danger {  font-size: x-small;  position: ab
 div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left {display: none!important;}
 div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 {  top:-12px;  -ms-flex: 0 0 20%;    flex: 0 0 40%;    max-width: 40%;}
 div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-6 { top: -16px;   -ms-flex: 0 0 50%;    flex: 0 0 20%;    max-width: 20%;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 { top: 22px;   -ms-flex: 0 0 12%;    flex: 0 0 40%;   max-width: 40%;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 { top: -16px;   -ms-flex: 0 0 12%;    flex: 0 0 40%;   max-width: 40%;}
 div#js-ticker-fade div#scores .card.b.mb-2 {  height: 45px;}
 div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule {    height: 50px;}
 div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .h2.m-0.text-bold {     top: 5px;    position: relative;   font-size: 1.5rem!important; }
