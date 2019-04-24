@@ -13,7 +13,7 @@ a:hover {    color: #000;}
 div#carouselExampleControls {    top: 0px;}
 .dropdown-item:focus, .dropdown-item:hover
     {  color: #16181b!important;    background-color: transparent;}
-.dlnavbar .navbar-toggler-icon {    background-image: url(http://www.brightonhotdogshoppes.com/images/MenuButton.png);}
+.dlnavbar .navbar-toggler-icon {    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/VisualEditor_-_Icon_-_Menu.svg/768px-VisualEditor_-_Icon_-_Menu.svg.png);}
 .dlnavbar .navbar-brand, .dlnavbar .navbar-brand:focus, .dlnavbar .navbar-brand:hover, .dlnavbar .navbar-nav .nav-link, .dropdown-item, footer
     { color: #fff !important; }
 .dlnavbg, div#dlmaddenmenu, .navbar-expand-lg .navbar-nav .dropdown-menu, .footer-dark , .dropdown-menu.dropdown-menu-right.animated.flipInX.show, .list-group-item-action:focus, .list-group-item-action:hover
