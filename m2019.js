@@ -5,39 +5,39 @@ $(document).ready(function(){
 	
 	
 /***menu league title and additional links********************************************************************************************/
-$( "a.navbar-brand" ).text( "BFGO" );
-$("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/BFGO/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
+$( "a.navbar-brand" ).text( "Heavyhitters" );
+$("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/Heavyhitters/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
 
 /***scoreboard**********************/
- $( "div#flip2").load( "/BFGO/schedules div#scores" );
+ $( "div#flip2").load( "/Heavyhitters/schedules div#scores" );
  $('div#flip2').attr('class', 'simple-ticker');
 $('.simple-ticker').attr('id', 'js-ticker-fade');
     $("div#js-ticker-fade").hide();
     $("#flip").on("click", function(){
         $("div#js-ticker-fade").fadeToggle('slow');
     });
- $( "div#flip" ).load( "/BFGO/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
- $( "div#mem").load( "/BFGO/admin ul.navbar-nav.flex-row.mr-3 " );
+ $( "div#flip" ).load( "/Heavyhitters/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
+ $( "div#mem").load( "/Heavyhitters/admin ul.navbar-nav.flex-row.mr-3 " );
 
 /*league leaders home page********/
-$( ".passingleaders" ).load( "/BFGO/stats/player/passing  .col-xl-10" );
-$( ".rushingleaders" ).load( "/BFGO/stats/player/rushing .col-xl-10" );
-$( ".receivingleaders" ).load( "/BFGO/stats/player/receiving .col-xl-10" );
-$( ".sacksleaders" ).load( "/BFGO/stats/player/defense?sortby=sack  .col-xl-10" );
-$( ".tacklesleaders" ).load( "/BFGO/stats/player/defense?sortby=tackles .col-xl-10" );
-$( ".interceptionsleaders" ).load( "/BFGO/stats/player/defense?sortby=int .col-xl-10" );
+$( ".passingleaders" ).load( "/Heavyhitters/stats/player/passing  .col-xl-10" );
+$( ".rushingleaders" ).load( "/Heavyhitters/stats/player/rushing .col-xl-10" );
+$( ".receivingleaders" ).load( "/Heavyhitters/stats/player/receiving .col-xl-10" );
+$( ".sacksleaders" ).load( "/Heavyhitters/stats/player/defense?sortby=sack  .col-xl-10" );
+$( ".tacklesleaders" ).load( "/Heavyhitters/stats/player/defense?sortby=tackles .col-xl-10" );
+$( ".interceptionsleaders" ).load( "/Heavyhitters/stats/player/defense?sortby=int .col-xl-10" );
 
 /*standings tabs*******************************************************/
- $( ".afc.standings").load( "/BFGO/standings .card.card-default:nth-child(4)" );
- $( ".nfc.standings").load( "/BFGO/standings .card.card-default:nth-child(5)" );
+ $( ".afc.standings").load( "/Heavyhitters/standings .card.card-default:nth-child(4)" );
+ $( ".nfc.standings").load( "/Heavyhitters/standings .card.card-default:nth-child(5)" );
 
 /*All Teams Page**********************************************************/
-if(window.location.href=== "http://www.daddyleagues.com/BFGO/teams") {
+if(window.location.href=== "http://www.daddyleagues.com/Heavyhitters/teams") {
          $(".col-xl-10").addClass("teams");
      }
 
 /*Standings Page*********************************************************/
-if(window.location.href=== "/BFGO/standings") {
+if(window.location.href=== "/Heavyhitters/standings") {
          $(" .table-responsive").addClass("table-responsive-page");
      }
 
