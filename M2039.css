@@ -1,4 +1,5 @@
 /*Setup****/
+.btn-info {   background-color: #ffffff;    border-color: #ffffff;}
 .dropdown-item.active, .dropdown-item:active {    background-color: #ffffff12;}
 .dropdown-item:focus, .dropdown-item:hover {   color: #f8f9fb!important;    background-color: #ffffff1f;}
 .btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {  background-color: #ffffff;    border-color: #ffffff;}
