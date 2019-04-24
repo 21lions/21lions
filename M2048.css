@@ -1,4 +1,5 @@
 /*Setup****/
+.table-striped tbody tr:nth-of-type(odd) {    background-color: rgba(0, 0, 0, 0);}
 .col-lg-4.col-md-12.col-sm-12.col-xs-12 tbody td {    color: #212529;}
 .btn-info {   background-color: #ffffff00;    border-color: #ffffff;}
 .dropdown-item:focus, .dropdown-item:hover {     color: #ffffff!important;
