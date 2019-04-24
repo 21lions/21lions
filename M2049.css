@@ -942,7 +942,7 @@ div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameofthew
 @media screen and (max-width: 768px) and (min-width: 315px){
 .carousel {    position: relative;    top: -80px;}
 .carousel-control-next, .carousel-control-prev {    width: 15%;}
-.carousel-item.active .blogpost .blogpostheader a { font-size: 2rem;   -webkit-line-clamp: 5;    line-height: 36px;}
+.carousel-item.active .blogpost .blogpostheader a { font-size: 2rem;  padding-top: 35vh; -webkit-line-clamp: 5;    line-height: 36px;}
 }
 @media screen and (max-width: 420px) and (min-width: 315px){
 div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {top: -60px;}}
