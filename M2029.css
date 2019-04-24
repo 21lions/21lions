@@ -937,7 +937,7 @@ div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameofthew
 @media screen and (max-width: 420px) and (min-width: 315px){
 div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {top: -60px;}}
 @media screen and (max-width: 768px) and (min-width: 315px) { div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 {    top: -11px;}
-div#js-ticker-fade div#scores .cfm-team-schedule img {   background:transparent; 
+div#js-ticker-fade div#scores .cfm-team-schedule img {   background:transparent!important; 
   object-fit: contain;    padding: 2px;}}
 @media screen and (max-width: 1000px) and (min-width: 300px){ .jumbotron img {    width: 100%;} }
 /*Standings Overflow*/
