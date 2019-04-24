@@ -1,5 +1,9 @@
 $(document).ready(function(){
-
+ $('.col-md-9.col-xs-9.col-sm-9').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl');
+ $('.col-md-10.col-xs-10.col-sm-10').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl');
+ $('table.table.table-striped.madden-stangings').attr('class', 'table table-striped madden-stangings responsive');
+	
+	
 /***menu league title and additional links********************************************************************************************/
 $( "a.navbar-brand" ).text( "BFGO" );
 $("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/BFGO/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
