@@ -937,7 +937,7 @@ div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameofthew
 @media screen and (max-width: 420px) and (min-width: 315px){
 div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {top: -60px;}}
 @media screen and (max-width: 768px) and (min-width: 315px) { div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 {    top: -11px;}
-div#js-ticker-fade div#scores .cfm-team-schedule img {   
+div#js-ticker-fade div#scores .cfm-team-schedule img {   background:transparent; 
   object-fit: contain;    padding: 2px;}}
 @media screen and (max-width: 1000px) and (min-width: 300px){ .jumbotron img {    width: 100%;} }
 /*Standings Overflow*/
@@ -1097,7 +1097,7 @@ div#js-ticker-fade div#scores  .cfm-team-schedule img {     margin: -6px 0px;   
 div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 {    top: -8px;} 
 div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-6 {   top: -12px;}
 div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 .card-body.text-center .m-0.text-muted.text-uppercase, div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3.text-center.d-flex.align-items-end.justify-content-end.rounded-right .m-0.text-muted.text-uppercase {    top: -5px;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {    font-size: 1.2rem;    background: #343a40;    color: #ececec;     top: 5px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {    font-size: 1.2rem;    background: transparent;    color: #ececec;     top: 5px;}
 
   
   /***scoreboard***/
