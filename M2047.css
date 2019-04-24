@@ -822,7 +822,8 @@ div#tmpg .col-12.py-3.rounded-right.cfm-team-info .col-xl-10:nth-child(3) .row .
 .table-responsive-page th:nth-child(n+11), .table-responsive-page th:nth-child(n+11), .table-responsive-page td:nth-child(n+11), .table-responsive-page td:nth-child(n+11) {    display: none;}
 table.table.table-striped.cfm-standings img {    width: auto!important;    position: relative;    float: left;    height: 60px;    margin: -21px 0px;}
  /*Game Recap***/
-.col-8.py-3.card-madden-team.rounded-right h1 {    font-size: 4rem;    text-transform: uppercase;}
+.col-8.py-3.card-madden-team.rounded-right h1 {    font-size: 3rem; 
+    margin-bottom: 17px;   text-transform: uppercase;}
 .col-8.py-3.card-madden-team.rounded-right .cfm-player-info {    margin-top: -20px;    font-size: medium;}
 .col-12.py-3.card-madden-team.rounded-right .cfm-player-info h2 {    position: relative;    top: 25px;    left: -16px;    font-size: larger;    font-family: DLSansCondMedium;}
 .cfm-player-info h2 span {    font-family: DLSansCondMedium;}
@@ -1204,7 +1205,7 @@ div#pills-season {    white-space: nowrap;    display: -webkit-inline-box;    wi
   /*Game Recap Page*/
 .card.Hometeam.flex-row.align-items-center.align-items-stretch.border-0 .col-4.d-flex.align-items-center.justify-content-center.rounded-left.cfm-team-logo-medium, .card.Awayteam.flex-row.align-items-center.align-items-stretch.border-0 .col-4.d-flex.align-items-center.justify-content-center.rounded-left.cfm-team-logo-medium {
     flex: 0 0 15%;    max-width: 15%;    border-right: 1px solid;    overflow: hidden;    background: #00000026;}
-.col-8.py-3.card-madden-team.rounded-right h1 {    font-size: 1.8rem;}
+.col-8.py-3.card-madden-team.rounded-right h1 {    font-size: 1.2rem;}
 div#gamerecapdownload .col-8.py-3.card-madden-team.rounded-right {   flex: 0 0 85%;    max-width: 85%;}
 .recap-container .col-8 {    -ms-flex: 0 0 66.66666667%;    flex: 0 0 85%;    max-width: 85%;}
 .card-body.bb {    display: -webkit-box;    column-count: 2;}
