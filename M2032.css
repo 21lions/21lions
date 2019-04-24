@@ -1176,7 +1176,7 @@ td {    width: 100%;}
   /*schedules***/
 div#scores .card.b.mb-2 {    width: 100%;}
 ul#pills-tab {    white-space: nowrap;    display: block;}
-.cfm-team-schedule img {     margin: -13px 0px;
+.cfm-team-schedule img {     margin: 0px 0px;
     overflow: hidden;
     height: -webkit-fill-available;
     width: auto;
