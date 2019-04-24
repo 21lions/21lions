@@ -127,6 +127,22 @@ div#mem li.nav-item span.badge.badge-danger {  font-size: x-small;  position: ab
 .dropdown-menu.dropdown-menu-right.animated.flipInX.show .bg-light, .dropdown-menu {    background-color: #283b6200!important;}
 .dropdown-menu.dropdown-menu-right.animated.flipInX.show .media p.m-0 {  position: unset!important;}
 
+ /*new scoreboard***/
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left {display: none!important;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 {  top:-12px;  -ms-flex: 0 0 20%;    flex: 0 0 40%;    max-width: 40%;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-6 { top: -16px;   -ms-flex: 0 0 50%;    flex: 0 0 20%;    max-width: 20%;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 { top: 22px;   -ms-flex: 0 0 12%;    flex: 0 0 40%;   max-width: 40%;}
+div#js-ticker-fade div#scores .card.b.mb-2 {  height: 45px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule {    height: 50px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .h2.m-0.text-bold {     top: 5px;    position: relative;   font-size: 1.5rem!important; }
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 .card-body.text-center .m-0.text-muted.text-uppercase {    font-size: .75rem;    float: right;    width: 100px;    position: relative;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 .card-body.text-center .m-0.text-muted.text-uppercase {       font-size: .75rem!important;  position: relative;    width: 100px;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 .card-body.text-center .m-0.text-muted.text-uppercase {      border-top: none;    border-left: none;    border-right: none;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3.text-center.d-flex.align-items-end.justify-content-end.rounded-right .h2.m-0.text-bold {    font-size: 1.5rem!important;    top: 5px;    position: relative;}
+div#scores .row.row-flush.cfm-team-schedule:hover {    background: #343a40;    color: white !important;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a:hover {    color: white!important;}
+div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {    font-size: 1.4rem;    background: #343a40;    color: #ececec;}
+ 
 /***Scoreboard***/
 div#js-ticker-fade .h2.m-0.text-bold, div#js-ticker-fade .text-muted {   background: linear-gradient(to top,white 31%, #c3ced2 52%, #efefef 65%);    -webkit-background-clip: text;   -webkit-text-fill-color: #ffffff2b;    -webkit-text-stroke: .05px #607D8B;    font-family: inherit;
 }
