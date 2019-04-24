@@ -2,6 +2,9 @@
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link { background-color: #9e9e9e63;}
 .table th, table.dl-table1 .thd2 td a {    color: black;}
 a {    color: #ff0000;}
+.btn-primary.focus, .btn-primary:focus {  box-shadow: none!important;}
+.btn-primary {    background-color: #d9d9d9;    border-color: #d9d9d9;}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {    color: #fff;    background-color: #d9d9d9;    border-color: #d9d9d9;}
 a:hover {    color: #000;}
 div#carouselExampleControls {    top: 0px;}
 .dropdown-item:focus, .dropdown-item:hover
