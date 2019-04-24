@@ -841,22 +841,8 @@ label.col-xl-2.col-form-label {    margin-bottom: -20px;}
 form.form-horizontal .col-xl-10 {    margin-bottom: -26px;}
 .btn:not(:disabled):not(.disabled) {    float: left;    cursor: pointer;}
 form.form-horizontal .col-xl-10:nth-child(4) {    margin-bottom: 0px;}
- /*new scoreboard***/
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left {display: none!important;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 {  top:-12px;  -ms-flex: 0 0 20%;    flex: 0 0 40%;    max-width: 40%;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-6 { top: -16px;   -ms-flex: 0 0 50%;    flex: 0 0 20%;    max-width: 20%;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 { top:-18px;   -ms-flex: 0 0 12%;    flex: 0 0 40%;   max-width: 40%;}
-div#js-ticker-fade div#scores .card.b.mb-2 {   float: left; height: 45px;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule {    height: 50px;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .h2.m-0.text-bold {     top: 5px;    position: relative;   font-size: 1.5rem!important; }
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-2 .card-body.text-center .m-0.text-muted.text-uppercase {    font-size: .75rem;    float: right;    width: 100px;    position: relative;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 .card-body.text-center .m-0.text-muted.text-uppercase {       font-size: .75rem!important;  position: relative;    width: 100px;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 .card-body.text-center .m-0.text-muted.text-uppercase {      border-top: none;    border-left: none;    border-right: none;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3.text-center.d-flex.align-items-end.justify-content-end.rounded-right .h2.m-0.text-bold {    font-size: 1.5rem!important;    top: 5px;    position: relative;}
-div#scores .row.row-flush.cfm-team-schedule:hover {    background: none;    color: white !important;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a:hover {    color: white!important;}
-div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule h4.mt-3 a {    font-size: 1.4rem;    background: #343a40;    color: #ececec;}
- /*player page***/
+
+/*player page***/
 .fa {    display: contents;}
 .panel.panel-playertraits {    display: -webkit-box;}
  div#cardChart9 {    display: none;}
