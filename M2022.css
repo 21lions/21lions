@@ -310,7 +310,7 @@ div#carousel-1 .carousel-inner {    height: -webkit-fill-available;}
 .col-md-12.col-xs-12.col-sm-12.sl strong a {    font-size: 2rem;    text-transform: uppercase;}
 .col-md-12.col-xs-12.col-sm-12.sl img.blogpostimage{    width: 100%;    object-fit: cover;    height: 450px;    object-position: top;}
  .col-md-12.col-xs-12.col-sm-12.sl img.img-responsive {    width: 100%;    object-fit: cover;    height: 600px;    object-position: top;}
-.col-md-12.col-xs-12.col-sm-12.sl .blogpost p, .col-md-12.col-xs-12.col-sm-12.sl .blogpost span, .col-md-12.col-xs-12.col-sm-12.sl .blogpost p strong, .col-md-12.col-xs-12.col-sm-12.sl p strong, .col-md-12.col-xs-12.col-sm-12.sl p span{    font-family: DLSansCondMedium!important;    color: inherit!important;    font-size: 1.2rem!important;}
+.col-md-12.col-xs-12.col-sm-12.sl .blogpost p, .col-md-12.col-xs-12.col-sm-12.sl .blogpost span, .col-md-12.col-xs-12.col-sm-12.sl .blogpost p strong, .col-md-12.col-xs-12.col-sm-12.sl p, .col-md-12.col-xs-12.col-sm-12.sl p strong, .col-md-12.col-xs-12.col-sm-12.sl p span{    font-family: DLSansCondMedium!important;    color: inherit!important;    font-size: 1.2rem!important;}
 .col-md-3.col-xs-3.col-sm-3 {    display: none;}
  .col-md-12.col-xs-12.col-sm-12.sl form.form-horizontal {    position: relative;    padding: 20px;    width: 100%;    background: #d6d6d6;    z-index: 1;    top: 0px;    left: 0px;    display: block!important;}
 @media screen and (max-width: 768px) and (min-width: 315px) {  .col-md-12.col-xs-12.col-sm-12.sl img.blogpostimage { height: 300px;}}
