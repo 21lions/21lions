@@ -389,12 +389,12 @@ div#host, .gow.home.score h4.mt-0, .gow.home.score p.mb-0.text-muted {
 h3#gow {    width: 100%;}
 p em.icon-user {    padding: 3px;}
 div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek, .row.row-flush {    margin-bottom: -1rem!important;  padding:0px;  height: 24rem;}
-.col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek {
-    background: url(https://i.imgur.com/6Uw8tza.png),url(https://www.focusforhealth.org/wp-content/uploads/2017/10/Football-Stadium.jpg);
-    background-size: 3%, cover;
-    background-position: 50%, 0% 65%;
-    background-repeat: no-repeat;
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek {    background: url(https://www.focusforhealth.org/wp-content/uploads/2017/10/Football-Stadium.jpg);
     overflow: hidden;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .col-3.d-flex.align-items-center.justify-content-center.rounded-left, .col-3.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {
     background-size: 100% !important;
