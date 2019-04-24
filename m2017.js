@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('table.dl-table1').attr('class', 'responsive');
+  $('table.dl-table1').attr('class', 'dl-table1 responsive');
 	$('.col-md-9.col-xs-9.col-sm-9').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl');
  $('.col-md-10.col-xs-10.col-sm-10').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl');
  $('table.table.table-striped.madden-stangings').attr('class', 'table table-striped madden-stangings responsive');
