@@ -809,7 +809,7 @@ div#powerrankings .card-footer {    text-align: center;}
 .cfm-hp-powerrankings .rank {    font-size: 1rem;    background: linear-gradient(to top, #b3b3b3, #ececec);   padding: 3px;    color: #343a40;    width: 30px;    text-align: center;    border-radius: 4px;}
 div#powerrankings p.mb-1 {height:32px;  top: 0px;}
 div#powerrankings .media-body.text-truncate, div#powerrankings small.text-muted.ml-2 {  color:white!important;  top: 10px;   position: relative;}
-.list-group-item.cfm-hp-powerrankings {     background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png), linear-gradient(to top, rgba(0, 0, 0, 0.4), #f71b3000);    background-size: 4px,100%, auto;    background-position: 0, 0px -68px, 0;}
+.list-group-item.cfm-hp-powerrankings {  background:transparent!important;   background-size: 4px,100%, auto;    background-position: 0, 0px -68px, 0;}
  /*team page***/
 .col-12.py-3.rounded-right.cfm-team-info .row.row-flush.cfm-team-schedule .m-0.text-muted.text-uppercase {    color: #343a40!important;}
 .col-12.py-3.rounded-right.cfm-team-info .h2.m-0.text-bold {    color: #2f2f2f;}
@@ -966,8 +966,6 @@ div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameofthew
     -webkit-line-clamp: 6;
 	font-size: 2rem;  padding-top: 35vh; }
 }
-@media screen and (max-width: 420px) and (min-width: 315px){
-div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {top: -60px;     object-position: 0% -18px;   left: 0px;    right: 0px;  width: 100%!important;}}
 @media screen and (max-width: 768px) and (min-width: 315px) { div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .col-3 {    top: -4px;}
 div#js-ticker-fade div#scores .cfm-team-schedule img {   background:transparent!important; 
   object-fit: contain;    padding: 2px;}}
@@ -1054,7 +1052,12 @@ div#powerrankings span.fa-stack img {
 }
 @media screen and (min-width : 315px) and (max-width : 420px) {
 div#scores { padding-right: 5px;    padding-left: 5px;}
-  div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {    z-index: 1;   top: -54px;   width: auto!important;   left: unset;   right: unset; -webkit-mask-image: linear-gradient(to top, transparent 22%, black 28%);}
+  div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {     z-index: 1;
+    top: -54px; object-position: 0% -18px;
+    width: 100%!important;
+    left: 0px;
+    right: 0px;
+    -webkit-mask-image: linear-gradient(to top, transparent 27%, black 35%);}
 div#oplayeroftheweek-container img.rounded-circle.thumb24, div#dplayeroftheweek-container img.rounded-circle.thumb24 {     position: absolute;    width: 100%!important;    height: auto!important;   left: 3%;   top:-240%;     z-index: -1;    opacity: .4;}
 .dplayeroftheweek.col-12.py-2.pl-0, .oplayeroftheweek.col-12.py-2.pl-0 {    width: 100%;}
 .oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {   font-size: x-small;   font-family: inherit;    margin-top: 88px!important;    text-align: center!important;    padding-left: 10%!important;    z-index: 0;   position: relative;}
