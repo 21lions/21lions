@@ -352,7 +352,7 @@ div#carousel-1 .carousel-inner {    height: -webkit-fill-available;}
 	.col-md-12.col-xs-12.col-sm-12.sl img.blogpostimage { height: 300px;}}
 
 
-img#theImg {    height: 45px;    position: absolute;}
+img#theImg {    height: 45px;}
 .jumbotron img {     color: #fff;
     text-align: center;
     background-size: cover;
