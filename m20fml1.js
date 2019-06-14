@@ -19,8 +19,8 @@ $('.simple-ticker').attr('id', 'js-ticker-fade');
     $("#flip").on("click", function(){
         $("div#js-ticker-fade").fadeToggle('slow');
     });
- $( "div#flip" ).load( "/fml20/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
- $( "div#mem").load( "/fml20/admin ul.navbar-nav.flex-row.mr-3 " );
+ $( "div#flip" ).load( "https://www.daddyleagues.com/fml20/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
+ $( "div#mem").load( "https://www.daddyleagues.com/fml20/admin ul.navbar-nav.flex-row.mr-3 " );
 
 /*league leaders home page********/
 $( ".passingleaders" ).load( "/fml20/stats/player/passing  .col-xl-10" );
