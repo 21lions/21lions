@@ -9,38 +9,38 @@ $('.col-md-9.col-xs-9.col-sm-9').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl
 	
 /***menu league title and additional links********************************************************************************************/
 $( "a.navbar-brand" ).text( "Pay Your Bets" );
-$("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/6ick/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
+$("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/PYB/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
 
 /***scoreboard**********************/
- $( "div#flip2").load( "/6ick/schedules div#scores" );
+ $( "div#flip2").load( "/PYB/schedules div#scores" );
  $('div#flip2').attr('class', 'simple-ticker');
 $('.simple-ticker').attr('id', 'js-ticker-fade');
     $("div#js-ticker-fade").hide();
     $("#flip").on("click", function(){
         $("div#js-ticker-fade").fadeToggle('slow');
     });
- $( "div#flip" ).load( "/6ick/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
- $( "div#mem").load( "/6ick/admin ul.navbar-nav.flex-row.mr-3 " );
+ $( "div#flip" ).load( "/PYB/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
+ $( "div#mem").load( "/PYB/admin ul.navbar-nav.flex-row.mr-3 " );
 
 /*league leaders home page********/
-$( ".passingleaders" ).load( "/6ick/stats/player/passing  .col-xl-10" );
-$( ".rushingleaders" ).load( "/6ick/stats/player/rushing .col-xl-10" );
-$( ".receivingleaders" ).load( "/6ick/stats/player/receiving .col-xl-10" );
-$( ".sacksleaders" ).load( "/6ick/stats/player/defense?sortby=sack  .col-xl-10" );
-$( ".tacklesleaders" ).load( "/6ick/stats/player/defense?sortby=tackles .col-xl-10" );
-$( ".interceptionsleaders" ).load( "/6ick/stats/player/defense?sortby=int .col-xl-10" );
+$( ".passingleaders" ).load( "/PYB/stats/player/passing  .col-xl-10" );
+$( ".rushingleaders" ).load( "/PYB/stats/player/rushing .col-xl-10" );
+$( ".receivingleaders" ).load( "/PYB/stats/player/receiving .col-xl-10" );
+$( ".sacksleaders" ).load( "/PYB/stats/player/defense?sortby=sack  .col-xl-10" );
+$( ".tacklesleaders" ).load( "/PYB/stats/player/defense?sortby=tackles .col-xl-10" );
+$( ".interceptionsleaders" ).load( "/PYB/stats/player/defense?sortby=int .col-xl-10" );
 
 /*standings tabs*******************************************************/
- $( ".afc.standings").load( "/6ick/standings .card.card-default:nth-child(4)" );
- $( ".nfc.standings").load( "/6ick/standings .card.card-default:nth-child(5)" );
+ $( ".afc.standings").load( "/PYB/standings .card.card-default:nth-child(4)" );
+ $( ".nfc.standings").load( "/PYB/standings .card.card-default:nth-child(5)" );
 
 /*All Teams Page**********************************************************/
-if(window.location.href=== "http://www.daddyleagues.com/6ick/teams") {
+if(window.location.href=== "http://www.daddyleagues.com/PYB/teams") {
          $(".col-xl-10").addClass("teams");
      }
 
 /*Standings Page*********************************************************/
-if(window.location.href=== "/6ick/standings") {
+if(window.location.href=== "/PYB/standings") {
          $(" .table-responsive").addClass("table-responsive-page");
      }
 
@@ -229,9 +229,9 @@ $('.gameoftheweek .GOW').wrapInner('<div class="record"></div>');
 $( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
 
 /*storylines***/
- $( ".jumbotron.hero-nature.carousel-hero" ).load( "/6ick/blog .blogpost:nth-child(1)" );
- $( ".jumbotron.hero-photography.carousel-hero" ).load( "/6ick/blog .blogpost:nth-child(2)" );
- $( ".jumbotron.hero-technology.carousel-hero" ).load( "/6ick/blog .blogpost:nth-child(3)" );
+ $( ".jumbotron.hero-nature.carousel-hero" ).load( "/PYB/blog .blogpost:nth-child(1)" );
+ $( ".jumbotron.hero-photography.carousel-hero" ).load( "/PYB/blog .blogpost:nth-child(2)" );
+ $( ".jumbotron.hero-technology.carousel-hero" ).load( "/PYB/blog .blogpost:nth-child(3)" );
 
 
 
