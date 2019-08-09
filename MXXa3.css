@@ -167,7 +167,7 @@ div#gameoftheweek-container a.m-0.teamname, div#gameoftheweek-container .card-bo
 .star.star-2 {
   width: 4rem;
   height: 4rem;
-  top: 45rem;
+  top: 38rem;
   left: 32vw;
 }
 .star.star-3 {
@@ -179,7 +179,7 @@ div#gameoftheweek-container a.m-0.teamname, div#gameoftheweek-container .card-bo
 .star.star-4 {
   width: 4rem;
   height: 4rem;
-  top: 40rem;
+  top: 34rem;
   left: 73vw;
 }
 div#gameoftheweek-container h3 {    position: absolute;    z-index: 1;    text-align: center;    font-size: inherit;    color: #343a40;    text-transform: uppercase;    padding: 5px;   margin-top: 11px;    width: -webkit-fill-available;    letter-spacing: 3px;}
