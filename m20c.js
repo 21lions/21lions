@@ -1,7 +1,4 @@
-/*Standings Page*********************************************************/ 
-	if(window.location.href=== "/dl2000/standings") { 
-	$(" .table-responsive").addClass("table-responsive-page"); 
-	} 
+
 	
 	/*TEAM stats Page*********************************************************/ 
 	$(" div#schedules").addClass("schedules col-xl-12"); 
