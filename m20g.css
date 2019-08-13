@@ -1,6 +1,7 @@
 
 /*setup******************************************************************************************************************/
 @media (max-width: 992px){  div#dlmaddenmenu ul.navbar-nav li.nav-item {    float: left!important;    margin: inherit;    white-space: nowrap;    direction: ltr;    width: 14%;    text-align: left!important;}}
+.radial-bar:after {    z-index: 0;}
 li.nav-item { display: table; float: none; margin: auto; white-space: nowrap; direction: rtl; width: 14%; text-align: center!important;} 
 ul.navbar-nav {    width: -webkit-fill-available;}
 .card.card-porlet.b {  background:transparent;   overflow: hidden;} 
