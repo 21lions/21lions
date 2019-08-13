@@ -1,7 +1,7 @@
 
 /*setup******************************************************************************************************************/
 @media (max-width: 992px){  div#dlmaddenmenu ul.navbar-nav li.nav-item {    float: left!important;    margin: inherit;    white-space: nowrap;    direction: ltr;    width: 14%;    text-align: left!important;}}
-.Splash.col-lg-12.col-md-12.col-sm-12.col-xs-12 { position: fixed; width: 100%;    max-width: 100%;    height: 100%;    z-index: 100;    top: 0px;    left: 0px;    background-position: 50% 50%, 30%;    background-size: 40%,auto;    background-repeat: no-repeat, no-repeat;}
+.Splash.col-lg-12.col-md-12.col-sm-12.col-xs-12 { position: fixed; width: 100%;    max-width: 100%;    height: 100%;    z-index: 100;    top: 0px;    left: 0px;    background-position: 50% 50%, 30%!important;    background-size: 40%,auto!important;    background-repeat: no-repeat, no-repeat!important;}
 .radial-bar:after {    z-index: 0;}
 li.nav-item { display: table; float: none; margin: auto; white-space: nowrap; direction: rtl; width: 14%; text-align: center!important;} 
 ul.navbar-nav {    width: -webkit-fill-available;}
