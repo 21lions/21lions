@@ -14,7 +14,11 @@ table.table.table-striped.cfm-standings, table.dl-table1.madden-team-table,  tab
         .col-xl-12.teams .cfm-hp-playoffrace .badge { display: none;} 
 	.col-xl-12.teams .list-group-item.cfm-hp-playoffrace { background: transparent;} 
   
-  
+.cfm-hp-powerrankings .teamname {
+    font-size: 1.125rem;
+    color: #fff;
+    font-family: DLSansCondMedium;
+}  
   
 h4.list-group-item-heading a, p.list-group-item-text.salary, .cursor.list-group-item p.list-group-item-text.salary span {    color: initial!important;}
 .col-12.py-3.rounded-right.cfm-team-info a.player, .col-12.py-3.rounded-right.cfm-team-info p.list-group-item-text.salary, .col-12.py-3.rounded-right.cfm-team-info span.overall, .col-12.py-3.rounded-right.cfm-team-info span.overall-text {color: white!important;}
