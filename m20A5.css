@@ -759,7 +759,6 @@ div#playerpage p.m-0.text-muted {    position: relative;    top: -40px;    borde
 .col-2.d-flex.align-items-left.justify-content-center.cfm-player-team-logo {    overflow: hidden;}
 .col-10.py-3.rounded-right.cfm-player-info {    margin-top: 3rem;}
 h1.cfm-team-name {   text-transform: uppercase;  text-shadow: 0 2px 4px black !important;    font-family: DLSansCondMedium;}
-span.pull-right.cfm-team-ovr {    text-shadow: none;    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png), linear-gradient(to top, #c7c7c7, #fafafa);    padding: 5px;    color: #343a40;    font-family: DLSansCondMedium;    border-radius: 5%; }
 p.m-0.text-muted {    position: absolute;    top: -25px;     border-bottom: 1px solid;}
 .col-10.py-3.rounded-right.cfm-player-info .col-xl-10 {    margin-bottom: -25px;}
 h3.m-0 {    font-size:1rem; width: 75%;}
@@ -1049,7 +1048,6 @@ div#tmpg div#scores .col-xl-10 {    margin-bottom: -63px;}
 .col-1.d-flex.align-items-left.justify-content-center.cfm-player-team-logo {    position: absolute;    width: 100%;    height: 100%;}
 .cfm-player-team-logo, .cfm-team-logo, .cfm-team-stats {    background-color: rgba(0, 0, 0, 0);}
 .rounded-circle {    border-radius: 0%!important;}
-span.pull-right.cfm-team-ovr {    left:0px; float: left; font-size: x-large;     top: -169px;    position: absolute;}
 .card {    overflow: hidden;}
 .col-10.py-3.rounded-right.cfm-player-info { max-width: 100%;   position: relative;    z-index: 33;    font-size: 3vw;    float: left;    text-align: center;}
 .card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors {    position: relative;    height:auto;}
