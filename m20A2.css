@@ -835,10 +835,7 @@ div#js-ticker-fade div#scores .cfm-team-schedule img {   background:transparent!
 @media screen and (min-width: 315px) and (max-width: 500px) {     /* start of small and medium phone styles*****************************************************/
 div#tmpg div#scores .col-xl-10 {    margin-bottom: -63px!important;}
 }
-@media screen and (min-width: 315px) and (max-width: 420px){
-.cfm-player-team-logo img {
-    -webkit-mask-image: linear-gradient(to top, transparent 42%, black 70%);}
-}
+
 @media screen and (min-width: 315px) and (max-width: 585px) {     /* start of small and medium phone styles*****************************************************/
 .oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {    font-size: medium;}
 }
@@ -1045,13 +1042,11 @@ div#tmpg .row.row-flush.cfm-team-schedule .h2.m-0.text-bold { display:none;}
 div#tmpg .row.row-flush.cfm-team-schedule .m-0.text-muted.text-uppercase {       font-size: x-small;    top: 14px;  padding: 4px;   color: gray!important;    position: relative;}
 div#tmpg .col-12.py-3.rounded-right.cfm-team-info .h2.mt-0, div#tmpg .col-12.py-3.rounded-right.cfm-team-info .col-xl-10:nth-child(-n+3) {    animation: fadein-slidedown  3s;}
 div#tmpg div#scores .col-xl-10 {    margin-bottom: -63px;}
-div#tmpg .cfm-player-team-logo img {      animation: fadein-slidedown 3s;  width: auto!important;  left: 0px;  height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 42%, black 73%);   mask-image: linear-gradient(to bottom, transparent 42%, black 73%);}
 
   
   /*Player Page*/
 .card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors ul.nav.nav-tabs li.nav-item {    display: initial;}
 .col-1.d-flex.align-items-left.justify-content-center.cfm-player-team-logo {    position: absolute;    width: 100%;    height: 100%;}
-.cfm-player-team-logo img {     animation: fadein-slidedown 3s;  width: 100%!important;  left: 0px;  height: auto !important;    -webkit-mask-image: linear-gradient(to top, transparent 50%, black 70%);    mask-image: linear-gradient(to bottom, transparent 50%, black 70%);  margin: auto;    object-fit: cover;    position: absolute;}
 .cfm-player-team-logo, .cfm-team-logo, .cfm-team-stats {    background-color: rgba(0, 0, 0, 0);}
 .rounded-circle {    border-radius: 0%!important;}
 span.pull-right.cfm-team-ovr {    left:0px; float: left; font-size: x-large;     top: -169px;    position: absolute;}
@@ -1144,33 +1139,7 @@ li#game- {    background-size: 13%;}
 div#tmpg div#scores .col-xl-10 {  margin-bottom: -3px!important;}
 }
 
-.cfm-player-team-logo img {
-    animation: fadein-slidedown 3s;
-    width: 100%!important;
-    top: -70px;
-    left: 0px;
-    height: auto !important;
-    -webkit-mask-image: linear-gradient(to top, transparent 44%, black 78%);
-    mask-image: linear-gradient(to bottom, transparent 50%, black 70%);
-    margin: auto;
-    object-fit: cover;
-    position: absolute;
-}
-}
 
-.cfm-player-team-logo img {
-    animation: fadein-slidedown 3s;
-    width: 100%!important;
-    top: -110px;
-    left: 0px;
-    height: auto !important;
-    -webkit-mask-image: linear-gradient(to top, transparent 44%, black 78%);
-    mask-image: linear-gradient(to bottom, transparent 50%, black 70%);
-    margin: auto;
-    object-fit: cover;
-    position: absolute;
-}
-}
 
 @media screen and (min-width: 586px) and (max-width: 768px) {     /* start of small and medium phone styles*****************************************************/
 .oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {    font-size: medium;}
@@ -1178,19 +1147,6 @@ div#tmpg div#scores .col-xl-10 {  margin-bottom: -3px!important;}
 .col-6.d-flex.align-items-center.justify-content-center.rounded-left, .col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {   background-size: cover;}
 }
 
-.cfm-player-team-logo img {
-    animation: fadein-slidedown 3s;
-    width: 100%!important;
-    top: -174px;
-    left: 0px;
-    height: auto !important;
-    -webkit-mask-image: linear-gradient(to top, transparent 44%, black 78%);
-    mask-image: linear-gradient(to bottom, transparent 50%, black 70%);
-    margin: auto;
-    object-fit: cover;
-    position: absolute;
-}
-}
 @media screen and (min-width: 769px) and (max-width: 1099px) {     /* start of small and medium phone styles*****************************************************/
 .att-snapshot {
 display:grid; }
@@ -1198,15 +1154,6 @@ display:grid; }
 .card-body.text-center.cfm-team-stats p.mb-0.text-muted {    margin-top: 0px;}
 .card-body.text-center.cfm-team-stats h4.mt-0 {    float: right!important;}
 
-.cfm-player-team-logo img {
-    width: fit-content;
-    height: auto;
-    margin: auto;
-    top: 0rem;
-    position: absolute;
-    float: right;
-    right: 11%;
-}
 
 @media screen and (min-width: 769px) and (max-width: 800px) {     /* start of small and medium phone styles*****************************************************/
 .col-12.d-flex.align-items-left.justify-content-center.cfm-team-logo img {    right: 50px;}
