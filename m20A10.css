@@ -524,7 +524,8 @@ div#transactions tr.tbdy1 {
 .oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    float: left;    text-align: center!important;    padding: 53px;    width: -webkit-fill-available;    position: relative;    z-index: 1;    top: -66px!important;}
 div#transactions a, div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .h2.m-0.text-bold, .oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center, .oplayeroftheweek.col-12.py-2.pl-0 .text-center a, .dplayeroftheweek.col-12.py-2.pl-0 .text-center a {  white-space:preline;  color: #000;}
 div#transactions .dl-table1 td.tbdy1, div#transactions table.dl-table1 .tbdy1 td {
-    color: #000!important;
+     white-space: nowrap!important;
+    color: #000;;
 }
 .oplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left {    height: -webkit-fill-available;}
 .oplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left img.mr-3.rounded-circle.thumb128 {    width: -webkit-fill-available!important;    height: auto!important;    object-position: 0 0px;    POSITION: RELATIVE;   BOTTOM: 0PX;}
@@ -856,8 +857,9 @@ div#tmpg div#scores .col-xl-10 {    margin-bottom: -63px!important;}
 .oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {    font-size: medium;}
 }
 
-@media screen and (min-width : 315px) and (max-width : 420px) {
-div#scores { padding-right: 5px;    padding-left: 5px;}
+@media screen and (min-width : 215px) and (max-width : 420px) {
+.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    top: -107px!important;    position: relative!important;}
+	div#scores { padding-right: 5px;    padding-left: 5px;}
 .dplayeroftheweek.col-12.py-2.pl-0, .oplayeroftheweek.col-12.py-2.pl-0 {    width: 100%;}
 .oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {    font-size: unset;   position: relative;    top: 58px;}
 h3.mt-0 a {    font-family: inherit;   font-size: small!important;}
