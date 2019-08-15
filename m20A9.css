@@ -521,13 +521,13 @@ div#transactions tr.tbdy1 {
     position: absolute;
     display: contents;
 }
-.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    float: left;   text-align: left!important;    padding: 5px;    position: relative;   z-index: 1;    top: -9px!important;}
+.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    float: left;    text-align: center!important;    padding: 53px;    width: -webkit-fill-available;    position: relative;    z-index: 1;    top: -66px!important;}
 div#transactions a, div#js-ticker-fade div#scores .row.row-flush.cfm-team-schedule .h2.m-0.text-bold, .oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center, .oplayeroftheweek.col-12.py-2.pl-0 .text-center a, .dplayeroftheweek.col-12.py-2.pl-0 .text-center a {  white-space:preline;  color: #000;}
 div#transactions .dl-table1 td.tbdy1, div#transactions table.dl-table1 .tbdy1 td {
     color: #000!important;
 }
 .oplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left {    height: -webkit-fill-available;}
-.oplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left img.mr-3.rounded-circle.thumb128 {    width: -webkit-fill-available!important;    height: auto!important;    object-position: 0 0px;    POSITION: RELATIVE;    BOTTOM: -25PX;}
+.oplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left img.mr-3.rounded-circle.thumb128 {    width: -webkit-fill-available!important;    height: auto!important;    object-position: 0 0px;    POSITION: RELATIVE;   BOTTOM: 0PX;}
 .dplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left {    height: -webkit-fill-available;}
 .dplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left img.mr-3.rounded-circle.thumb128 {   width: -webkit-fill-available!important;   height: auto!important;    object-position: 0 0px;   POSITION: RELATIVE;   BOTTOM: -25PX;}
 .img-fluid, .img-thumbnail {    padding-bottom: 25px;}
@@ -802,6 +802,8 @@ a.btn.btn-oval.btn-secondary {    display: contents;}
 .ml-auto span.text-muted.ml-2.teamname {        font-size: 1.125rem;    float: left;  color: #fff!important;    background: #6c757d;    left: -8px;    width: 40px;    top: 1px;    text-align: center;    font-family: DLSansCondMedium;    text-transform: uppercase;    position: relative;    padding: 2px;    line-height: 20px;    text-shadow: none;    border-radius: 5px;}
 .media-body.text-truncate p.mb-1 {    position: relative;    top: -3px;}
 /*POW****/
+div#oplayeroftheweek-container {    margin-bottom: 80px;}
+.col-lg-6.col-md-6.col-sm-12.col-xs-12.pow div#oplayeroftheweek-container {    margin-bottom: 67px;}
 .oplayeroftheweek.col-12.py-2.pl-0 .text-center , .dplayeroftheweek.col-12.py-2.pl-0 .text-center { font-size: medium;}
 .oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {    font-size: large;    line-height: 0px;}
 div#oplayeroftheweek-container, div#dplayeroftheweek-container {    height: 250px;
