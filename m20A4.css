@@ -1061,7 +1061,6 @@ span.pull-right.cfm-team-ovr {    left:0px; float: left; font-size: x-large;    
  .col-12.py-3.rounded-right.cfm-player-info .col-xl-12 {    margin-bottom: -10px;} 
   .col-12.py-3.rounded-right.cfm-player-info .col-4 {    -ms-flex: 0 0 21.33333333%;    flex: 0 0 50%;    max-width: 50%;}
   .col-4 {    flex: 0 0 50%;    max-width: 50%;}
-.col-12.py-3.rounded-right.cfm-player-info .col-6 {  flex: 0 0 100%;    max-width: 100%;  margin-bottom:189px;   margin-top: 35px;}
   p.mb-0.text-muted {   margin-top: -22px;    float: none;   font-size:.65rem;  padding-left: 0;}
  .cfm-team-stats h4, .cfm-team-stats h6 {    margin: 0!important;    font-size: .75rem;    position: relative;    top: -14px;    padding: 10px;}
   .card-footer.text-center.cfm-player-attribute .col-xl-10 {    top: 0px!important;}
@@ -1073,7 +1072,6 @@ table.table.table-hover, table.dl-table1 {    border: 2px solid #ccc0;    overfl
   .panel.panel-playertraits {    display: block;}
   .card.card-madden-team {    width: -webkit-fill-available!important;    display: block;    padding: 1%;}
   .col-12.py-3.rounded-right.cfm-player-info .col-xl-12.col-lg-6.col-md-12.pt-2 .col-xl-10 {    position: relative;    top: -25px!important;}
-.col-12.d-flex.align-items-left.justify-content-center.cfm-player-team-logo h1.cfm-team-name, .col-12.d-flex.align-items-left.justify-content-center.cfm-player-team-logo .col-xl-10:nth-child(3) {    margin-top: 15px;}
  .card .d-flex.Teamcolors .w-25 .d-flex.align-items-center.justify-content-center {    width: 100%!important;}
  .d-flex.Teamcolors p.mb-0.text-muted {   top: -5px;    position: relative;  width: 100%!important;}
   .col-12.py-3.card-madden-team.rounded-right .cfm-player-info h2 {    font-size: medium;}
