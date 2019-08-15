@@ -862,7 +862,9 @@ div#tmpg div#scores .col-xl-10 {    margin-bottom: -63px!important;}
 }
 
 @media screen and (min-width : 215px) and (max-width : 420px) {
-.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    top: -107px!important;    position: relative!important;}
+.dplayeroftheweek.col-12.d-flex.align-items-center.justify-content-center.rounded-left img.mr-3.rounded-circle.thumb128 {   object-position: 0 -30px;}
+	div#oplayeroftheweek-container, div#dplayeroftheweek-container {    height: 185px;}
+	.oplayeroftheweek.col-12.py-2.pl-0 .text-center, .dplayeroftheweek.col-12.py-2.pl-0 .text-center {    top: -107px!important;    position: relative!important;}
 	div#scores { padding-right: 5px;    padding-left: 5px;}
 .dplayeroftheweek.col-12.py-2.pl-0, .oplayeroftheweek.col-12.py-2.pl-0 {    width: 100%;}
 .oplayeroftheweek.col-12.py-2.pl-0 a, .oplayeroftheweek.col-12.py-2.pl-0 p, .dplayeroftheweek.col-12.py-2.pl-0 a, .dplayeroftheweek.col-12.py-2.pl-0 p {    font-size: unset;   position: relative;    top: 58px;}
