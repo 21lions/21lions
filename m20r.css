@@ -6,7 +6,7 @@
 li.nav-item { display: table; float: none; margin: auto; white-space: nowrap; direction: rtl; width: 90px; text-align: center!important;} 
 ul.navbar-nav {    width: -webkit-fill-available;}
 .card.card-porlet.b {  background:transparent;   overflow: hidden;} 
-nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg {     z-index: 2;   position: fixed;    width: -webkit-fill-available;    top: 0px;}
+nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg {     z-index: 35;   position: fixed;    width: -webkit-fill-available;    top: 0px;}
 .dlnavbar .navbar-toggler-icon {    background-image: url(https://i.imgur.com/1O7DYwE.png);}
 .content-wrapper {    padding:20px!important;  margin-top:99px;    padding-top: 0px;}
 [src*="/nfl/nfl.svg"]{content:url(https://i.imgur.com/dOCck5z.png);}
