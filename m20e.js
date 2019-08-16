@@ -1,3 +1,28 @@
+/*fade*********************************************************/
+ $('div#disappear').attr('class',  'fade');
+
+  /* Every time the window is scrolled ... */
+  $(window).scroll(function() {
+
+    /* Check the location of each desired element */
+    $('.fade').each(function(i) {
+
+      var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+      var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+      /* If the object is completely visible in the window, fade it it */
+      if (bottom_of_window > bottom_of_object) {
+
+        $(this).animate({
+          'opacity': '1',
+          'top': '10px'
+        }, 900);
+$(this).removeClass("fade");
+      }
+
+    });
+
+  });
 
 	
 	/*TEAM stats Page*********************************************************/ 
@@ -50,6 +75,17 @@ $( ".card-footer.text-center.cfm-player-attribute" ).wrap( "<div class='att-snap
 	$(".card-footer.text-center.cfm-player-attribute").fadeToggle('slow'); 
 	}); 
 
+	/***scoreboard**********************/
+ $('span.cfm-score-vts.cfm-score-visitor.cfm-score-score').attr('class', 'col-2 cfm-score-vts cfm-score-visitor cfm-score-score');	
+ $('span.cfm-score-vta.cfm-score-visitor.cfm-score-abbr').attr('class', 'col-12 cfm-score-vta cfm-score-visitor cfm-score-abbr');	
+$('span.cfm-score-hts.cfm-score-home.cfm-score-score').attr('class', 'col-2 cfm-score-hts cfm-score-home cfm-score-score');	
+$('span.cfm-score-hta.cfm-score-home.cfm-score-abbr').attr('class', 'col-12 cfm-score-hta cfm-score-home cfm-score-abbr');	
+ $('div#flip2').attr('class', 'scorelist');
+$('.scorelist').attr('id', 'js-ticker-fade');
+    $("div#js-ticker-fade").hide();
+    $("#flip").on("click", function(){
+        $("div#js-ticker-fade").fadeToggle('slow');
+    });
 
 
 /*GOW*/
@@ -64,6 +100,17 @@ $('.gameoftheweek').attr('class', 'col-lg-12 col-md-12 col-sm-12 col-xs-12 gameo
 $('.gameoftheweek .GOW').wrapInner('<div class="record"></div>');
  $( ".gow.away.score" ).appendTo( $( ".col-6.d-flex.align-items-center.justify-content-center.rounded-left" ) );
 $( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
+
+/*stars*/
+$(function () {
+	    setInterval(function () {
+		    $('.star-1').fadeOut(150).delay(2000).fadeIn(300).fadeOut(150).delay(1254);
+	        $('.star-2').fadeOut(300).fadeIn(120).fadeOut(120).delay(1920);
+	        $('.star-3').fadeOut(150).delay(1200).fadeIn(300).fadeOut(150).delay(800);
+	        $('.star-4').fadeOut(700).fadeIn(300).fadeOut(160).delay(1350);
+	    }, 1);
+    });
+
 
 //HOME-CHI
 $('.col-4.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/0.png"]').css( 'background-image', 'url("/img/nfl/teams/left/0.png")');
@@ -130,6 +177,8 @@ $('.col-4.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-ri
 //HOME-HOU
 $('.col-4.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right[style*="/img/nfl/teams/right/31.png"]').css( 'background-image', 'url("/img/nfl/teams/left/31.png")');
 
+/*blog page*******/
+$('img.img-responsive').attr('class', 'blogpostimage');
 
 
 /*Playoff Race****/
