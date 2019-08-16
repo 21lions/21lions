@@ -50,9 +50,7 @@ $( ".card-footer.text-center.cfm-player-attribute" ).wrap( "<div class='att-snap
 	$(".card-footer.text-center.cfm-player-attribute").fadeToggle('slow'); 
 	}); 
 
-/*STORYLINES*/
- $('.blogpost.clearfix').attr('class',  'col-xl-4 col-md-6 col-sm-12 blogpost clearfix');
-	$('img.img-responsive').attr('class', 'blogpostimage'); 
+
 
 /*GOW*/
 $('.col-3.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', ' col-4 d-flex align-items-center justify-content-center rounded-left');
