@@ -1,3 +1,7 @@
+/***Splash page***/
+$('.Splash.col-lg-12.col-md-12.col-sm-12.col-xs-12').fadeIn('slow').delay(1000).fadeOut('slow');
+
+
 /*fade*********************************************************/
  $('div#disappear').attr('class',  'fade');
 
