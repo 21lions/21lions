@@ -30,17 +30,6 @@ div#powerrankings .card-footer {    text-align: center;}div#powerrankings {   pa
 .cfm-player-team-logo, .cfm-team-logo, .cfm-team-stats {    background: linear-gradient(to top, #00000000, #0000001f);}
 
 
-/*Storyline setup******************************************************************************************************************/
-@media (max-width: 575px){  
-div#news-stream-container {    height: 476px;    overflow: hidden;    overflow-y: scroll;}
-div#hp-stories {  display: block!important;    width: auto!important;}
-}
-div#hp-stories {    display: flex;    overflow: hidden;    overflow-x: scroll;    width: unset;}
-img.blogpostimage {    width: 100%;    height: 260px;    object-fit: cover;    overflow: hidden;}
-.blogpostbody p {    display: -webkit-box;    -webkit-line-clamp: 3;    -webkit-box-orient: vertical;    overflow: hidden;    font-size: medium!important;    font-family: DLSansCondMedium;    line-height: 20px!important;}
-.col-xl-4.col-md-6.col-sm-12.blogpost.clearfix h4 {     display: -webkit-box;    -webkit-line-clamp: 2;    -webkit-box-orient: vertical;    font-size: 24px;    overflow: hidden;    font-family: DLSansCondMedium;    min-height: 60px!important;}
-.blogpostfooter {    font-size: smaller;    font-family: oswald;}
-.col-xl-4.col-md-6.col-sm-12.blogpost.clearfix {    text-align: center;}
 
 /*GOW*/
 .col-4.d-flex.align-items-center.justify-content-center.rounded-left, .col-4.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {      overflow: hidden;  background-size: 100%!IMPORTANT;    BACKGROUND: transparent;}
@@ -204,7 +193,6 @@ div#cardChart9 {    display: none;}
 	table.dl-table1 .thd1 td { background-color: #29518300; color: #5d9cec; text-decoration: underline;} 
 	table.dl-table1 .thd1 td a, table.dl-table1 .thd1 th a { color: #007bff;} 
 	.card{ background: transparent;} 
-	.blogpostbody p, .blogpostbody span, .blogpostbody strong { color: white!important;} 
 	tr.thd2 td { color: #ddd!important;} 
 	table.dl-table1 .thd2 td { background-color: #212529;} 
 	.dl-table1 td.tbdy1, table.dl-table1 .tbdy1 td { color: #dee2e6;} 
@@ -239,11 +227,6 @@ div#cardChart9 {    display: none;}
 	.card-madden-team .overall-text { font-size: .85rem;} 
 	
 	
-	/*blog page*/ 
-	.blogpost img.blogpostimage { height: 440px; object-position: top; object-fit: cover; overflow: hidden;} 
-	img.blogpostimage { object-position: top; height: 560px;} 
-	@media screen and (max-width: 600px) { 
-	img.blogpostimage { object-position: top; height: 300px;} 
-	.blogpost img.blogpostimage { height: 340px;}} 
+
 	
 	
