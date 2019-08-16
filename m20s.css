@@ -21,7 +21,7 @@ ins,header.topnavbar-wrapper, footer p.text-center {display:none!important;}
 .scorelist {    display: none;} 
 .scorelist {    position: relative;    top: 55px;}
 div#flip h4.card-title {     margin-top: -2px!important; text-align: center; padding-left:11px;   text-align: left;    width: 100%!important;}
-div#js-ticker-fade {    border:none;  padding: 0%;   background: #6c757d;    overflow: hidden;    top: 87px;   height: auto !important;}
+div#js-ticker-fade {    border:none;  padding: 0%;   background: #6c757d;    overflow: hidden;    top: 99px;   height: auto !important;}
 .card .card-header {       background: linear-gradient(to top,#6c757d 31%, #a4a4a4 52%, #676f79 65%);    -webkit-background-clip: text!important;    -webkit-text-fill-color: transparent;    font-size: 1rem!important;    font-family: DLSansCondMedium;    letter-spacing: 3px;    text-align: center;    text-transform: uppercase;}
 a.cfm-score-content {    background: none repeat scroll 0 0 #f0f0f000;}
 .row {   width: -webkit-fill-available;} 
@@ -209,7 +209,24 @@ a.yui3-scorestrip-tile-content{     display: flex;     border-right: 2px solid; 
 .yui3-scorestrip-tile-index-0 {left: -20px; min-width: 50%;}
 .yui3-scorestrip-tile {   border-right: 0px solid #cccccc78;  left:-49px,  top: -9px; height: 45px;}
 #scorelist {     height: 45px;    overflow: hidden;    top: -5px;}
-div#flip {     color: #ffffff;    padding: 4px;    text-shadow: none;    border: 2px solid #bd0000;    background: linear-gradient(to top,#6c757d 50%, #c6dce4 90%, #e6e6e6 9%);    position: fixed;    display: -webkit-inline-box;    top: 60px;    width: -webkit-fill-available;    z-index: 30;    height: 29px;    overflow: hidden;    font-size: 12px;    font-family: DLSansCondMedium!important;    text-align: center;    letter-spacing: 1px;    text-transform: uppercase;    padding-left: 2vw;}
+div#flip {     color: #ffffff;
+    padding: 12px;
+    text-shadow: none;
+    border: 2px solid #bd0000;
+    background: linear-gradient(to top,#6c757d 50%, #c6dce4 90%, #e6e6e6 9%);
+    position: fixed;
+    display: -webkit-inline-box;
+    top: 60px;
+    width: -webkit-fill-available;
+    z-index: 30;
+    height: 39px;
+    overflow: hidden;
+    font-size: 12px;
+    font-family: DLSansCondMedium!important;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 2vw;}
 
 /*GOW*/
 .col-2.gow.away.score, .col-2.gow.home.score {    text-align: center;    margin: auto;}
