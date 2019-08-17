@@ -418,7 +418,7 @@ div#cardChart9 {    display: none;}
 	body { color: #e9ecef;} 
 	a { color: #5d9cec;} 
 	.text-muted, .table>thead>tr>th, .table>tbody>tr>td { color: #dee2e6!important;} 
-	img#logo { width: 40px; height: 30px;} 
+	img#logo { width: 40px; height: 35px;padding-right: 5px; } 
 	table.responsive.dl-table1 { white-space: nowrap;} 
 	table.responsive { white-space: nowrap;} 
 	.form-control { background-color: #dee2e62e; color: white;} 
