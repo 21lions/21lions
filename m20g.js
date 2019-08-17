@@ -2,6 +2,26 @@
 $('.Splash.col-lg-12.col-md-12.col-sm-12.col-xs-12').fadeIn('slow').delay(1000).fadeOut('slow');
 
 
+/*Development traits**************************************/
+
+   $('div#playerpage .col-10.py-3.rounded-right.cfm-player-info .row:nth-child(3) .col-4:nth-child(2)').each(function () {
+        string = $(this).text('SuperStar X-Factor  ');
+        $(this).html('<img src="https://i.imgur.com/CDQXrqy.png" alt="' + string + '" />Superstar X-factor');
+    });
+   $('div#playerpage .col-10.py-3.rounded-right.cfm-player-info .row:nth-child(3) .col-4:nth-child(2)').each(function () {
+        string = $(this).text('SuperStar');
+        $(this).html('<img src="https://i.imgur.com/i8rYk5H.png" alt="' + string + '" />Superstar');
+    });
+ $('div#playerpage .col-10.py-3.rounded-right.cfm-player-info .row:nth-child(3) .col-4:nth-child(2)').each(function () {
+        string = $(this).text('Star');
+        $(this).html('<img src="https://i.imgur.com/NSQHKBE.png" alt="' + string + '" />Star');
+    });
+ $('div#playerpage .col-10.py-3.rounded-right.cfm-player-info .row:nth-child(3) .col-4:nth-child(2)').each(function () {
+        string = $(this).text('Normal');
+        $(this).html('<img src="https://i.imgur.com/U54vOE5.png" alt="' + string + '" />Normal');
+    });
+
+
 /*fade*********************************************************/
  $('div#disappear').attr('class',  'fade');
 
