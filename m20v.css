@@ -209,11 +209,10 @@ a.yui3-scorestrip-tile-content{     display: flex;     border-right: 2px solid; 
 .yui3-scorestrip-tile-index-0 {left: -20px; min-width: 50%;}
 .yui3-scorestrip-tile {   border-right: 0px solid #cccccc78;  left:-49px,  top: -9px; height: 45px;}
 #scorelist {     height: 45px;    overflow: hidden;    top: -5px;}
-div#flip {     color: #ffffff;
+div#flip { color: #212529;
     padding: 12px;
     text-shadow: none;
-    border: 2px solid #bd0000;
-    background: linear-gradient(to top,#6c757d 50%, #c6dce4 90%, #e6e6e6 9%);
+    background: #dee2e6;
     position: fixed;
     display: -webkit-inline-box;
     top: 60px;
@@ -231,7 +230,7 @@ div#flip {     color: #ffffff;
 /*GOW*/
 .col-2.gow.away.score, .col-2.gow.home.score {    text-align: center;    margin: auto;}
 div#gameoftheweek-container .card-body.text-center p.mb-0.text-muted {    font-size: small;}
-div#gameoftheweek-container .card-body.text-center h4.mt-0 {    font-size: x-large;}
+div#gameoftheweek-container .card-body.text-center h4.mt-0 {    font-size: xx-small;}
 .col-4.d-flex.align-items-center.justify-content-center.rounded-left, .col-4.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {      overflow: hidden;  background-size: 100%!IMPORTANT;    BACKGROUND: transparent;}
 div#gameoftheweek-container  {     background: url(https://i.imgur.com/6Uw8tza.png), url(https://i.imgur.com/MBID8kf.png)!important;    background-size: 3%, cover!important;    background-position: 50%, top!important;    background-repeat: no-repeat!important;}
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek .row.row-flush {    HEIGHT: 200PX;}
@@ -278,11 +277,13 @@ div#dplayeroftheweek-container .card.flex-row.align-items-center.align-items-str
 div#dplayeroftheweek-container, div#oplayeroftheweek-container { background: url(https://i.imgur.com/qa2hV4o.jpg); background-size: cover; background-position: 0px -22px;} 
 
 /*PLAYOFF CHASE*/
+div#afc-playoff-container {    margin-bottom: 35px;}
 div#afc-playoff-container small.text-muted.ml-2, div#nfc-playoff-container small.text-muted.ml-2 {    display: none;}
 div#afc_playoff .cfm-hp-playoffrace .teamname, div#nfc_playoff .cfm-hp-playoffrace .teamname  {     font-size: 1.3rem; top: 9px; color: #333;    font-family: DLSansCondMedium;    text-align: left;    line-height: inherit;}
 .list-group-item.cfm-hp-playoffrace {    padding: 5px;}
+div#afc_playoff h4, div#nfc_playoff h4, div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0, div#afc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0{ color: black;}
 div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0, div#afc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0 {        float: left;    width: 97%;    position: absolute;    font-size: x-large;    top: 3px;    left: 0px;    text-align: right;}
-div#afc_playoff h4, div#nfc_playoff h4 {        margin-top: 9px;    margin-bottom: 9px;    text-align: center;    font-family: oswald;    padding: 5px;    width: 50%;    color: #ffffff;    margin: auto;  }
+div#afc_playoff h4, div#nfc_playoff h4 { margin-top: 9px;    margin-bottom: 9px;    text-align: center;    font-family: oswald;    padding: 5px;    width: 50%;    color: #ffffff;    margin: auto;  }
 .list-group-item.cfm-hp-playoffrace {     border-bottom: 3px solid #848b9a;   background: linear-gradient(to top, rgb(199, 199, 199), rgb(255, 255, 255));}
 p.mr-2.rank:before {    content: "#";}
 .cfm-hp-playoffrace .rank {    font-size: 1rem;    background: linear-gradient(to top, #343a40, #929292);    padding: 5px;    color: white;    text-shadow: 0 1px 1px black;        width: 32px;    font-size: .75rem;  border-radius: 6%;  text-align: center;}
@@ -411,7 +412,7 @@ div#cardChart9 {    display: none;}
 	div#scores .card-body.text-center:nth-child(1) { text-align: left!important;} 
 	
 	/*setup*/ 
-	.carousel-control-next, .carousel-control-prev {    position: absolute;    top: -31px;    bottom: 0;    z-index: 1;    display: -webkit-box;   display: -ms-flexbox;    display: flex;    -webkit-box-align: center;    -ms-flex-align: center;    align-items: flex-start;    -webkit-box-pack: center;    -ms-flex-pack: center;    justify-content: center;    width: 15%;    color: #fff;    text-align: center;    opacity: .5;    -webkit-transition: opacity .15s ease;    transition: opacity .35s ease;}
+	.carousel-control-next, .carousel-control-prev {    position: absolute;    top: -31px;    bottom: 0;    z-index: 1;    display: -webkit-box;   display: -ms-flexbox;    display: flex;    -webkit-box-align: center;    -ms-flex-align: center;    align-items: flex-start;    -webkit-box-pack: center;    -ms-flex-pack: center;    justify-content: center;    width: 5%;    color: #fff;    text-align: center;    opacity: .5;    -webkit-transition: opacity .15s ease;    transition: opacity .35s ease;}
 .footer-dark { width: -webkit-fill-available; bottom: 0;} 
 	.breadcrumb { background-color: #e9ecef00;} 
 	table.data-table2 tr:hover { background-color: #00000000;} 
