@@ -634,7 +634,6 @@ div#afc-playoff-container small.text-muted.ml-2, div#nfc-playoff-container small
 span.fa-stack img { width: 10rem;    position: absolute;   top: -60px; }
 div#afc_playoff .cfm-hp-playoffrace .teamname, div#nfc_playoff .cfm-hp-playoffrace .teamname  {     font-size: 1.3rem; top: 9px; color: #333;    font-family: DLSansCondMedium;    text-align: left;    line-height: inherit;}
 
-.list-group-item {   background-color: #fff0!important;}
 .list-group-item.cfm-hp-playoffrace {    padding: 5px;}
 div#nfc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0, div#afc-playoff-container .list-group-item.cfm-hp-playoffrace p.m-0 {    float: left;    left: 31rem;    position: absolute;    font-size: medium;    top: 11px;}
 .list-group-item.cfm-hp-playoffrace {    overflow: hidden;}
