@@ -3,12 +3,12 @@
 @media (max-width: 992px){  div#dlmaddenmenu ul.navbar-nav li.nav-item {    float: left!important;    margin: inherit;    white-space: nowrap;    direction: ltr;    width: 14%;    text-align: left!important;}}
 .Splash.col-lg-12.col-md-12.col-sm-12.col-xs-12 { position: fixed; width: 100%;    max-width: 100%;    height: 100%;    z-index: 100;    top: 0px;    left: 0px;    background-position: 50% 50%, 30%!important;    background-size: 40%,auto!important;    background-repeat: no-repeat, no-repeat!important;}
 .radial-bar:after {    z-index: 0;}
-li.nav-item { display: table; float: none; margin: auto; white-space: nowrap; direction: rtl; width: 90px; text-align: center!important;} 
+li.nav-item { display: table; float: none; margin: auto; white-space: nowrap; direction: rtl; padding:5px;  width: 124px; text-align: center!important;} 
 ul.navbar-nav {    width: -webkit-fill-available;}
 .card.card-porlet.b {  background:transparent;   overflow: hidden;} 
-nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg {     z-index: 35;   position: fixed;    width: -webkit-fill-available;    top: 0px;}
+nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg {     z-index: 35;   position: fixed;    width:100%;    top: 0px;}
 .dlnavbar .navbar-toggler-icon {    background-image: url(https://i.imgur.com/1O7DYwE.png);}
-.content-wrapper {    padding:20px!important;  margin-top:99px;    padding-top: 0px;}
+.content-wrapper {    padding:20px!important;  margin-top:89px;    padding-top: 0px;}
 [src*="/nfl/nfl.svg"]{content:url(https://i.imgur.com/dOCck5z.png);}
 [src*="/nfl/teams/left/17.png"]{content:url(https://i.imgur.com/LwBsDPm.png);}
 [src*="/nfl/teams/right/17.png"]{content:url(https://i.imgur.com/LwBsDPm.png);}
@@ -31,15 +31,25 @@ div#powerrankings .card-footer {    text-align: center;}div#powerrankings {   pa
 .w-100 {    display: none;}
 .table {    color: #ddd;}
 .cfm-player-team-logo, .cfm-team-logo, .cfm-team-stats {    background: linear-gradient(to top, #00000000, #0000001f);}
+.col-8.py-2.pl-0, .card-body.text-center.cfm-team-stats h4.mt-0, .card-body.text-center.cfm-team-stats p.mb-0.text-muted {color:white!important;}
+.carousel-control-prev-icon {    background-image: url(https://i.imgur.com/FLb7Ype.png);}
+.carousel-control-next-icon {    background-image: url(https://i.imgur.com/BmpnqBj.png);}
+img.img-fluid.mx-auto {    padding-top: 15vh;  width:600px;   padding-bottom: 35vh;}
+div#leaguestatus img {    display: none!important;}
+div#leaguestatus {    top: -11px;    position: relative;}
+.week:before {    content: "Season - Week ";    position: relative;    left: -16px;    top: 1px;}
+.week .col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left h1 {    position: relative;    top: -12px;    font-size: 10px;    left: 40px;}
 
 /*transactions*/
+div#transactions td {    font-size: smaller;}
 #notice_marquee {      line-height: 1.2;}
 div#notice {    top: 0px!important;    position: relative;}
-.col-lg-12.main:before {    content: 'Transactions';    position: absolute;    margin: auto;    top: 0px;    background: red;    left: 15px;    width: 100px;    padding: 11px;}
+.col-lg-12.main:before {    content: 'Transactions'; color:white;   position: absolute;    margin: auto;    top: 0px;    background: red;    left: 15px;    width: 100px;    padding: 11px;}
 div#transactions-container tr.tbdy1 {    displaY: inline-block;    margin-right: 6vw;    width: auto;}
 .alert {    padding-top: 0px;    margin-bottom: 0px;    border: 1px solid transparent;    border-radius: 4px;}
 #notice {    padding-left: 100px;    font-size: 20px;    color: #337ab7;    font-weight: 700;}
-.alert-warning {    background-color: rgba(0, 0, 0, 0.18);}
+.alert-warning {  height: 43px;   background-color: rgba(0, 0, 0, 0.18);}
+
 
 
 /*Fade*********************************************************************************/
@@ -210,7 +220,7 @@ a.yui3-scorestrip-tile-content{     display: flex;     border-right: 2px solid; 
 .yui3-scorestrip-tile {   border-right: 0px solid #cccccc78;  left:-49px,  top: -9px; height: 45px;}
 #scorelist {     height: 45px;    overflow: hidden;    top: -5px;}
 div#flip { color: #212529;
-    padding: 12px;
+    padding: 7px;
     text-shadow: none;
     background: #dee2e6;
     position: fixed;
@@ -220,10 +230,10 @@ div#flip { color: #212529;
     z-index: 30;
     height: 39px;
     overflow: hidden;
-    font-size: 12px;
+    font-size: 10px;
     font-family: DLSansCondMedium!important;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     text-transform: uppercase;
     padding-left: 2vw;}
 
@@ -231,7 +241,7 @@ div#flip { color: #212529;
 .col-2.gow.away.score, .col-2.gow.home.score {    text-align: center;    margin: auto;}
 div#gameoftheweek-container .card-body.text-center p.mb-0.text-muted {    font-size: small;}
 div#gameoftheweek-container .card-body.text-center h4.mt-0 {    font-size: xx-small;}
-.col-4.d-flex.align-items-center.justify-content-center.rounded-left, .col-4.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {      overflow: hidden;  background-size: 100%!IMPORTANT;    BACKGROUND: transparent;}
+.col-4.d-flex.align-items-center.justify-content-center.rounded-left, .col-4.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {      overflow: unset;  background-size: 100%!IMPORTANT;    BACKGROUND: transparent;}
 div#gameoftheweek-container  {     background: url(https://i.imgur.com/6Uw8tza.png), url(https://i.imgur.com/MBID8kf.png)!important;    background-size: 3%, cover!important;    background-position: 50%, top!important;    background-repeat: no-repeat!important;}
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek .row.row-flush {    HEIGHT: 200PX;}
 div#gameoftheweek-container .card-body.text-center {display: inline-block;    vertical-align: middle;    padding: 0px;    line-height: normal;    text-shadow: 0 1px 2px black;    margin: auto;    background: linear-gradient(to top,#05060680 25%, #656161a6 49%, #00000063 105%);    padding: 10px;    border-radius: 5px;}
@@ -269,14 +279,17 @@ div#gameoftheweek-container .card-body.text-center {display: inline-block;    ve
 
 
 /*POW*/
+.col-8.py-2.pl-0 img.rounded-circle.thumb24 {    position: absolute;    width: 332px!important;    height: auto!important;    top: -109px;    left: -108px;    opacity: .2;    z-index: 0;}
+div#dplayeroftheweek-container img.mr-3.rounded-circle.thumb128, div#oplayeroftheweek-container img.mr-3.rounded-circle.thumb128 {    width: 350px!important;    height: 350px!important;    object-position: 9px -24px; z-index:1;}
 img.mr-3.rounded-circle.thumb128 {     border-radius: 0%!important;  width: 300px!important;    height: 300px!important;    POSITION: ABSOLUTE;    background: #bcbcbc;    object-position: 1px 3px;}
 div#oplayeroftheweek-container .col-8.py-2.pl-0 .text-center , div#dplayeroftheweek-container .col-8.py-2.pl-0 .text-center {   font-size: .75rem!important;    text-align: left!important;    padding-left: 10px;    display: inline-block;    vertical-align: middle;    padding: 0px;    line-height: normal;    margin: auto;}
 div#oplayeroftheweek-container .col-8.py-2.pl-0 .text-center  h3.mt-0 , div#dplayeroftheweek-container .col-8.py-2.pl-0 .text-center h3.mt-0 {font-size: 1rem; }
-div#dplayeroftheweek-container .card.flex-row.align-items-center.align-items-stretch.border-0.mb-0, div#oplayeroftheweek-container .card.flex-row.align-items-center.align-items-stretch.border-0.mb-0 {    height: 150px;}
+div#dplayeroftheweek-container .card.flex-row.align-items-center.align-items-stretch.border-0.mb-0, div#oplayeroftheweek-container .card.flex-row.align-items-center.align-items-stretch.border-0.mb-0 {    height: 250px;}
 .col-8.py-2.pl-0 {    text-align: center;    margin: auto;}
-div#dplayeroftheweek-container, div#oplayeroftheweek-container { background: url(https://i.imgur.com/qa2hV4o.jpg); background-size: cover; background-position: 0px -22px;} 
+div#dplayeroftheweek-container, div#oplayeroftheweek-container { background: url(https://i.imgur.com/qa2hV4o.jpg); background-size: cover; background-position: 0 0px;} 
 
 /*PLAYOFF CHASE*/
+div#afc_playoff h4, div#nfc_playoff h4, div#afc-playoff-container .list-group .list-group-item, div#afc-playoff-container .dropdown-item a, div#nfc-playoff-container .list-group .list-group-item, div#nfc-playoff-container .dropdown-item a {    color: #333!important;}
 div#afc-playoff-container {    margin-bottom: 35px;}
 div#afc-playoff-container small.text-muted.ml-2, div#nfc-playoff-container small.text-muted.ml-2 {    display: none;}
 div#afc_playoff .cfm-hp-playoffrace .teamname, div#nfc_playoff .cfm-hp-playoffrace .teamname  {     font-size: 1.3rem; top: 9px; color: #333;    font-family: DLSansCondMedium;    text-align: left;    line-height: inherit;}
@@ -306,6 +319,10 @@ div#powerrankings .list-group {    display: -webkit-box;     padding-left: 15px;
 div#powerrankings .list-group .list-group-item {    color: #ffffff!important;    display: inline-block!important;    width: -webkit-fill-available!important;}
 
 /*Player Page*/ 
+span.pull-right.cfm-team-ovr:before {    content: "-";}
+@media screen and (max-width: 565px) {  div#playerpage {    margin-bottom: 340px;}}
+@media screen and (max-width: 441px) {  div#playerpage {    margin-bottom: 385px;}}
+div#playerpage table.dl-table1 .tbdy1 td, div#playerpage table.dl-table1 .thd2 td, a.nav-link.active.Teamcolors, .col-12.py-3.rounded-right.cfm-team-info.cfm-team-info .d-flex.Teamcolors p.mb-0.text-muted {    color: white!important;}
 .cfm-player-skill tbody tr:nth-child(2n) {    background: none repeat scroll 0 0 #00000017;}
 .cfm-player-skill tbody tr:nth-child(odd) {    background: none repeat scroll 0 0 #f5f5f500;}
 @media (max-width: 991.98px) and (min-width: 768px){.cfm-player-team-logo img {    margin-top: 0rem;}}
@@ -325,13 +342,14 @@ div#cardChart9 {    display: none;}
 .card-body .row .col-3, .card-body .row .col-4 {    text-align: center;}
 .d-flex.Teamcolors .w-25 {    width: 33%!important;}
 .block div { background: transparent!important;} 
-		
+.col-10.py-3.rounded-right.cfm-player-info .col-3, .col-10.py-3.rounded-right.cfm-player-info .col-4, .col-10.py-3.rounded-right.cfm-player-info .col-6 {    padding: 5px;}
+
 	/*teampage*/ 
 	.col-12.d-flex.align-items-left.justify-content-center.cfm-team-logo { position: relative!important; height:256px!important;} 
 	.col-12.d-flex.align-items-left.justify-content-center.cfm-team-logo img { right: unset!important;} 
 	.col-12.py-3.rounded-right.cfm-team-info { position: absolute; top: 150px;} 
 	.col-12.py-3.rounded-right.cfm-team-info .h2.mt-0 { text-align: center; text-transform: uppercase;} 
-	.pull-right { float: unset!important;} 
+	.pull-right {float: unset!important;    font-family: anton;} 
 	.col-12.py-3.rounded-right.cfm-team-info .row .col-4 { text-align: center;} 
 	.card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors { margin-bottom: 6px;} 
 	.col-xl-12.col-lg-6.col-md-12.pt-2 .col-xl-10:nth-child(2) { display: none;} 
@@ -404,7 +422,7 @@ div#cardChart9 {    display: none;}
 	h4.mt-3 a { font-size: .8rem;} 
 	div#pills-season { white-space: nowrap; display: -webkit-inline-box; width: 100%; overflow-x: scroll;} 
 	div#scores { column-count: 2;} 
-	div#scores .card.b.mb-2 { width: 47vw; display: -webkit-inline-box; background: #80808014;} 
+	div#scores .card.b.mb-2 { width: 100%; display: -webkit-inline-box; background: #80808014;} 
 	@media screen and (max-width: 600px) { 
 	div#scores { column-count: 1;} 
 	div#scores .card.b.mb-2 { width:-webkit-fill-available; } } 
@@ -423,7 +441,7 @@ div#cardChart9 {    display: none;}
 	table.responsive.dl-table1 { white-space: nowrap;} 
 	table.responsive { white-space: nowrap;} 
 	.form-control { background-color: #dee2e62e; color: white;} 
-	table.dl-table1 .thd1 td { background-color: #29518300; color: #5d9cec; text-decoration: underline;} 
+	table.dl-table1 .thd1 td { background-color: #29518300;   font-size: small!important;    text-transform: uppercase; color: #5d9cec; text-decoration: none;} 
 	table.dl-table1 .thd1 td a, table.dl-table1 .thd1 th a { color: #007bff;} 
 	.card{ background: transparent;} 
 	tr.thd2 td { color: #ddd!important;} 
@@ -431,8 +449,8 @@ div#cardChart9 {    display: none;}
 	.dl-table1 td.tbdy1, table.dl-table1 .tbdy1 td { color: #dee2e6;} 
 	.card .card-header { font-size: .75rem; letter-spacing: 3px; text-align: center;} 
 	img.mr-3.rounded-circle.thumb128 {background: none; } 
-	.nav-tabs>.nav-item>.nav-link { color: white; background-color: #343a40;} 
-	.nav-tabs>.nav-item>.nav-link.active { background-color: #ffffff1f;} 
+	.nav-tabs>.nav-item>.nav-link { font-size:smaller; text-transform:uppercase;  color: white; background-color: #343a40;} 
+	.nav-tabs>.nav-item>.nav-link.active { color: #343a40; background-color: #ddd;} 
 	.form-control { background-color: #dee2e614;} 
 	.list-group-item { background-color: #ffffff17;} 
 	.col-xl-12.teams .cfm-hp-playoffrace .teamname { font-size: 1rem; color: #e9ecef;} 
