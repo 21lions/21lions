@@ -1,3 +1,11 @@
+/**width correction***/
+window.onresize = function() {
+    document.body.width= window.innerWidth;
+}
+window.onresize(); // called to initially set the width.
+
+
+
 /***Splash page***/
 $('.Splash.col-lg-12.col-md-12.col-sm-12.col-xs-12').fadeIn('slow').delay(1000).fadeOut('slow');
 
@@ -48,6 +56,7 @@ $( '.col-xl-10').attr('class', 'col-xl-12');
 	$( '.col-10.py-3.rounded-right.cfm-team-info').attr('class', 'col-12 py-3 rounded-right cfm-team-info'); 
 	$("ul.nav.nav-tabs").prependTo(".col-12.py-3.rounded-right.cfm-player-info");$( '.col-md-10.col-xs-10.col-sm-10').attr('class', 'col-md-12 col-xs-12 col-sm-12'); 
 	$( '.col-xl-12.col-lg-6.col-md-12').attr('class', 'col-xl-12 col-lg-12 col-md-12 '); 
+        $('div#dlmaddenmenu ul.navbar-nav li:nth-child(11)').attr('class', 'nav-item ');
 
 	/*teampage*/ 
 	$(".col-md-6.col-xs-6.col-sm-6 .card .d-flex.Teamcolors").appendTo(".col-12.d-flex.align-items-left.justify-content-center.cfm-team-logo"); 
@@ -56,6 +65,22 @@ $( '.col-xl-10').attr('class', 'col-xl-12');
 	$(".card.card-madden-team").appendTo(".col-12.py-3.rounded-right.cfm-team-info"); 
 	$(" .col-md-6.col-xs-6.col-sm-6 .card").appendTo(".col-12.py-3.rounded-right.cfm-team-info"); 
 	$('table.dl-table1.madden-team-table').appendTo(".col-12.py-3.rounded-right.cfm-team-info"); 
+$('li.nav-item a').contents().filter(function() {
+    return this.nodeType == 3
+}).each(function(){
+    this.textContent = this.textContent.replace('Career Stats','Stats');
+});
+$('li.nav-item a').contents().filter(function() {
+    return this.nodeType == 3
+}).each(function(){
+    this.textContent = this.textContent.replace('Attributes History','Atr History');
+});
+$('p.mb-0.text-muted').contents().filter(function() {
+    return this.nodeType == 3
+}).each(function(){
+    this.textContent = this.textContent.replace('Signing Bonus','Bonus');
+});
+
 	
 		/*Schedules***/ 
 	$('.row.row-flush.cfm-team-schedule .col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left').attr('class', 'col-1 text-center d-flex align-items-center justify-content-center rounded-left'); 
@@ -74,6 +99,8 @@ $( '.col-xl-10').attr('class', 'col-xl-12');
 	$(".col-xl-12.col-lg-6.col-md-12.pt-2").appendTo(".col-12.py-3.rounded-right.cfm-player-info"); 
 	$(".col-xl-10.col-lg-6.col-md-12.pt-2").appendTo(".col-12.py-3.rounded-right.cfm-player-info"); 
 	$('.row .col-xl-12 .card.flex-row.align-items-center.align-items-stretch.rounded-left.Teamcolors').attr('id', 'playerpage');
+$('.row:nth-child(5) .col-xl-12').attr('class', 'col-xl-12 col-lg-12 col-md-12 pt-2 ');
+$(" .col-xl-12.col-lg-12.col-md-12.pt-2").appendTo("div#playerpage .col-12.py-3.rounded-right.cfm-team-info");
 $( ".card-footer.text-center.cfm-player-attribute" ).wrap( "<div class='att-snapshot'>Attribute Snapshot <em class='fa fa-chevron-circle-down'></em></div>" ); 
 	$(".card-footer.text-center.cfm-player-attribute").hide(); 
 	$(".att-snapshot").on("click", function(){ 
