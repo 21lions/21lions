@@ -39,6 +39,9 @@ div#leaguestatus img {    display: none!important;}
 div#leaguestatus {    top: -11px;    position: relative;}
 .week:before {    content: "Season - Week ";    position: relative;    left: -16px;    top: 1px;}
 .week .col-1.text-center.d-flex.align-items-center.justify-content-center.rounded-left h1 {    position: relative;    top: -12px;    font-size: 10px;    left: 40px;}
+.remove-player.fa-minus-circle, .tradeselect.fa-minus-circle {    color: #d9534f;    background: #d9534f;}
+.tradeselect.fa-plus-circle {    color: #5cb85c;    background: #5cb85c;}
+
 
 /*transactions*/
 div#transactions td {    font-size: smaller;}
