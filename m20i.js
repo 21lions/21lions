@@ -57,6 +57,9 @@ $( '.col-xl-10').attr('class', 'col-xl-12');
 	$("ul.nav.nav-tabs").prependTo(".col-12.py-3.rounded-right.cfm-player-info");$( '.col-md-10.col-xs-10.col-sm-10').attr('class', 'col-md-12 col-xs-12 col-sm-12'); 
 	$( '.col-xl-12.col-lg-6.col-md-12').attr('class', 'col-xl-12 col-lg-12 col-md-12 '); 
         $('div#dlmaddenmenu ul.navbar-nav li:nth-child(11)').attr('class', 'nav-item ');
+        $('.card-header.bg-primary').attr('class', ' card-header bg-light');
+        $('.card-header.bg-info').attr('class', ' card-header bg-light');
+        $('form .row .col-md-6.col-xs-6.col-sm-6').attr('class', ' col-xl-6  ');
 
 	/*teampage*/ 
 	$(".col-md-6.col-xs-6.col-sm-6 .card .d-flex.Teamcolors").appendTo(".col-12.d-flex.align-items-left.justify-content-center.cfm-team-logo"); 
