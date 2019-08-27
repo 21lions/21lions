@@ -83,6 +83,11 @@ $('p.mb-0.text-muted').contents().filter(function() {
 }).each(function(){
     this.textContent = this.textContent.replace('Signing Bonus','Bonus');
 });
+$('li.nav-item a').contents().filter(function() {
+    return this.nodeType == 3
+}).each(function(){
+    this.textContent = this.textContent.replace('Madden Feedback','M20 Feedback');
+});
 
 	
 		/*Schedules***/ 
