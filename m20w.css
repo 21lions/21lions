@@ -45,6 +45,17 @@ div#leaguestatus {    top: -11px;    position: relative;}
 .fa-minus-circle:before {    content: "Remove";    color: white;}
 
 
+/*FrontOffice*/
+div#frontoffice_wrapper .card.bg-success h2.card-footer, div#frontoffice_wrapper .card.bg-danger h2.card-footer  {    color: white!important;    font-family: DLSansCondMedium;}
+ div#frontoffice_wrapper .card.cfm-trade-review h2.pull-right {    color: white!important;    font-family: DLSansCondMedium;}
+div#frontoffice_wrapper  .card.bg-success h2.card-footer:before { color: white!important;    content: "Acceptable by ";}
+div#frontoffice_wrapper  .card.bg-danger h2.card-footer:before { color: white!important;    content: "Off by ";}
+div#frontoffice_wrapper  .card.bg-danger h2.card-footer:after { color: white!important;     content: " pts";}
+div#frontoffice_wrapper  .card.bg-success h2.card-footer:after { color: white!important;     content: " pts";}
+div#frontoffice_wrapper h2.trade-value.pull-right:after {    content: " pts";}
+div#frontoffice_wrapper .card-header.h2 h2.pull-right:before {    content: "Trade Worth: ";}
+div#frontoffice_wrapper .card-header.h2 h2.pull-right:after {    content: " pts";}
+
 
 /*transactions*/
 div#transactions td {    font-size: smaller;}
