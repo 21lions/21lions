@@ -256,12 +256,12 @@ div#flip { color: #212529;
 
 /*GOW*/
 .col-2.gow.away.score, .col-2.gow.home.score {    text-align: center;    margin: auto;}
-div#gameoftheweek-container .card-body.text-center p.mb-0.text-muted {    font-size: small;}
-div#gameoftheweek-container .card-body.text-center h4.mt-0 {    font-size: xx-small;}
+div#gameoftheweek-container .card-body.text-center p.mb-0.text-muted {    font-size: x-small;}
+div#gameoftheweek-container .card-body.text-center h4.mt-0 {    font-size: x-large;}
 .col-4.d-flex.align-items-center.justify-content-center.rounded-left, .col-4.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {      overflow: unset;  background-size: 100%!IMPORTANT;    BACKGROUND: transparent;}
 div#gameoftheweek-container  {     background: url(https://i.imgur.com/6Uw8tza.png), url(https://i.imgur.com/MBID8kf.png)!important;    background-size: 3%, cover!important;    background-position: 50%, top!important;    background-repeat: no-repeat!important;}
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameoftheweek .row.row-flush {    HEIGHT: 200PX;}
-div#gameoftheweek-container .card-body.text-center {display: inline-block;    vertical-align: middle;    padding: 0px;    line-height: normal;    text-shadow: 0 1px 2px black;    margin: auto;    background: linear-gradient(to top,#05060680 25%, #656161a6 49%, #00000063 105%);    padding: 10px;    border-radius: 5px;}
+div#gameoftheweek-container .card-body.text-center {display: inline-block;    vertical-align: middle;  line-height: normal;    text-shadow: 0 1px 2px black;    margin: auto;    background: linear-gradient(to top,#05060680 25%, #656161a6 49%, #00000063 105%);    padding: 4px;    border-radius: 5px;}
 .star {
   position: absolute;
   background: url(https://mtedwards.s3.amazonaws.com/sparkle.png) no-repeat;
@@ -332,8 +332,8 @@ table.dl-table1 tr:hover {    background-color: #00000012!important;}
 /*power rankings*/
 div#powerrankings .list-group {    display: -webkit-box;     padding-left: 15px; display: -ms-flexbox;    display: flex;    -webkit-box-orient: horizontal;    -webkit-box-direction: normal;    -ms-flex-direction: column;    flex-direction: row;    padding-left: 0;    margin-bottom: 0;    column-count: 2;    display: block;}
 @media (max-width: 575px){ div#powerrankings .list-group {   column-count: 1;}}
-.cfm-hp-powerrankings .teamname {    font-size: 1rem;    color: #fff;    text-transform: uppercase;    width: -webkit-fill-available;}
-div#powerrankings .list-group .list-group-item {    color: #ffffff!important;    display: inline-block!important;    width: -webkit-fill-available!important;}
+.cfm-hp-powerrankings .teamname {    font-size: small;    color: #fff;    text-transform: uppercase;    width: -webkit-fill-available;}
+div#powerrankings .list-group .list-group-item {    color: #ffffff!important;   display: inline-block!important;    width: -webkit-fill-available!important;    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png),linear-gradient(to top,rgba(0,0,0,0.4),#f71b3000);    background-size: 4px,100%,auto;   background-position: 0,0 -68px,0;     padding: 0px;    height: 50px;}
 
 /*Player Page*/ 
 span.pull-right.cfm-team-ovr:before {    content: "-";}
