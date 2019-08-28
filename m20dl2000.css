@@ -332,7 +332,7 @@ table.dl-table1 tr:hover {    background-color: #00000012!important;}
 div#powerrankings .list-group {    display: -webkit-box;     padding-left: 15px; display: -ms-flexbox;    display: flex;    -webkit-box-orient: horizontal;    -webkit-box-direction: normal;    -ms-flex-direction: column;    flex-direction: row;    padding-left: 0;    margin-bottom: 0;    column-count: 2;    display: block;}
 @media (max-width: 575px){ div#powerrankings .list-group {   column-count: 1;}}
 .cfm-hp-powerrankings .teamname {    font-size: small;    color: #fff;    text-transform: uppercase;    width: -webkit-fill-available;}
-div#powerrankings .list-group .list-group-item {    color: #ffffff!important;   display: inline-block!important;    width: -webkit-fill-available!important;    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png),linear-gradient(to top,rgba(0,0,0,0.4),#f71b3000);    background-size: 4px,100%,auto;   background-position: 0,0 -68px,0;     padding: 0px;    height: 50px;}
+div#powerrankings .list-group .list-group-item {    color: #ffffff!important;   display: inline-block!important;    width: -webkit-fill-available!important;    background: url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/carbon-fine.png),url(http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/bg-field.png),linear-gradient(to top,rgba(0,0,0,0.4),#f71b3000);    background-size: 4px,100%,auto;   background-position: 0,0 -68px,0;     padding: 13px;    height: 50px;}
 
 /*Player Page*/ 
 span.pull-right.cfm-team-ovr:before {    content: "-";}
