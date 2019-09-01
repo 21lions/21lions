@@ -44,7 +44,8 @@ div#leaguestatus {    top: -11px;    position: relative;}
 .tradeselect.fa-plus-circle:before {    content: "Add";    color: white;}
 .remove-player.fa-minus-circle, .tradeselect.fa-minus-circle {    color: #d9534f;    background: #d9534f;    padding: 8px;    border-radius: 5px;    font-size: smaller;}
 .fa-minus-circle:before {    content: "Remove";    color: white;}
-
+#myBtn {     display: none;    position: fixed;    bottom: 20px;    right: 0px;    z-index: 99;    font-family: DLSansCondMedium;    font-style: italic;    text-shadow: 0 1px 2px black;    font-size: smaller;    border: none;    outline: none;    background-color: #dc3545;    color: #fff;    cursor: pointer;    text-transform: uppercase;    padding: 10px;    letter-spacing: 1px;    border-radius: 0px;}
+#myBtn:hover {  background-color: #555;}
 
 /*FrontOffice*/
 div#frontoffice_wrapper .card.bg-success h2.card-footer, div#frontoffice_wrapper .card.bg-danger h2.card-footer  {    color: white!important;    font-family: DLSansCondMedium;}
