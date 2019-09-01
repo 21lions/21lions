@@ -239,7 +239,7 @@ a.yui3-scorestrip-tile-content{     display: flex;     border-right: 2px solid; 
 .yui3-scorestrip-tile {   border-right: 0px solid #cccccc78;  left:-49px,  top: -9px; height: 45px;}
 #scorelist {     height: 45px;    overflow: hidden;    top: -5px;}
 div#flip { color: #212529;
-    padding: 12px;
+    padding: 16px;
     text-shadow: none;
     background: #dee2e6;
     position: fixed;
