@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$('nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg').prepend($('<img>',{id:'theImg',src:'https://i.imgur.com/353tiKZ.png'}));
+$('nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg').prepend($('<img>',{id:'theImg',src:'https://i.imgur.com/8nLOSbX.png'}));
 
 $('.col-md-9.col-xs-9.col-sm-9').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl');
  $('.col-md-10.col-xs-10.col-sm-10').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl');
@@ -7,39 +7,39 @@ $('.col-md-9.col-xs-9.col-sm-9').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl
 	
 	
 /***menu league title and additional links********************************************************************************************/
-$( "a.navbar-brand" ).text( "E-Sticks" );
-$("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/ESL/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
+$( "a.navbar-brand" ).text( "Misfits" );
+$("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/MIS/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
 
 /***scoreboard**********************/
- $( "div#flip2").load( "/ESL/schedules div#scores" );
+ $( "div#flip2").load( "/MIS/schedules div#scores" );
  $('div#flip2').attr('class', 'simple-ticker');
 $('.simple-ticker').attr('id', 'js-ticker-fade');
     $("div#js-ticker-fade").hide();
     $("#flip").on("click", function(){
         $("div#js-ticker-fade").fadeToggle('slow');
     });
- $( "div#flip" ).load( "/ESL/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
- $( "div#mem").load( "/ESL/admin ul.navbar-nav.flex-row.mr-3 " );
+ $( "div#flip" ).load( "/MIS/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
+ $( "div#mem").load( "/MIS/admin ul.navbar-nav.flex-row.mr-3 " );
 
 /*league leaders home page********/
-$( ".passingleaders" ).load( "/ESL/stats/player/passing  .col-xl-10" );
-$( ".rushingleaders" ).load( "/ESL/stats/player/rushing .col-xl-10" );
-$( ".receivingleaders" ).load( "/ESL/stats/player/receiving .col-xl-10" );
-$( ".sacksleaders" ).load( "/ESL/stats/player/defense?sortby=sack  .col-xl-10" );
-$( ".tacklesleaders" ).load( "/ESL/stats/player/defense?sortby=tackles .col-xl-10" );
-$( ".interceptionsleaders" ).load( "/ESL/stats/player/defense?sortby=int .col-xl-10" );
+$( ".passingleaders" ).load( "/MIS/stats/player/passing  .col-xl-10" );
+$( ".rushingleaders" ).load( "/MIS/stats/player/rushing .col-xl-10" );
+$( ".receivingleaders" ).load( "/MIS/stats/player/receiving .col-xl-10" );
+$( ".sacksleaders" ).load( "/MIS/stats/player/defense?sortby=sack  .col-xl-10" );
+$( ".tacklesleaders" ).load( "/MIS/stats/player/defense?sortby=tackles .col-xl-10" );
+$( ".interceptionsleaders" ).load( "/MIS/stats/player/defense?sortby=int .col-xl-10" );
 
 /*standings tabs*******************************************************/
- $( ".afc.standings").load( "/ESL/standings .card.card-default:nth-child(4)" );
- $( ".nfc.standings").load( "/ESL/standings .card.card-default:nth-child(5)" );
+ $( ".afc.standings").load( "/MIS/standings .card.card-default:nth-child(4)" );
+ $( ".nfc.standings").load( "/MIS/standings .card.card-default:nth-child(5)" );
 
 /*All Teams Page**********************************************************/
-if(window.location.href=== "http://www.daddyleagues.com/ESL/teams") {
+if(window.location.href=== "http://www.daddyleagues.com/MIS/teams") {
          $(".col-xl-10").addClass("teams");
      }
 
 /*Standings Page*********************************************************/
-if(window.location.href=== "/ESL/standings") {
+if(window.location.href=== "/MIS/standings") {
          $(" .table-responsive").addClass("table-responsive-page");
      }
 
@@ -228,9 +228,9 @@ $('.gameoftheweek .GOW').wrapInner('<div class="record"></div>');
 $( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
 
 /*storylines***/
- $( ".jumbotron.hero-nature.carousel-hero" ).load( "/ESL/blog .blogpost:nth-child(1)" );
- $( ".jumbotron.hero-photography.carousel-hero" ).load( "/ESL/blog .blogpost:nth-child(2)" );
- $( ".jumbotron.hero-technology.carousel-hero" ).load( "/ESL/blog .blogpost:nth-child(3)" );
+ $( ".jumbotron.hero-nature.carousel-hero" ).load( "/MIS/blog .blogpost:nth-child(1)" );
+ $( ".jumbotron.hero-photography.carousel-hero" ).load( "/MIS/blog .blogpost:nth-child(2)" );
+ $( ".jumbotron.hero-technology.carousel-hero" ).load( "/MIS/blog .blogpost:nth-child(3)" );
 
 
 
